@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Decision-Native Control of Generative AI Inference"
+message: "If you use this repository or its experimental framework, please cite the project."
+type: software
+authors:
+  - family-names: "Chandela"
+    given-names: "Maanik"
+repository-code: "https://github.com/maanik-chandela/Jev-decision-control"
+abstract: >
+  Research project investigating the reliability of decision-native AI models
+  as control signals for generative AI inference, with JEV used as the initial
+  experimental System One model.
+keywords:
+  - artificial intelligence
+  - decision-native AI
+  - generative AI
+  - calibration
+  - uncertainty
+  - reliability
+  - AI systems
+  - model routing
+license: MIT
+version: 0.1.0
+date-released: 2026-10-02
