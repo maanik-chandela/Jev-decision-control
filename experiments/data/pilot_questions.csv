@@ -1,0 +1,51 @@
+id,state,question,true_label,domain,difficulty
+P001,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,Does water freeze at 0 degrees Celsius under standard atmospheric pressure?,1,science,easy
+P002,"The Earth has one natural satellite, commonly called the Moon.",Does the Earth have exactly one natural satellite?,1,science,easy
+P003,Gold has the chemical symbol Au.,Is the chemical symbol for gold Au?,1,science,easy
+P004,"The speed of light in vacuum is approximately 300,000 kilometers per second.","Is the speed of light in vacuum approximately 300,000 kilometers per second?",1,science,easy
+P005,Humans require oxygen for normal aerobic respiration.,Do humans require oxygen for normal aerobic respiration?,1,science,easy
+P006,Pure water boils at approximately 100 degrees Celsius at standard atmospheric pressure.,Does pure water boil at approximately 100 degrees Celsius at standard atmospheric pressure?,1,science,easy
+P007,The chemical formula for water is H2O.,Is the chemical formula for water H2O?,1,science,easy
+P008,The Sun is a star.,Is the Sun a star?,1,science,easy
+P009,Sound generally travels faster through steel than through air.,Does sound generally travel faster through steel than through air?,1,science,medium
+P010,The boiling point of water decreases as atmospheric pressure decreases.,Does water generally boil at a lower temperature when atmospheric pressure decreases?,1,science,medium
+P011,A square has four equal sides.,Does a square have four equal sides?,1,mathematics,easy
+P012,The number 17 is prime.,Is 17 a prime number?,1,mathematics,easy
+P013,The derivative of x squared is 2x.,Is the derivative of x squared equal to 2x?,1,mathematics,easy
+P014,The sum of the angles in a Euclidean triangle is 180 degrees.,Do the interior angles of a Euclidean triangle sum to 180 degrees?,1,mathematics,easy
+P015,Zero is an even integer.,Is zero an even integer?,1,mathematics,medium
+P016,The square root of 144 is 12.,Is the principal square root of 144 equal to 12?,1,mathematics,easy
+P017,A rectangle always has four right angles.,Does every rectangle have four right angles?,1,mathematics,easy
+P018,The probability of obtaining heads from a fair coin on one toss is 0.5.,Is the probability of heads on one toss of a fair coin 0.5?,1,mathematics,easy
+P019,"If x is greater than 5, then x is greater than 3.",Does x greater than 5 imply x greater than 3?,1,mathematics,easy
+P020,"The sequence 2, 4, 8, 16 doubles at every step.",Does each term after the first equal twice the previous term?,1,mathematics,medium
+P021,Paris is the capital of France.,Is Paris the capital of France?,1,general_knowledge,easy
+P022,The Pacific Ocean is larger than the Atlantic Ocean by surface area.,Is the Pacific Ocean larger than the Atlantic Ocean?,1,general_knowledge,easy
+P023,The human heart normally has four chambers.,Does the human heart normally have four chambers?,1,general_knowledge,easy
+P024,A standard week contains seven days.,Does a standard week contain seven days?,1,general_knowledge,easy
+P025,India is located in South Asia.,Is India located in South Asia?,1,general_knowledge,easy
+P026,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,Does water freeze at 10 degrees Celsius under standard atmospheric pressure?,0,science,easy
+P027,"The Earth has one natural satellite, commonly called the Moon.",Does the Earth have two natural satellites?,0,science,easy
+P028,Gold has the chemical symbol Au.,Is the chemical symbol for gold Ag?,0,science,easy
+P029,"The speed of light in vacuum is approximately 300,000 kilometers per second.","Is the speed of light in vacuum approximately 30,000 kilometers per second?",0,science,medium
+P030,Humans require oxygen for normal aerobic respiration.,Do humans normally require carbon dioxide instead of oxygen for aerobic respiration?,0,science,medium
+P031,A square has four equal sides.,Does a square have three equal sides?,0,mathematics,easy
+P032,The number 17 is prime.,Is 17 an even number?,0,mathematics,easy
+P033,The derivative of x squared is 2x.,Is the derivative of x squared equal to x?,0,mathematics,easy
+P034,The sum of the angles in a Euclidean triangle is 180 degrees.,Do the interior angles of a Euclidean triangle sum to 90 degrees?,0,mathematics,easy
+P035,Zero is an even integer.,Is zero an odd integer?,0,mathematics,medium
+P036,The square root of 144 is 12.,Is the principal square root of 144 equal to 14?,0,mathematics,easy
+P037,A rectangle always has four right angles.,Can a rectangle have five right angles?,0,mathematics,easy
+P038,The probability of obtaining heads from a fair coin on one toss is 0.5.,Is the probability of heads on one toss of a fair coin 0.9?,0,mathematics,medium
+P039,"If x is greater than 5, then x is greater than 3.",Does x greater than 5 imply x is less than 3?,0,mathematics,easy
+P040,"The sequence 2, 4, 8, 16 doubles at every step.",Does each term after the first equal the previous term plus 1?,0,mathematics,easy
+P041,Paris is the capital of France.,Is Berlin the capital of France?,0,general_knowledge,easy
+P042,The Pacific Ocean is larger than the Atlantic Ocean by surface area.,Is the Atlantic Ocean larger than the Pacific Ocean?,0,general_knowledge,easy
+P043,The human heart normally has four chambers.,Does the human heart normally have two chambers?,0,general_knowledge,easy
+P044,A standard week contains seven days.,Does a standard week contain ten days?,0,general_knowledge,easy
+P045,India is located in South Asia.,Is India located in South America?,0,general_knowledge,easy
+P046,A student scored 8 out of 10 questions correctly on a test.,Did the student score exactly 90 percent on the test?,0,reasoning,medium
+P047,A box contains 3 red balls and 2 blue balls.,Are there more blue balls than red balls?,0,reasoning,easy
+P048,A train leaves at 10:00 and arrives at 12:00.,Did the train travel for exactly three hours?,0,reasoning,easy
+P049,A library has 120 books and removes 20 books.,Does the library have 120 books remaining?,0,reasoning,easy
+P050,A shop has 50 units of an item and sells 15 units.,Does the shop have more than 40 units remaining?,0,reasoning,easy
