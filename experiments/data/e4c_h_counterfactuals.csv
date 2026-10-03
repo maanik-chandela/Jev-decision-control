@@ -1,0 +1,31 @@
+counterfactual_id,original_id,domain,confidence_group,original_probability,label,perturbation_type,state,question
+E4CH_D01_V1,E4CH_D01,data_reasoning,high_confidence,0.99,1,paraphrase,"The dataset consists of the values 2, 4, 6, 8, and 10.",Is the arithmetic mean of these values 6?
+E4CH_D01_V2,E4CH_D01,data_reasoning,high_confidence,0.99,1,question_form,"A dataset contains the five values 2, 4, 6, 8, and 10.",Does the mean of the dataset equal 6?
+E4CH_D01_V3,E4CH_D01,data_reasoning,high_confidence,0.99,1,state_rewrite,"The observed values in a dataset are 2, 4, 6, 8, and 10.",Is their average equal to 6?
+E4CH_L01_V1,E4CH_L01,formal_logic,high_confidence,0.98,1,paraphrase,"Every member of set A is also a member of set B, and every member of set B is also a member of set C.",Is every member of A necessarily a member of C?
+E4CH_L01_V2,E4CH_L01,formal_logic,high_confidence,0.98,1,question_form,"All A objects are B objects, and all B objects are C objects.",Does belonging to A necessarily imply belonging to C?
+E4CH_L01_V3,E4CH_L01,formal_logic,high_confidence,0.98,1,state_rewrite,The inclusion relationships are A ⊆ B and B ⊆ C.,Must A be a subset of C?
+E4CH_M01_V1,E4CH_M01,mathematics,high_confidence,0.99,1,paraphrase,Consider the linear equation 3x + 7 = 25. One proposed solution is x = 6.,Is x = 6 a solution of the equation?
+E4CH_M01_V2,E4CH_M01,mathematics,high_confidence,0.99,1,question_form,The equation is 3x + 7 = 25.,Does substituting x = 6 satisfy the equation?
+E4CH_M01_V3,E4CH_M01,mathematics,high_confidence,0.99,1,state_rewrite,"For the equation 3x + 7 = 25, evaluate the proposed value x = 6.",Is the proposed value a valid solution?
+E4CH_P02_V1,E4CH_P02,probability,high_confidence,0.98,1,paraphrase,"A fair coin is tossed repeatedly, with each toss independent of the previous tosses.",Is the probability that the first two tosses are both heads 1/4?
+E4CH_P02_V2,E4CH_P02,probability,high_confidence,0.98,1,question_form,Consider repeated independent tosses of a fair coin.,Would the first two tosses both being heads have probability 1/4?
+E4CH_P02_V3,E4CH_P02,probability,high_confidence,0.98,1,state_rewrite,"Each toss of a fair coin has probability 1/2 of producing heads, and the tosses are independent.",Is P(first toss = heads AND second toss = heads) equal to 1/4?
+E4CH_S01_V1,E4CH_S01,science_reasoning,high_confidence,0.97,1,paraphrase,An ideal gas is heated from 300 K to 600 K while its pressure is held constant.,"According to Charles's law, does its volume double?"
+E4CH_S01_V2,E4CH_S01,science_reasoning,high_confidence,0.97,1,question_form,The pressure of an ideal gas remains constant as its temperature increases from 300 K to 600 K.,Does the gas volume become twice its initial value?
+E4CH_S01_V3,E4CH_S01,science_reasoning,high_confidence,0.97,1,state_rewrite,An ideal gas undergoes a temperature change from 300 K to 600 K with pressure unchanged.,Is the final volume 2 times the initial volume?
+E4CH_L10_V1,E4CH_L10,formal_logic,moderate_low,0.57,1,paraphrase,"Some students study mathematics, and every student who studies mathematics also studies algebra.",Must at least one student study algebra?
+E4CH_L10_V2,E4CH_L10,formal_logic,moderate_low,0.57,1,question_form,At least one student is a mathematics student. All mathematics students study algebra.,Does it follow that at least one student studies algebra?
+E4CH_L10_V3,E4CH_L10,formal_logic,moderate_low,0.57,1,state_rewrite,"There exists at least one mathematics student, and the set of mathematics students is contained within the set of algebra students.",Must the group contain an algebra student?
+E4CH_L11_V1,E4CH_L11,formal_logic,moderate_low,0.77,1,paraphrase,No mammal lays eggs. The platypus is classified as a mammal.,Does it follow that the platypus does not lay eggs?
+E4CH_L11_V2,E4CH_L11,formal_logic,moderate_low,0.77,1,question_form,"The platypus is a mammal, and mammals do not lay eggs.",Must the platypus be unable to lay eggs?
+E4CH_L11_V3,E4CH_L11,formal_logic,moderate_low,0.77,1,state_rewrite,Membership in the mammal category implies not laying eggs. The platypus belongs to the mammal category.,Can the platypus lay eggs under these stated premises?
+E4CH_L15_V1,E4CH_L15,formal_logic,moderate_low,0.78,1,paraphrase,"Whenever the server is online, the website responds. The website is currently not responding.",Must the server therefore be offline?
+E4CH_L15_V2,E4CH_L15,formal_logic,moderate_low,0.78,1,question_form,"If the server is online, the website responds. The website does not respond.",Does the evidence logically imply that the server is offline?
+E4CH_L15_V3,E4CH_L15,formal_logic,moderate_low,0.78,1,state_rewrite,Online server status is sufficient for the website to respond. The website is observed not to respond.,Is server-offline status necessarily implied?
+E4CH_P01_V1,E4CH_P01,probability,moderate_low,0.64,1,paraphrase,"A box holds 3 red balls, 4 blue balls, and 5 green balls. Two balls are selected without replacement.",Is the probability that both selected balls are red equal to 1/22?
+E4CH_P01_V2,E4CH_P01,probability,moderate_low,0.64,1,question_form,"There are 3 red balls among 12 total balls, and two balls are drawn without replacement.",Is P(both draws are red) equal to 1/22?
+E4CH_P01_V3,E4CH_P01,probability,moderate_low,0.64,1,state_rewrite,"The urn contains 12 balls in total, exactly 3 of which are red. Two balls are sampled sequentially without replacement.",Does the probability of two red draws equal 1/22?
+E4CH_P09_V1,E4CH_P09,probability,moderate_low,0.67,0,paraphrase,A quantity changes from an initial value of 80 to a final value of 100.,Is the percentage increase exactly 20%?
+E4CH_P09_V2,E4CH_P09,probability,moderate_low,0.67,0,question_form,The original quantity is 80 and the new quantity is 100.,Does the change from 80 to 100 represent a 20% increase?
+E4CH_P09_V3,E4CH_P09,probability,moderate_low,0.67,0,state_rewrite,"The quantity increases by 20 units, from 80 units to 100 units.",Is the relative increase equal to 20%?

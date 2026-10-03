@@ -1,0 +1,68 @@
+import csv
+from pathlib import Path
+
+OUT = Path("experiments/data/e4b_candidates.csv")
+
+cases = [
+    # ---------------- TRUE ----------------
+    ("E4B001", "mathematics", "A number x is greater than 7 and less than 10.", "Could x be equal to 8?", 1),
+    ("E4B002", "mathematics", "A class has 24 students. Half of the students are girls.", "Are there 12 girls in the class?", 1),
+    ("E4B003", "mathematics", "A rectangle has length 8 cm and width 5 cm.", "Is its area 40 square centimeters?", 1),
+    ("E4B004", "mathematics", "A price is reduced from 80 rupees to 60 rupees.", "Was the reduction 25 percent of the original price?", 1),
+    ("E4B005", "mathematics", "A sequence begins 2, 4, 8, 16.", "Is the next term obtained by multiplying the previous term by 2?", 1),
+    ("E4B006", "mathematics", "If x is greater than 5, then x is greater than 4.", "Does the first condition imply the second?", 1),
+    ("E4B007", "mathematics", "A bag contains 5 red balls and 4 blue balls.", "Is it possible to draw a red ball?", 1),
+    ("E4B008", "mathematics", "A student answers 18 of 20 questions correctly.", "Did the student answer at least 90 percent correctly?", 1),
+    ("E4B009", "mathematics", "A number is divisible by 6.", "Must the number also be divisible by 3?", 1),
+    ("E4B010", "mathematics", "A triangle has angles of 60, 60, and 60 degrees.", "Is the triangle equilateral if it is an ordinary Euclidean triangle?", 1),
+
+    ("E4B011", "science", "Water is heated from 20 degrees Celsius to 80 degrees Celsius.", "Did its temperature increase by 60 degrees Celsius?", 1),
+    ("E4B012", "science", "Iron is exposed to oxygen and moisture for a long period.", "Can iron rust under these conditions?", 1),
+    ("E4B013", "science", "The Earth completes approximately one rotation relative to the Sun in about one day.", "Is this rotation related to the cycle of day and night?", 1),
+    ("E4B014", "science", "An object is moving at constant speed in a straight line.", "Is its velocity constant if its direction also remains unchanged?", 1),
+    ("E4B015", "science", "Plants use carbon dioxide during photosynthesis.", "Is carbon dioxide one of the inputs used in photosynthesis?", 1),
+    ("E4B016", "science", "A metal spoon is placed in hot water and becomes warmer.", "Can heat transfer from the water to the spoon?", 1),
+    ("E4B017", "science", "Sound requires a material medium for ordinary propagation.", "Can ordinary sound propagate through a vacuum?", 0),
+    ("E4B018", "science", "An object has greater mass but the same acceleration as another object.", "Does the more massive object necessarily experience a smaller force?", 0),
+    ("E4B019", "science", "The Moon reflects sunlight.", "Does the Moon produce most of the visible light that we observe from it?", 0),
+    ("E4B020", "science", "A substance has a pH of 7 at a specified temperature.", "Is it necessarily an acid?", 0),
+
+    ("E4B021", "reasoning", "Every engineer in a group has studied mathematics. Ravi is an engineer in the group.", "Has Ravi studied mathematics?", 1),
+    ("E4B022", "reasoning", "All registered participants received an entry code. Neha received an entry code.", "Does receiving an entry code prove that Neha registered?", 0),
+    ("E4B023", "reasoning", "If it rains, the ground may become wet. It rained this morning.", "Must the ground be wet right now?", 0),
+    ("E4B024", "reasoning", "A report says that every blue card in a box is numbered.", "If a card is numbered, must it be blue?", 0),
+    ("E4B025", "reasoning", "A machine fails whenever its temperature exceeds a specified threshold. The temperature did not exceed that threshold.", "Must the machine have worked correctly?", 0),
+    ("E4B026", "reasoning", "If a person is in Delhi, then the person is in India. Arjun is in India.", "Does this prove that Arjun is in Delhi?", 0),
+    ("E4B027", "reasoning", "Every square is a rectangle. Shape A is a square.", "Is Shape A a rectangle?", 1),
+    ("E4B028", "reasoning", "Some students who study daily score highly.", "Does studying daily guarantee a high score for every student?", 0),
+    ("E4B029", "reasoning", "A statement is true whenever both conditions A and B hold.", "If A is true but B is false, must the statement be true?", 0),
+    ("E4B030", "reasoning", "A person can enter a building only with a valid pass. Maya entered the building.", "Does this imply that Maya had a valid pass?", 1),
+
+    ("E4B031", "general_knowledge", "The Indian national capital is New Delhi.", "Is New Delhi the capital of India?", 1),
+    ("E4B032", "general_knowledge", "The Pacific Ocean is larger than the Atlantic Ocean.", "Is the Pacific Ocean the largest ocean by area?", 1),
+    ("E4B033", "general_knowledge", "The Sahara is a desert in Africa.", "Is the Sahara located entirely outside Africa?", 0),
+    ("E4B034", "general_knowledge", "The human heart normally has four chambers.", "Does the normal human heart have more than two chambers?", 1),
+    ("E4B035", "general_knowledge", "The year 2024 was a leap year.", "Did February 2024 have 29 days?", 1),
+    ("E4B036", "general_knowledge", "Mount Everest is higher above sea level than K2.", "Is K2 higher than Mount Everest above sea level?", 0),
+    ("E4B037", "general_knowledge", "The Earth has one natural satellite.", "Is Mars the natural satellite of Earth?", 0),
+    ("E4B038", "general_knowledge", "A week contains seven days.", "Does a week contain fewer than ten days?", 1),
+    ("E4B039", "general_knowledge", "The Pacific Ocean covers a larger area than the Indian Ocean.", "Is the Indian Ocean larger than the Pacific Ocean?", 0),
+    ("E4B040", "general_knowledge", "A standard year contains 365 days.", "Does every calendar year contain exactly 365 days?", 0),
+]
+
+with OUT.open("w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow([
+        "candidate_id",
+        "domain",
+        "state",
+        "question",
+        "true_label"
+    ])
+    writer.writerows(cases)
+
+print(f"Created {OUT}")
+print(f"Rows: {len(cases)}")
+print("Labels:")
+print("  True :", sum(x[4] == 1 for x in cases))
+print("  False:", sum(x[4] == 0 for x in cases))

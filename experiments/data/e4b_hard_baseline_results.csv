@@ -1,0 +1,41 @@
+candidate_id,domain,state,question,true_label,jev_probability,predicted_label,correct,model,input_tokens,output_tokens,estimated_cost_usd,http_status,timestamp_utc
+H001,mathematics,A number x satisfies 2x + 3 = 11.,Is x greater than 5?,0,0.01,0,1,jev-1.13.0,320,20,1.344e-05,200,2026-10-02T20:45:19.052881+00:00
+H002,mathematics,A number x satisfies 3x - 4 = 11.,Is x greater than 4?,1,0.97,1,1,jev-1.13.0,320,20,1.344e-05,200,2026-10-02T20:45:19.579628+00:00
+H003,mathematics,A rectangle has length 8 cm and width 5 cm.,Is its perimeter greater than 20 cm?,1,0.98,1,1,jev-1.13.0,321,20,1.3481999999999999e-05,200,2026-10-02T20:45:20.144026+00:00
+H004,mathematics,A rectangle has length 7 cm and width 4 cm.,Is its area greater than 30 square centimeters?,0,0.01,0,1,jev-1.13.0,324,20,1.3607999999999999e-05,200,2026-10-02T20:45:20.634969+00:00
+H005,mathematics,A bag contains 3 red balls and 7 blue balls. One ball is selected uniformly at random.,Is the probability of selecting a red ball greater than 0.25?,1,0.62,1,1,jev-1.13.0,335,20,1.407e-05,200,2026-10-02T20:45:21.174590+00:00
+H006,mathematics,A bag contains 4 red balls and 6 blue balls. One ball is selected uniformly at random.,Is the probability of selecting a red ball exactly 0.5?,0,0.02,0,1,jev-1.13.0,333,20,1.3986e-05,200,2026-10-02T20:45:21.721477+00:00
+H007,mathematics,A fair six-sided die is rolled once.,Is the probability of obtaining an even number greater than 0.4?,1,0.91,1,1,jev-1.13.0,322,20,1.3524e-05,200,2026-10-02T20:45:22.328963+00:00
+H008,mathematics,A fair six-sided die is rolled once.,Is the probability of obtaining a number greater than 4 less than 0.4?,1,0.95,1,1,jev-1.13.0,325,20,1.365e-05,200,2026-10-02T20:45:22.857732+00:00
+H009,mathematics,The mean of five numbers is 12.,Is the sum of the five numbers exactly 60?,1,0.98,1,1,jev-1.13.0,320,20,1.344e-05,200,2026-10-02T20:45:23.455688+00:00
+H010,mathematics,The mean of four numbers is 15.,Is the sum of the four numbers greater than 50?,1,0.94,1,1,jev-1.13.0,321,20,1.3481999999999999e-05,200,2026-10-02T20:45:23.977075+00:00
+H011,mathematics,A price is increased by 20% and then decreased by 20%.,Is the final price equal to the original price?,0,0.04,0,1,jev-1.13.0,325,20,1.365e-05,200,2026-10-02T20:45:24.508419+00:00
+H012,mathematics,A price is decreased by 25% and then increased by 25%.,Is the final price greater than the original price?,0,0.05,0,1,jev-1.13.0,325,20,1.365e-05,200,2026-10-02T20:45:25.019382+00:00
+H013,mathematics,"A triangle has side lengths 3 cm, 4 cm, and 5 cm.",Is the triangle right-angled?,1,0.98,1,1,jev-1.13.0,323,20,1.3566e-05,200,2026-10-02T20:45:25.544569+00:00
+H014,mathematics,"A triangle has side lengths 2 cm, 3 cm, and 6 cm.",Can these three lengths form a triangle?,0,0.03,0,1,jev-1.13.0,324,20,1.3607999999999999e-05,200,2026-10-02T20:45:26.056951+00:00
+H015,mathematics,"The sequence is 2, 4, 8, 16, 32.",Is the next number necessarily 64?,1,0.35,0,0,jev-1.13.0,327,20,1.3734000000000001e-05,200,2026-10-02T20:45:26.581549+00:00
+H016,reasoning,All engineers in a company have technical training. Ravi is an engineer in the company.,Does Ravi have technical training?,1,0.98,1,1,jev-1.13.0,323,20,1.3566e-05,200,2026-10-02T20:45:27.105196+00:00
+H017,reasoning,All engineers in a company have technical training. Ravi has technical training.,Does this prove that Ravi is an engineer?,0,0.04,0,1,jev-1.13.0,323,20,1.3566e-05,200,2026-10-02T20:45:27.610956+00:00
+H018,reasoning,Some students in a class study mathematics. Ravi is a student in the class.,Does this prove that Ravi studies mathematics?,0,0.05,0,1,jev-1.13.0,324,20,1.3607999999999999e-05,200,2026-10-02T20:45:28.112999+00:00
+H019,reasoning,No birds in the laboratory can fly. A robin is a bird in the laboratory.,Can the robin fly in the laboratory?,0,0.04,0,1,jev-1.13.0,323,20,1.3566e-05,200,2026-10-02T20:45:28.676771+00:00
+H020,reasoning,"If a machine overheats, an alarm activates. The alarm is activated.",Does this prove that the machine overheated?,0,0.06,0,1,jev-1.13.0,324,20,1.3607999999999999e-05,200,2026-10-02T20:45:29.174850+00:00
+H021,reasoning,"If a machine overheats, an alarm activates. The machine overheated.",Did the alarm activate?,1,0.97,1,1,jev-1.13.0,320,20,1.344e-05,200,2026-10-02T20:45:29.691610+00:00
+H022,reasoning,Every red card in a deck is a heart or diamond. Card X is red.,Must Card X be a heart?,0,0.09,0,1,jev-1.13.0,322,20,1.3524e-05,200,2026-10-02T20:45:30.200029+00:00
+H023,reasoning,Every square is a rectangle. Shape A is a square.,Is Shape A a rectangle?,1,0.98,1,1,jev-1.13.0,316,20,1.3272000000000001e-05,200,2026-10-02T20:45:30.739550+00:00
+H024,reasoning,Every rectangle is a quadrilateral. Shape A is a quadrilateral.,Must Shape A be a rectangle?,0,0.05,0,1,jev-1.13.0,323,20,1.3566e-05,200,2026-10-02T20:45:31.260830+00:00
+H025,science,Water is heated at standard atmospheric pressure.,Will the water eventually reach its boiling point?,1,0.95,1,1,jev-1.13.0,315,20,1.323e-05,200,2026-10-02T20:45:31.798327+00:00
+H026,science,A metal object is placed in water and sinks.,Is the object's average density greater than the density of water?,1,0.97,1,1,jev-1.13.0,321,20,1.3481999999999999e-05,200,2026-10-02T20:45:32.322488+00:00
+H027,science,"A plant receives sunlight, water, and carbon dioxide.",Can the plant perform photosynthesis?,1,0.94,1,1,jev-1.13.0,318,20,1.3356e-05,200,2026-10-02T20:45:32.830578+00:00
+H028,science,A sealed container contains a gas. The gas is heated while its volume remains constant.,Does the gas pressure increase?,1,0.97,1,1,jev-1.13.0,321,20,1.3481999999999999e-05,200,2026-10-02T20:45:33.370030+00:00
+H029,science,An object moves at constant velocity in a straight line.,Is the net force on the object zero?,1,0.98,1,1,jev-1.13.0,318,20,1.3356e-05,200,2026-10-02T20:45:33.907244+00:00
+H030,science,An object is moving in a circle at constant speed.,Is the object's velocity constant?,0,0.05,0,1,jev-1.13.0,316,20,1.3272000000000001e-05,200,2026-10-02T20:45:34.420361+00:00
+H031,general_knowledge,A person travels from Delhi to Mumbai.,Must the person travel westward for the entire journey?,0,0.21,0,1,jev-1.13.0,317,20,1.3314e-05,200,2026-10-02T20:45:34.931492+00:00
+H032,general_knowledge,A clock shows exactly 12:00 noon.,Must the Sun be directly overhead at the clock's location?,0,0.08,0,1,jev-1.13.0,322,20,1.3524e-05,200,2026-10-02T20:45:35.468859+00:00
+H033,general_knowledge,A person is taller than 180 cm.,Is the person taller than 170 cm?,1,0.99,1,1,jev-1.13.0,320,20,1.344e-05,200,2026-10-02T20:45:36.044004+00:00
+H034,general_knowledge,A person is older than 20 years.,Is the person at least 30 years old?,0,0.32,0,1,jev-1.13.0,319,20,1.3398e-05,200,2026-10-02T20:45:36.665176+00:00
+H035,general_knowledge,A box contains at least 10 objects.,Does the box contain exactly 10 objects?,0,0.28,0,1,jev-1.13.0,318,20,1.3356e-05,200,2026-10-02T20:45:37.281173+00:00
+H036,general_knowledge,A box contains fewer than 10 objects.,Does the box contain at most 9 objects?,1,0.98,1,1,jev-1.13.0,318,20,1.3356e-05,200,2026-10-02T20:45:37.806615+00:00
+H037,mathematics,A student answers 17 of 20 questions correctly.,Is the student's score greater than 80 percent?,1,0.99,1,1,jev-1.13.0,323,20,1.3566e-05,200,2026-10-02T20:45:38.372638+00:00
+H038,mathematics,A student answers 16 of 20 questions correctly.,Is the student's score greater than 80 percent?,0,0.04,0,1,jev-1.13.0,323,20,1.3566e-05,200,2026-10-02T20:45:38.881906+00:00
+H039,mathematics,A store has 80 items. It sells 31 items and receives 10 new items.,Does the store now have more than 60 items?,0,0.29,0,1,jev-1.13.0,332,20,1.3944e-05,200,2026-10-02T20:45:39.394130+00:00
+H040,mathematics,A store has 80 items. It sells 19 items and receives 5 new items.,Does the store now have more than 60 items?,1,0.98,1,1,jev-1.13.0,331,20,1.3902e-05,200,2026-10-02T20:45:39.957869+00:00

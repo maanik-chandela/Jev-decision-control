@@ -1,0 +1,355 @@
+import csv
+from pathlib import Path
+
+OUTPUT = Path("experiments/data/e4c_candidates.csv")
+
+cases = [
+    # ============================================================
+    # MATHEMATICS — 20
+    # ============================================================
+
+    ("E4C001", "mathematics",
+     "If a number is divisible by 4, then it is even.",
+     "Is the number necessarily odd?",
+     0),
+
+    ("E4C002", "mathematics",
+     "A rectangle has length 8 cm and width 3 cm.",
+     "Is its area 25 square centimeters?",
+     0),
+
+    ("E4C003", "mathematics",
+     "The equation x + 7 = 12 has solution x = 5.",
+     "Is x equal to 6?",
+     0),
+
+    ("E4C004", "mathematics",
+     "A triangle has angles measuring 60 degrees, 60 degrees, and 60 degrees.",
+     "Is the triangle scalene?",
+     0),
+
+    ("E4C005", "mathematics",
+     "The integer 15 is greater than 20.",
+     "Is 15 greater than 20?",
+     0),
+
+    ("E4C006", "mathematics",
+     "A square has side length 6 cm.",
+     "Is its perimeter 20 cm?",
+     0),
+
+    ("E4C007", "mathematics",
+     "The fraction 3/4 is equal to 0.75.",
+     "Is 3/4 equal to 0.65?",
+     0),
+
+    ("E4C008", "mathematics",
+     "A number is multiplied by 0.",
+     "Is the result necessarily 1?",
+     0),
+
+    ("E4C009", "mathematics",
+     "The sequence is 2, 4, 6, 8, 10.",
+     "Is 13 the next number if the sequence continues by adding 2?",
+     0),
+
+    ("E4C010", "mathematics",
+     "A circle has radius 5 cm.",
+     "Is its diameter 12 cm?",
+     0),
+
+    ("E4C011", "mathematics",
+     "The equation 2x = 18 has solution x = 9.",
+     "Is x equal to 8?",
+     0),
+
+    ("E4C012", "mathematics",
+     "The number 7 is an even integer.",
+     "Is 7 even?",
+     0),
+
+    ("E4C013", "mathematics",
+     "A cube has edge length 3 cm.",
+     "Is its volume 30 cubic centimeters?",
+     0),
+
+    ("E4C014", "mathematics",
+     "The average of 4 and 10 is 7.",
+     "Is the arithmetic mean equal to 7?",
+     1),
+
+    ("E4C015", "mathematics",
+     "A number is greater than 10.",
+     "Must that number be greater than 20?",
+     0),
+
+    ("E4C016", "mathematics",
+     "The sum of two positive integers is 11.",
+     "Must the sum be an even number?",
+     0),
+
+    ("E4C017", "mathematics",
+     "A right triangle has one angle measuring 90 degrees.",
+     "Does it contain a right angle?",
+     1),
+
+    ("E4C018", "mathematics",
+     "The integer -3 is greater than -1.",
+     "Is -3 greater than -1?",
+     0),
+
+    ("E4C019", "mathematics",
+     "Five identical notebooks cost 200 rupees in total.",
+     "Does each notebook cost 40 rupees?",
+     1),
+
+    ("E4C020", "mathematics",
+     "The number 25 is divisible by 4 without a remainder.",
+     "Is 25 divisible by 4?",
+     0),
+
+    # ============================================================
+    # SCIENCE — 20
+    # ============================================================
+
+    ("E4C021", "science",
+     "Water freezes at 0 degrees Celsius under standard atmospheric pressure.",
+     "Does water freeze at 0 degrees Celsius under these conditions?",
+     1),
+
+    ("E4C022", "science",
+     "Plants use carbon dioxide during photosynthesis.",
+     "Is carbon dioxide used during photosynthesis?",
+     1),
+
+    ("E4C023", "science",
+     "The Earth revolves around the Sun.",
+     "Does the Earth orbit the Sun?",
+     1),
+
+    ("E4C024", "science",
+     "Sound cannot travel through a perfect vacuum.",
+     "Can sound travel through a perfect vacuum?",
+     0),
+
+    ("E4C025", "science",
+     "Humans require oxygen for normal aerobic cellular respiration.",
+     "Is oxygen required for normal aerobic cellular respiration?",
+     1),
+
+    ("E4C026", "science",
+     "The Moon produces all of its visible light independently of the Sun.",
+     "Does the Moon independently produce all of its visible light?",
+     0),
+
+    ("E4C027", "science",
+     "At sea level, pure water boils at approximately 100 degrees Celsius.",
+     "Does pure water boil at approximately 100 degrees Celsius at sea level?",
+     1),
+
+    ("E4C028", "science",
+     "Gravity on Earth acts toward the Earth's center.",
+     "Does Earth's gravity generally pull objects toward the Earth's center?",
+     1),
+
+    ("E4C029", "science",
+     "Plants release oxygen as a product of photosynthesis.",
+     "Is oxygen released during photosynthesis?",
+     1),
+
+    ("E4C030", "science",
+     "A metal spoon placed in hot water can gain thermal energy.",
+     "Can the spoon gain thermal energy from the hot water?",
+     1),
+
+    ("E4C031", "science",
+     "The human heart is a four-chambered organ.",
+     "Does the human heart normally have four chambers?",
+     1),
+
+    ("E4C032", "science",
+     "All bacteria cause disease in humans.",
+     "Are all bacteria disease-causing?",
+     0),
+
+    ("E4C033", "science",
+     "The Earth has a natural satellite called the Moon.",
+     "Does Earth have the Moon as a natural satellite?",
+     1),
+
+    ("E4C034", "science",
+     "Ice is the gaseous state of water.",
+     "Is ice the gaseous state of water?",
+     0),
+
+    ("E4C035", "science",
+     "An object moving at constant velocity has zero acceleration.",
+     "Is its acceleration zero?",
+     1),
+
+    ("E4C036", "science",
+     "Light generally travels faster in vacuum than in air.",
+     "Does light travel faster in vacuum than in air?",
+     1),
+
+    ("E4C037", "science",
+     "The boiling point of water is always exactly 100 degrees Celsius regardless of pressure.",
+     "Is water's boiling point always exactly 100 degrees Celsius regardless of pressure?",
+     0),
+
+    ("E4C038", "science",
+     "DNA contains genetic information in living organisms.",
+     "Does DNA contain genetic information?",
+     1),
+
+    ("E4C039", "science",
+     "A force can change the motion of an object.",
+     "Can a force change an object's motion?",
+     1),
+
+    ("E4C040", "science",
+     "The Sun is a planet.",
+     "Is the Sun a planet?",
+     0),
+
+    # ============================================================
+    # REASONING — 10
+    # ============================================================
+
+    ("E4C041", "reasoning",
+     "Every member of Group A is also a member of Group B. Ravi is a member of Group A.",
+     "Must Ravi be a member of Group B?",
+     1),
+
+    ("E4C042", "reasoning",
+     "No employee in Department X works on Sunday. Priya works in Department X.",
+     "Can we conclude from these statements that Priya does not work on Sunday?",
+     1),
+
+    ("E4C043", "reasoning",
+     "If it rains, the ground becomes wet. The ground is wet.",
+     "Must it have rained?",
+     0),
+
+    ("E4C044", "reasoning",
+     "All registered vehicles have registration numbers. Vehicle A is registered.",
+     "Does Vehicle A necessarily have a registration number?",
+     1),
+
+    ("E4C045", "reasoning",
+     "Some students in a class play chess. Arjun is a student in the class.",
+     "Must Arjun play chess?",
+     0),
+
+    ("E4C046", "reasoning",
+     "If a device is powered on, its indicator light is active. The device is powered on.",
+     "Must its indicator light be active?",
+     1),
+
+    ("E4C047", "reasoning",
+     "All roses in a garden are red. This flower is a rose from that garden.",
+     "Must this flower be red?",
+     1),
+
+    ("E4C048", "reasoning",
+     "If an animal is a dog, then it is a mammal. This animal is a mammal.",
+     "Must this animal be a dog?",
+     0),
+
+    ("E4C049", "reasoning",
+     "Every valid ticket has a unique identification number. Ticket T is valid.",
+     "Must Ticket T have a unique identification number?",
+     1),
+
+    ("E4C050", "reasoning",
+     "Some books on a shelf are novels. Book X is on the shelf.",
+     "Must Book X be a novel?",
+     0),
+
+    # ============================================================
+    # GENERAL KNOWLEDGE — 10
+    # ============================================================
+
+    ("E4C051", "general_knowledge",
+     "The Pacific Ocean is larger than the Atlantic Ocean.",
+     "Is the Pacific Ocean larger than the Atlantic Ocean?",
+     1),
+
+    ("E4C052", "general_knowledge",
+     "The capital city of France is Paris.",
+     "Is Paris the capital of France?",
+     1),
+
+    ("E4C053", "general_knowledge",
+     "The Sun rises in the west.",
+     "Does the Sun rise in the west?",
+     0),
+
+    ("E4C054", "general_knowledge",
+     "A week normally contains seven days.",
+     "Does a week normally contain seven days?",
+     1),
+
+    ("E4C055", "general_knowledge",
+     "The Indian Ocean is located between Africa, Asia, Australia, and Antarctica.",
+     "Is the Indian Ocean located between these major landmasses?",
+     1),
+
+    ("E4C056", "general_knowledge",
+     "The number of continents on Earth is commonly counted as seven.",
+     "Is seven the commonly taught number of continents?",
+     1),
+
+    ("E4C057", "general_knowledge",
+     "The Sahara is a desert in Antarctica.",
+     "Is the Sahara Desert located in Antarctica?",
+     0),
+
+    ("E4C058", "general_knowledge",
+     "A standard year contains 365 days.",
+     "Does a standard non-leap year contain 365 days?",
+     1),
+
+    ("E4C059", "general_knowledge",
+     "The Pacific Ocean is smaller than the Arctic Ocean.",
+     "Is the Pacific Ocean smaller than the Arctic Ocean?",
+     0),
+
+    ("E4C060", "general_knowledge",
+     "The Taj Mahal is located in Agra, India.",
+     "Is the Taj Mahal located in Agra?",
+     1),
+]
+
+assert len(cases) == 60
+assert sum(row[4] for row in cases) == 30
+assert sum(1 - row[4] for row in cases) == 30
+
+fields = [
+    "candidate_id",
+    "domain",
+    "state",
+    "question",
+    "true_label",
+]
+
+OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+
+with OUTPUT.open("w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(fields)
+    writer.writerows(cases)
+
+print("=" * 70)
+print("E4c CANDIDATE DATASET CREATED")
+print("=" * 70)
+print(f"Rows: {len(cases)}")
+print("True labels: 30")
+print("False labels: 30")
+print()
+print("Domains:")
+for domain in sorted(set(row[1] for row in cases)):
+    count = sum(row[1] == domain for row in cases)
+    print(f"  {domain}: {count}")
+print()
+print(f"Saved to: {OUTPUT.resolve()}")

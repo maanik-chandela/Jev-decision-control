@@ -1,0 +1,3 @@
+confidence_group,n,mean_absolute_delta_p,median_absolute_delta_p,max_absolute_delta_p,decision_flip_rate,accuracy,mean_baseline_probability
+high_confidence,18,0.007777777777777778,0.0,0.04999999999999993,0.0,1.0,0.9650000000000001
+moderate_low_confidence,18,0.13444444444444445,0.09499999999999997,0.29000000000000004,0.0,1.0,0.3333333333333333

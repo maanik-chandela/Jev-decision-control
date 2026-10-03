@@ -1,0 +1,36 @@
+counterfactual_id,original_id,perturbation_type,state,question,true_label,domain,difficulty
+P001_V1,P001,paraphrase,"Water freezes at 0 degrees Celsius under standard atmospheric pressure.","Under standard atmospheric pressure, does water freeze at 0 degrees Celsius?",1,science,easy
+P001_V2,P001,question_form,"Water freezes at 0 degrees Celsius under standard atmospheric pressure.","Would it be correct to say that water freezes at 0 degrees Celsius under standard atmospheric pressure?",1,science,easy
+P001_V3,P001,state_rewrite,"At standard atmospheric pressure, the freezing point of water is 0 degrees Celsius.","Does water freeze at 0 degrees Celsius under standard atmospheric pressure?",1,science,easy
+
+P002_V1,P002,paraphrase,"The Earth has one natural satellite, commonly called the Moon.","Does Earth have only one natural satellite?",1,science,easy
+P002_V2,P002,question_form,"The Earth has one natural satellite, commonly called the Moon.","Is the Moon Earth's sole natural satellite?",1,science,easy
+P002_V3,P002,state_rewrite,"Earth's only naturally occurring satellite is the Moon.","Does the Earth have exactly one natural satellite?",1,science,easy
+
+P003_V1,P003,paraphrase,"Gold has the chemical symbol Au.","Is Au the chemical symbol for gold?",1,science,easy
+P003_V2,P003,question_form,"Gold has the chemical symbol Au.","Would it be correct to identify Au as gold's chemical symbol?",1,science,easy
+P003_V3,P003,state_rewrite,"The symbol assigned to the element gold is Au.","Is the chemical symbol for gold Au?",1,science,easy
+
+P004_V1,P004,paraphrase,"The speed of light in vacuum is approximately 300,000 kilometers per second.","Is light's speed in a vacuum approximately 300,000 kilometers per second?",1,science,easy
+P004_V2,P004,question_form,"The speed of light in vacuum is approximately 300,000 kilometers per second.","Can the speed of light in a vacuum be described as approximately 300,000 kilometers per second?",1,science,easy
+P004_V3,P004,state_rewrite,"In empty space, light travels at roughly 300,000 kilometers per second.","Is the speed of light in vacuum approximately 300,000 kilometers per second?",1,science,easy
+
+P005_V1,P005,paraphrase,"Humans require oxygen for normal aerobic respiration.","Do humans need oxygen for normal aerobic respiration?",1,science,easy
+P005_V2,P005,question_form,"Humans require oxygen for normal aerobic respiration.","Would a statement that humans need oxygen for normal aerobic respiration be true?",1,science,easy
+P005_V3,P005,state_rewrite,"Normal aerobic respiration in humans requires oxygen.","Is oxygen required for normal aerobic respiration in humans?",1,science,easy
+
+P006_V1,P006,paraphrase,"Pure water boils at approximately 100 degrees Celsius at standard atmospheric pressure.","At standard atmospheric pressure, does pure water boil at about 100 degrees Celsius?",1,science,easy
+P006_V2,P006,question_form,"Pure water boils at approximately 100 degrees Celsius at standard atmospheric pressure.","Is it accurate to state that pure water reaches its boiling point at approximately 100 degrees Celsius under standard atmospheric pressure?",1,science,easy
+P006_V3,P006,state_rewrite,"Under standard atmospheric pressure, the boiling point of pure water is about 100 degrees Celsius.","Does pure water boil at approximately 100 degrees Celsius at standard atmospheric pressure?",1,science,easy
+
+P007_V1,P007,paraphrase,"The chemical formula for water is H2O.","Is H2O the chemical formula of water?",1,science,easy
+P007_V2,P007,question_form,"The chemical formula for water is H2O.","Would H2O be the correct chemical formula to give for water?",1,science,easy
+P007_V3,P007,state_rewrite,"Water is represented chemically by the formula H2O.","Is the chemical formula for water H2O?",1,science,easy
+
+P008_V1,P008,paraphrase,"The Sun is a star.","Can the Sun be classified as a star?",1,science,easy
+P008_V2,P008,question_form,"The Sun is a star.","Would it be correct to describe the Sun as a star?",1,science,easy
+P008_V3,P008,state_rewrite,"The Sun belongs to the class of astronomical objects known as stars.","Is the Sun a star?",1,science,easy
+
+P009_V1,P009,paraphrase,"Sound generally travels faster through steel than through air.","Does sound generally move faster through steel than through air?",1,science,medium
+P009_V2,P009,question_form,"Sound generally travels faster through steel than through air.","Is steel generally a medium in which sound travels faster than it does through air?",1,science,medium
+P009_V3,P009,state_rewrite,"Compared with air, steel generally allows sound to propagate at a higher speed.","Does sound generally travel faster through steel than through air?",1,science,medium

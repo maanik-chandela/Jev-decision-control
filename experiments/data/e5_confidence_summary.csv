@@ -1,0 +1,4 @@
+confidence_group,cases,mean_original_confidence,mean_abs_delta_p,max_abs_delta_p,mean_confidence_loss,cases_with_decision_change,cases_with_adversarial_error
+low/moderate,2,0.54,0.2783333333333333,0.39,-0.10499999999999995,2,1
+high,2,0.895,0.135,0.28500000000000003,0.06833333333333336,1,1
+very_high,56,0.9791071428571428,0.021130952380952386,0.04535714285714286,0.019226190476190484,0,0

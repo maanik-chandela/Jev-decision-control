@@ -1,0 +1,7 @@
+confidence_group,perturbation_type,n,mean_absolute_delta_p,median_absolute_delta_p,max_absolute_delta_p,decision_flip_rate
+high_confidence,paraphrase,6,0.006666666666666672,0.0050000000000000044,0.020000000000000018,0.0
+high_confidence,question_form,6,0.003333333333333336,0.0,0.010000000000000009,0.0
+high_confidence,state_rewrite,6,0.013333333333333327,0.0050000000000000044,0.04999999999999993,0.0
+moderate_low_confidence,paraphrase,6,0.17166666666666666,0.15500000000000003,0.29000000000000004,0.0
+moderate_low_confidence,question_form,6,0.1416666666666667,0.13000000000000003,0.29000000000000004,0.0
+moderate_low_confidence,state_rewrite,6,0.08999999999999998,0.075,0.25,0.0

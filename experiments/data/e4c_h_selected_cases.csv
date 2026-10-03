@@ -1,0 +1,11 @@
+id,domain,state,question,label,probability,prediction,correct,uncertainty,input_tokens,output_tokens,model,confidence_group
+E4CH_D01,data_reasoning,"A dataset contains values 2, 4, 6, 8, and 10.",Is the mean equal to 6?,1,0.99,1,1,0.02,331,20,jev-1.13.0,high_confidence
+E4CH_L01,formal_logic,Every A is a B. Every B is a C.,Must every A be a C?,1,0.98,1,1,0.04,321,20,jev-1.13.0,high_confidence
+E4CH_M01,mathematics,The equation 3x + 7 = 25 has a real solution x = 6.,Is x = 6 the solution?,1,0.99,1,1,0.02,331,20,jev-1.13.0,high_confidence
+E4CH_P02,probability,A fair coin is tossed repeatedly.,Is the probability that the first two tosses are both heads equal to 1/4?,1,0.98,1,1,0.04,328,20,jev-1.13.0,high_confidence
+E4CH_S01,science_reasoning,"At constant pressure, an ideal gas is heated from 300 K to 600 K.",Does its volume double according to Charles's law?,1,0.97,1,1,0.06,334,20,jev-1.13.0,high_confidence
+E4CH_L10,formal_logic,Some students study mathematics. Every mathematics student studies algebra.,Must at least one student study algebra?,1,0.57,1,1,0.8600000000000001,321,20,jev-1.13.0,moderate_low
+E4CH_L11,formal_logic,No mammals lay eggs. The platypus is a mammal.,Must the platypus not lay eggs?,1,0.77,1,1,0.4599999999999999,325,20,jev-1.13.0,moderate_low
+E4CH_L15,formal_logic,"If the server is online, the website responds. The website does not respond.",Must the server be offline?,1,0.78,1,1,0.4399999999999999,324,20,jev-1.13.0,moderate_low
+E4CH_P01,probability,"A box contains 3 red, 4 blue, and 5 green balls. Two balls are drawn without replacement.",Is the probability that both balls are red equal to 1/22?,1,0.64,1,1,0.72,342,20,jev-1.13.0,moderate_low
+E4CH_P09,probability,A quantity increases from 80 to 100.,Is this an increase of exactly 20%?,0,0.67,1,0,0.6599999999999999,326,20,jev-1.13.0,moderate_low
