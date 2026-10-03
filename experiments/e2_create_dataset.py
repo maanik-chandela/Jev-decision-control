@@ -1,0 +1,507 @@
+import csv
+from pathlib import Path
+
+CASES = [
+    # ============================================================
+    # MATHEMATICS — 20
+    # ============================================================
+    ("E2_M01", "mathematics", "easy",
+     "A rectangle has length 8 and width 5.",
+     "Is its area 40 square units?", 1),
+
+    ("E2_M02", "mathematics", "easy",
+     "The equation is x + 9 = 15.",
+     "Is x equal to 6?", 1),
+
+    ("E2_M03", "mathematics", "easy",
+     "A square has side length 7.",
+     "Is its perimeter 28 units?", 1),
+
+    ("E2_M04", "mathematics", "easy",
+     "A triangle has base 10 and height 4.",
+     "Is its area 20 square units?", 1),
+
+    ("E2_M05", "mathematics", "easy",
+     "The numbers are 4, 6, 8, and 10.",
+     "Is their arithmetic mean 7?", 1),
+
+    ("E2_M06", "mathematics", "easy",
+     "A circle has radius 3.",
+     "Is its diameter 6?", 1),
+
+    ("E2_M07", "mathematics", "easy",
+     "The equation is 3x = 21.",
+     "Is x equal to 8?", 0),
+
+    ("E2_M08", "mathematics", "easy",
+     "A rectangle has length 9 and width 4.",
+     "Is its area 45 square units?", 0),
+
+    ("E2_M09", "mathematics", "easy",
+     "The number is 25.",
+     "Is its principal square root 6?", 0),
+
+    ("E2_M10", "mathematics", "easy",
+     "The sequence is 2, 4, 6, 8.",
+     "Is every term obtained by multiplying the previous term by 2?", 0),
+
+    ("E2_M11", "mathematics", "moderate",
+     "The average of five numbers is 12.",
+     "Is their total sum 70?", 0),
+
+    ("E2_M12", "mathematics", "moderate",
+     "A number is increased from 80 to 100.",
+     "Is the percentage increase 30 percent?", 0),
+
+    ("E2_M13", "mathematics", "moderate",
+     "A triangle has angles of 50 degrees and 60 degrees.",
+     "Is the third angle 70 degrees?", 1),
+
+    ("E2_M14", "mathematics", "moderate",
+     "The equation is 2x + 5 = 17.",
+     "Is x equal to 5?", 0),
+
+    ("E2_M15", "mathematics", "moderate",
+     "A rectangle has perimeter 30 and length 10.",
+     "Is its width 5?", 1),
+
+    ("E2_M16", "mathematics", "moderate",
+     "The equation is 3x - 4 = 11.",
+     "Is x equal to 4?", 0),
+
+    ("E2_M17", "mathematics", "moderate",
+     "A price is reduced from 200 to 150.",
+     "Is the percentage decrease 20 percent?", 0),
+
+    ("E2_M18", "mathematics", "moderate",
+     "The numbers are 2, 4, 6, 8, and 20.",
+     "Is their median 6?", 1),
+
+    ("E2_M19", "mathematics", "hard",
+     "A rectangle has area 48 and length 8.",
+     "Is its width 6?", 1),
+
+    ("E2_M20", "mathematics", "hard",
+     "The roots of x squared minus 5x plus 6 are 2 and 3.",
+     "Is the sum of the roots 6?", 0),
+
+    # ============================================================
+    # PROBABILITY — 20
+    # ============================================================
+    ("E2_P01", "probability", "easy",
+     "A fair six-sided die is rolled once.",
+     "Is the probability of rolling a 6 equal to 1/6?", 1),
+
+    ("E2_P02", "probability", "easy",
+     "A fair coin is tossed once.",
+     "Is the probability of heads 1/2?", 1),
+
+    ("E2_P03", "probability", "easy",
+     "A standard deck contains 52 cards, including 13 hearts.",
+     "Is the probability of drawing a heart 1/4?", 1),
+
+    ("E2_P04", "probability", "easy",
+     "A fair die is rolled once.",
+     "Is the probability of rolling an even number 1/2?", 1),
+
+    ("E2_P05", "probability", "easy",
+     "A fair coin is tossed twice.",
+     "Is the probability of getting two heads 1/4?", 1),
+
+    ("E2_P06", "probability", "easy",
+     "A bag contains 3 red balls and 7 blue balls.",
+     "Is the probability of drawing a red ball 0.3?", 1),
+
+    ("E2_P07", "probability", "easy",
+     "A fair six-sided die is rolled once.",
+     "Is the probability of rolling a 6 equal to 1/3?", 0),
+
+    ("E2_P08", "probability", "easy",
+     "A fair coin is tossed twice.",
+     "Is the probability of getting two heads 1/2?", 0),
+
+    ("E2_P09", "probability", "easy",
+     "A standard deck contains 52 cards, including 13 hearts.",
+     "Is the probability of drawing a heart 1/2?", 0),
+
+    ("E2_P10", "probability", "easy",
+     "A fair die is rolled once.",
+     "Is the probability of rolling an odd number 1/3?", 0),
+
+    ("E2_P11", "probability", "moderate",
+     "A fair coin is tossed twice.",
+     "Is the probability of getting at least one head 1/2?", 0),
+
+    ("E2_P12", "probability", "moderate",
+     "A fair die is rolled twice.",
+     "Is the probability that both rolls are 6 equal to 1/36?", 1),
+
+    ("E2_P13", "probability", "moderate",
+     "A bag contains 4 red and 6 blue balls.",
+     "Is the probability of drawing a red ball on one draw 0.5?", 0),
+
+    ("E2_P14", "probability", "moderate",
+     "A fair die is rolled once.",
+     "Is the probability of rolling a number greater than 4 equal to 1/3?", 1),
+
+    ("E2_P15", "probability", "moderate",
+     "A fair coin is tossed three times.",
+     "Is the probability of getting exactly three heads 1/8?", 1),
+
+    ("E2_P16", "probability", "moderate",
+     "A fair die is rolled twice.",
+     "Is the probability that both results are even equal to 1/2?", 0),
+
+    ("E2_P17", "probability", "moderate",
+     "A fair coin is tossed three times.",
+     "Is the probability of getting exactly two heads 1/4?", 0),
+
+    ("E2_P18", "probability", "moderate",
+     "A bag contains 2 red and 8 blue balls.",
+     "Is the probability of drawing a red ball 0.5?", 0),
+
+    ("E2_P19", "probability", "hard",
+     "Two fair six-sided dice are rolled.",
+     "Is the probability that their sum is 7 equal to 1/6?", 1),
+
+    ("E2_P20", "probability", "hard",
+     "Two fair six-sided dice are rolled.",
+     "Is the probability that their sum is 2 equal to 1/12?", 0),
+
+    # ============================================================
+    # FORMAL LOGIC — 20
+    # ============================================================
+    ("E2_L01", "formal_logic", "easy",
+     "Every cat is a mammal. Luna is a cat.",
+     "Does it follow that Luna is a mammal?", 1),
+
+    ("E2_L02", "formal_logic", "easy",
+     "Every engineer studies mathematics. Ravi is an engineer.",
+     "Does it follow that Ravi studies mathematics?", 1),
+
+    ("E2_L03", "formal_logic", "easy",
+     "No mammals are reptiles. A tiger is a mammal.",
+     "Does it follow that the tiger is not a reptile?", 1),
+
+    ("E2_L04", "formal_logic", "easy",
+     "If P then Q. P is true.",
+     "Does it follow that Q is true?", 1),
+
+    ("E2_L05", "formal_logic", "easy",
+     "Every athlete trains. Some students are athletes.",
+     "Does it follow that at least one student trains?", 1),
+
+    ("E2_L06", "formal_logic", "easy",
+     "Every bird in a particular group is blue. K is a bird in that group.",
+     "Does it follow that K is blue?", 1),
+
+    ("E2_L07", "formal_logic", "easy",
+     "Every A is B. Some C is B.",
+     "Does it follow that every C is A?", 0),
+
+    ("E2_L08", "formal_logic", "easy",
+     "If P then Q. Q is true.",
+     "Does it follow that P is true?", 0),
+
+    ("E2_L09", "formal_logic", "easy",
+     "All doctors are educated. Some educated people are musicians.",
+     "Does it follow that every musician is a doctor?", 0),
+
+    ("E2_L10", "formal_logic", "easy",
+     "If A then B. B is true.",
+     "Does it follow that A is true?", 0),
+
+    ("E2_L11", "formal_logic", "moderate",
+     "Every A is B. Every B is C.",
+     "Does it follow that every A is C?", 1),
+
+    ("E2_L12", "formal_logic", "moderate",
+     "No A is B. X is A.",
+     "Does it follow that X is not B?", 1),
+
+    ("E2_L13", "formal_logic", "moderate",
+     "Some A are B. Every B is C.",
+     "Does it follow that some A are not C?", 0),
+
+    ("E2_L14", "formal_logic", "moderate",
+     "Every A is B. No B is C.",
+     "Does it follow that some A are C?", 0),
+
+    ("E2_L15", "formal_logic", "moderate",
+     "If P then Q. If Q then R. P is true.",
+     "Does it follow that R is true?", 1),
+
+    ("E2_L16", "formal_logic", "moderate",
+     "Some A are B. No B is C.",
+     "Does it follow that every A is not C?", 0),
+
+    ("E2_L17", "formal_logic", "moderate",
+     "Every A is B. Some B are C.",
+     "Does it follow that some A are C?", 0),
+
+    ("E2_L18", "formal_logic", "moderate",
+     "If P then Q. If Q then R. R is true.",
+     "Does it follow that P is true?", 0),
+
+    ("E2_L19", "formal_logic", "hard",
+     "Every A is B. Some B are C. No C is D.",
+     "Does it follow that some A are not D?", 0),
+
+    ("E2_L20", "formal_logic", "hard",
+     "If P then Q. If Q then R. R is false.",
+     "Does it follow that P is false?", 1),
+
+    # ============================================================
+    # SCIENCE REASONING — 20
+    # ============================================================
+    ("E2_S01", "science_reasoning", "easy",
+     "An object travels 100 meters in 10 seconds.",
+     "Is its average speed 10 meters per second?", 1),
+
+    ("E2_S02", "science_reasoning", "easy",
+     "Water freezes at 0 degrees Celsius at standard atmospheric pressure.",
+     "Is its freezing point 0 degrees Celsius under those conditions?", 1),
+
+    ("E2_S03", "science_reasoning", "easy",
+     "An object has mass 2 kg and acceleration 3 m/s^2.",
+     "Is the net force 6 N?", 1),
+
+    ("E2_S04", "science_reasoning", "easy",
+     "A circuit has voltage 12 V and resistance 4 ohms.",
+     "Is the current 3 A?", 1),
+
+    ("E2_S05", "science_reasoning", "easy",
+     "A metal rod is heated while otherwise unconstrained.",
+     "Does its length generally increase due to thermal expansion?", 1),
+
+    ("E2_S06", "science_reasoning", "easy",
+     "An object moves at constant velocity in a straight line.",
+     "Is its net force zero?", 1),
+
+    ("E2_S07", "science_reasoning", "easy",
+     "An object travels 120 meters in 10 seconds.",
+     "Is its average speed 15 meters per second?", 0),
+
+    ("E2_S08", "science_reasoning", "easy",
+     "Water freezes at 0 degrees Celsius at standard atmospheric pressure.",
+     "Is its freezing point 100 degrees Celsius under those conditions?", 0),
+
+    ("E2_S09", "science_reasoning", "easy",
+     "An object has mass 5 kg and acceleration 2 m/s^2.",
+     "Is the net force 20 N?", 0),
+
+    ("E2_S10", "science_reasoning", "easy",
+     "A circuit has voltage 12 V and resistance 6 ohms.",
+     "Is the current 3 A?", 0),
+
+    ("E2_S11", "science_reasoning", "moderate",
+     "An ideal gas is kept at constant pressure and its absolute temperature doubles.",
+     "Does its volume double?", 1),
+
+    ("E2_S12", "science_reasoning", "moderate",
+     "A car accelerates from 10 m/s to 20 m/s.",
+     "Does its speed increase by 50 percent?", 0),
+
+    ("E2_S13", "science_reasoning", "moderate",
+     "A force of 10 N acts on a mass of 2 kg.",
+     "Is the resulting acceleration 5 m/s^2?", 1),
+
+    ("E2_S14", "science_reasoning", "moderate",
+     "An object is thrown vertically upward without air resistance.",
+     "At its highest point, is its instantaneous velocity zero?", 1),
+
+    ("E2_S15", "science_reasoning", "moderate",
+     "Two resistors of 2 ohms each are connected in series.",
+     "Is their equivalent resistance 4 ohms?", 1),
+
+    ("E2_S16", "science_reasoning", "moderate",
+     "An ideal gas at constant pressure is heated from 300 K to 600 K.",
+     "Does its volume become half its original value?", 0),
+
+    ("E2_S17", "science_reasoning", "moderate",
+     "A force of 10 N acts on a mass of 5 kg.",
+     "Is the resulting acceleration 5 m/s^2?", 0),
+
+    ("E2_S18", "science_reasoning", "moderate",
+     "Two resistors of 2 ohms each are connected in series.",
+     "Is their equivalent resistance 1 ohm?", 0),
+
+    ("E2_S19", "science_reasoning", "hard",
+     "An object moves in a circle at constant speed.",
+     "Is its velocity constant throughout the motion?", 0),
+
+    ("E2_S20", "science_reasoning", "hard",
+     "An object is moving with constant velocity in a straight line.",
+     "Can a nonzero net force act on it without changing its velocity?", 0),
+
+    # ============================================================
+    # DATA REASONING — 20
+    # ============================================================
+    ("E2_D01", "data_reasoning", "easy",
+     "A classifier correctly predicts 95 of 100 examples.",
+     "Is its accuracy 95 percent?", 1),
+
+    ("E2_D02", "data_reasoning", "easy",
+     "A classifier has 80 true positives and 20 false negatives.",
+     "Is its recall 80 percent?", 1),
+
+    ("E2_D03", "data_reasoning", "easy",
+     "A classifier has 80 true positives and 20 false positives.",
+     "Is its precision 80 percent?", 1),
+
+    ("E2_D04", "data_reasoning", "easy",
+     "A dataset contains 50 positive and 50 negative examples.",
+     "Are the two classes equally represented?", 1),
+
+    ("E2_D05", "data_reasoning", "easy",
+     "The values are 2, 4, 6, 8, and 10.",
+     "Is the median 6?", 1),
+
+    ("E2_D06", "data_reasoning", "easy",
+     "A value increases from 50 to 60.",
+     "Is the percentage increase 20 percent?", 1),
+
+    ("E2_D07", "data_reasoning", "easy",
+     "A classifier correctly predicts 80 of 100 examples.",
+     "Is its accuracy 90 percent?", 0),
+
+    ("E2_D08", "data_reasoning", "easy",
+     "A classifier has 60 true positives and 40 false negatives.",
+     "Is its recall 80 percent?", 0),
+
+    ("E2_D09", "data_reasoning", "easy",
+     "A classifier has 50 true positives and 50 false positives.",
+     "Is its precision 80 percent?", 0),
+
+    ("E2_D10", "data_reasoning", "easy",
+     "A dataset contains 80 positive and 20 negative examples.",
+     "Are the two classes equally represented?", 0),
+
+    ("E2_D11", "data_reasoning", "moderate",
+     "The values are 2, 4, 8, 10, and 12.",
+     "Is the median 8?", 1),
+
+    ("E2_D12", "data_reasoning", "moderate",
+     "A value increases from 80 to 100.",
+     "Is the percentage increase 25 percent?", 1),
+
+    ("E2_D13", "data_reasoning", "moderate",
+     "A classifier has 90 true positives and 10 false positives.",
+     "Is its precision 90 percent?", 1),
+
+    ("E2_D14", "data_reasoning", "moderate",
+     "A classifier has 90 true positives and 10 false negatives.",
+     "Is its recall 90 percent?", 1),
+
+    ("E2_D15", "data_reasoning", "moderate",
+     "A dataset contains 30 positive and 70 negative examples.",
+     "Is the positive class 40 percent of the dataset?", 0),
+
+    ("E2_D16", "data_reasoning", "moderate",
+     "A classifier correctly predicts 70 of 100 examples.",
+     "Is its accuracy 80 percent?", 0),
+
+    ("E2_D17", "data_reasoning", "moderate",
+     "A classifier has 70 true positives and 30 false negatives.",
+     "Is its recall 80 percent?", 0),
+
+    ("E2_D18", "data_reasoning", "moderate",
+     "A value decreases from 200 to 150.",
+     "Is the percentage decrease 20 percent?", 0),
+
+    ("E2_D19", "data_reasoning", "hard",
+     "A classifier has 80 true positives, 20 false positives, and 20 false negatives.",
+     "Is its precision higher than its recall?", 0),
+
+    ("E2_D20", "data_reasoning", "hard",
+     "A classifier has 90 true positives, 10 false positives, and 30 false negatives.",
+     "Is its precision equal to its recall?", 0),
+]
+
+
+OUTPUT = Path("experiments/data/e2_calibration_dataset.csv")
+
+
+def validate():
+    assert len(CASES) == 100
+
+    ids = [c[0] for c in CASES]
+    assert len(ids) == len(set(ids))
+
+    labels = [c[5] for c in CASES]
+    assert labels.count(1) == 50
+    assert labels.count(0) == 50
+
+    domains = {}
+    for case in CASES:
+        domains.setdefault(case[1], []).append(case)
+
+    assert len(domains) == 5
+
+    for domain, cases in domains.items():
+        assert len(cases) == 20, (domain, len(cases))
+        assert sum(c[5] for c in cases) == 10, domain
+
+    difficulties = {}
+    for case in CASES:
+        difficulties.setdefault(case[2], 0)
+        difficulties[case[2]] += 1
+
+    print("E2 DATASET VALIDATION")
+    print("=" * 50)
+    print(f"Total cases: {len(CASES)}")
+    print(f"True labels: {labels.count(1)}")
+    print(f"False labels: {labels.count(0)}")
+    print()
+    print("Domains:")
+    for domain, cases in sorted(domains.items()):
+        print(
+            f"  {domain}: {len(cases)} "
+            f"(true={sum(c[5] for c in cases)}, "
+            f"false={sum(c[5] == 0 for c in cases)})"
+        )
+
+    print()
+    print("Difficulty:")
+    for difficulty, count in sorted(difficulties.items()):
+        print(f"  {difficulty}: {count}")
+
+
+def write():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+
+    with OUTPUT.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+
+        writer.writerow([
+            "original_id",
+            "domain",
+            "difficulty",
+            "state",
+            "question",
+            "label",
+        ])
+
+        for case_id, domain, difficulty, state, question, label in CASES:
+            writer.writerow([
+                case_id,
+                domain,
+                difficulty,
+                state,
+                question,
+                label,
+            ])
+
+    print()
+    print(f"Output: {OUTPUT.resolve()}")
+
+
+if __name__ == "__main__":
+    validate()
+    write()
+
+    print()
+    print(
+        "IMPORTANT: Freeze this dataset before running JEV. "
+        "Do not modify cases based on JEV outputs."
+    )
