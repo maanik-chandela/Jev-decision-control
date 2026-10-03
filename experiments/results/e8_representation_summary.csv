@@ -1,0 +1,4 @@
+representation,n,accuracy,mean_probability,median_probability,mean_confidence,median_confidence
+classification,60,1.0,0.5,0.495,0.9786666666666667,0.98
+direct,60,1.0,0.5013333333333333,0.495,0.9796666666666666,0.98
+predicate,60,1.0,0.49983333333333335,0.48500000000000004,0.9788333333333333,0.98

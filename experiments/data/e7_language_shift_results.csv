@@ -1,0 +1,181 @@
+case_id,core_id,domain,language,label,question,probability,prediction,correct,error,input_tokens,output_tokens,model
+E7_M01_EN,M01,mathematics,english,1,A square has side length 6 cm. Is its perimeter 24 cm?,0.97,1,1,,326,21,jev-1.13.0
+E7_M01_HI,M01,mathematics,hindi,1,एक वर्ग की भुजा की लंबाई 6 सेमी है। क्या उसका परिमाप 24 सेमी है?,0.98,1,1,,382,21,jev-1.13.0
+E7_M01_HG,M01,mathematics,hinglish,1,Ek square ki side ki length 6 cm hai. Kya uska perimeter 24 cm hai?,0.98,1,1,,336,21,jev-1.13.0
+E7_M02_EN,M02,mathematics,english,0,A rectangle has length 8 cm and width 3 cm. Is its area 22 square cm?,0.02,0,1,,336,21,jev-1.13.0
+E7_M02_HI,M02,mathematics,hindi,0,एक आयत की लंबाई 8 सेमी और चौड़ाई 3 सेमी है। क्या उसका क्षेत्रफल 22 वर्ग सेमी है?,0.03,0,1,,410,21,jev-1.13.0
+E7_M02_HG,M02,mathematics,hinglish,0,Ek rectangle ki length 8 cm aur width 3 cm hai. Kya uska area 22 square cm hai?,0.03,0,1,,344,21,jev-1.13.0
+E7_M03_EN,M03,mathematics,english,1,"If x = 7, is 2x + 3 equal to 17?",1.0,1,1,,330,21,jev-1.13.0
+E7_M03_HI,M03,mathematics,hindi,1,"यदि x = 7 है, तो क्या 2x + 3 का मान 17 है?",0.99,1,1,,340,21,jev-1.13.0
+E7_M03_HG,M03,mathematics,hinglish,1,"Agar x = 7 hai, to kya 2x + 3 ka value 17 hai?",0.99,1,1,,338,21,jev-1.13.0
+E7_M04_EN,M04,mathematics,english,0,"The average of 4, 8, and 12 is 9. Is this statement true?",0.01,0,1,,336,21,jev-1.13.0
+E7_M04_HI,M04,mathematics,hindi,0,"4, 8 और 12 का औसत 9 है। क्या यह कथन सही है?",0.04,0,1,,344,21,jev-1.13.0
+E7_M04_HG,M04,mathematics,hinglish,0,"4, 8 aur 12 ka average 9 hai. Kya yeh statement sahi hai?",0.04,0,1,,338,21,jev-1.13.0
+E7_M05_EN,M05,mathematics,english,1,Is 15 greater than 9?,0.99,1,1,,310,21,jev-1.13.0
+E7_M05_HI,M05,mathematics,hindi,1,"क्या 15, 9 से बड़ा है?",0.98,1,1,,326,21,jev-1.13.0
+E7_M05_HG,M05,mathematics,hinglish,1,"Kya 15, 9 se bada hai?",0.84,1,1,,316,21,jev-1.13.0
+E7_M06_EN,M06,mathematics,english,0,Is 18 divisible by 5?,0.02,0,1,,310,21,jev-1.13.0
+E7_M06_HI,M06,mathematics,hindi,0,"क्या 18, 5 से विभाज्य है?",0.22,0,1,,332,21,jev-1.13.0
+E7_M06_HG,M06,mathematics,hinglish,0,"Kya 18, 5 se divisible hai?",0.06,0,1,,316,21,jev-1.13.0
+E7_M07_EN,M07,mathematics,english,1,"If a triangle has angles 60, 60, and 60 degrees, is it an equilateral triangle?",0.98,1,1,,346,21,jev-1.13.0
+E7_M07_HI,M07,mathematics,hindi,1,"यदि किसी त्रिभुज के कोण 60, 60 और 60 डिग्री हैं, तो क्या वह समबाहु त्रिभुज है?",0.97,1,1,,396,21,jev-1.13.0
+E7_M07_HG,M07,mathematics,hinglish,1,"Agar triangle ke angles 60, 60 aur 60 degree hain, to kya woh equilateral triangle hai?",0.97,1,1,,348,21,jev-1.13.0
+E7_M08_EN,M08,mathematics,english,0,Is the square root of 49 equal to 6?,0.01,0,1,,318,21,jev-1.13.0
+E7_M08_HI,M08,mathematics,hindi,0,क्या 49 का वर्गमूल 6 के बराबर है?,0.02,0,1,,342,21,jev-1.13.0
+E7_M08_HG,M08,mathematics,hinglish,0,Kya 49 ka square root 6 ke barabar hai?,0.02,0,1,,322,21,jev-1.13.0
+E7_M09_EN,M09,mathematics,english,1,Is 3 multiplied by 8 equal to 24?,0.99,1,1,,318,21,jev-1.13.0
+E7_M09_HI,M09,mathematics,hindi,1,क्या 3 को 8 से गुणा करने पर 24 प्राप्त होता है?,0.95,1,1,,338,21,jev-1.13.0
+E7_M09_HG,M09,mathematics,hinglish,1,Kya 3 ko 8 se multiply karne par 24 milta hai?,0.96,1,1,,330,21,jev-1.13.0
+E7_M10_EN,M10,mathematics,english,0,Is 2 to the power of 5 equal to 30?,0.01,0,1,,322,21,jev-1.13.0
+E7_M10_HI,M10,mathematics,hindi,0,क्या 2 की घात 5 का मान 30 है?,0.02,0,1,,330,21,jev-1.13.0
+E7_M10_HG,M10,mathematics,hinglish,0,Kya 2 ki power 5 ka value 30 hai?,0.02,0,1,,322,21,jev-1.13.0
+E7_M11_EN,M11,mathematics,english,1,Is 100 centimeters equal to 1 meter?,0.99,1,1,,320,21,jev-1.13.0
+E7_M11_HI,M11,mathematics,hindi,1,"क्या 100 सेंटीमीटर, 1 मीटर के बराबर हैं?",0.99,1,1,,356,21,jev-1.13.0
+E7_M11_HG,M11,mathematics,hinglish,1,"Kya 100 centimeters, 1 meter ke equal hain?",0.99,1,1,,326,21,jev-1.13.0
+E7_M12_EN,M12,mathematics,english,0,A circle has radius 5 cm. Is its diameter 5 cm?,0.02,0,1,,322,21,jev-1.13.0
+E7_M12_HI,M12,mathematics,hindi,0,एक वृत्त की त्रिज्या 5 सेमी है। क्या उसका व्यास 5 सेमी है?,0.03,0,1,,376,21,jev-1.13.0
+E7_M12_HG,M12,mathematics,hinglish,0,Ek circle ka radius 5 cm hai. Kya uska diameter 5 cm hai?,0.03,0,1,,330,21,jev-1.13.0
+E7_P01_EN,P01,probability,english,1,"For a fair six-sided die, is the probability of rolling a 6 equal to 1/6?",0.98,1,1,,336,21,jev-1.13.0
+E7_P01_HI,P01,probability,hindi,1,"एक निष्पक्ष छह-पक्षीय पासे के लिए, क्या 6 आने की प्रायिकता 1/6 है?",0.98,1,1,,388,21,jev-1.13.0
+E7_P01_HG,P01,probability,hinglish,1,"Ek fair six-sided die ke liye, kya 6 aane ki probability 1/6 hai?",0.98,1,1,,336,21,jev-1.13.0
+E7_P02_EN,P02,probability,english,0,"For a fair six-sided die, is the probability of rolling an even number equal to 1/3?",0.03,0,1,,336,21,jev-1.13.0
+E7_P02_HI,P02,probability,hindi,0,"एक निष्पक्ष छह-पक्षीय पासे के लिए, क्या सम संख्या आने की प्रायिकता 1/3 है?",0.04,0,1,,398,21,jev-1.13.0
+E7_P02_HG,P02,probability,hinglish,0,"Ek fair six-sided die ke liye, kya even number aane ki probability 1/3 hai?",0.03,0,1,,336,21,jev-1.13.0
+E7_P03_EN,P03,probability,english,1,"For a fair coin, is the probability of heads equal to 0.5?",0.98,1,1,,326,21,jev-1.13.0
+E7_P03_HI,P03,probability,hindi,1,"एक निष्पक्ष सिक्के के लिए, क्या हेड आने की प्रायिकता 0.5 है?",0.97,1,1,,376,21,jev-1.13.0
+E7_P03_HG,P03,probability,hinglish,1,"Ek fair coin ke liye, kya heads aane ki probability 0.5 hai?",0.97,1,1,,330,21,jev-1.13.0
+E7_P04_EN,P04,probability,english,0,"For a fair coin, is the probability of tails equal to 0.8?",0.01,0,1,,326,21,jev-1.13.0
+E7_P04_HI,P04,probability,hindi,0,"एक निष्पक्ष सिक्के के लिए, क्या टेल आने की प्रायिकता 0.8 है?",0.02,0,1,,376,21,jev-1.13.0
+E7_P04_HG,P04,probability,hinglish,0,"Ek fair coin ke liye, kya tails aane ki probability 0.8 hai?",0.02,0,1,,330,21,jev-1.13.0
+E7_P05_EN,P05,probability,english,1,"If a bag contains 2 red balls and 2 blue balls, is the probability of drawing a red ball on the first draw 1/2?",0.98,1,1,,354,21,jev-1.13.0
+E7_P05_HI,P05,probability,hindi,1,"यदि एक थैले में 2 लाल और 2 नीली गेंदें हैं, तो क्या पहली बार लाल गेंद निकालने की प्रायिकता 1/2 है?",0.96,1,1,,424,21,jev-1.13.0
+E7_P05_HG,P05,probability,hinglish,1,"Agar bag mein 2 red aur 2 blue balls hain, to kya first draw mein red ball nikalne ki probability 1/2 hai?",0.96,1,1,,356,21,jev-1.13.0
+E7_P06_EN,P06,probability,english,0,"If a bag contains 3 red balls and 1 blue ball, is the probability of drawing a blue ball 1/2?",0.02,0,1,,346,21,jev-1.13.0
+E7_P06_HI,P06,probability,hindi,0,"यदि एक थैले में 3 लाल और 1 नीली गेंद है, तो क्या नीली गेंद निकालने की प्रायिकता 1/2 है?",0.03,0,1,,412,21,jev-1.13.0
+E7_P06_HG,P06,probability,hinglish,0,"Agar bag mein 3 red balls aur 1 blue ball hai, to kya blue ball nikalne ki probability 1/2 hai?",0.03,0,1,,352,21,jev-1.13.0
+E7_P07_EN,P07,probability,english,1,"For a fair six-sided die, is the probability of rolling a number greater than 4 equal to 1/3?",0.97,1,1,,342,21,jev-1.13.0
+E7_P07_HI,P07,probability,hindi,1,"एक निष्पक्ष छह-पक्षीय पासे के लिए, क्या 4 से बड़ी संख्या आने की प्रायिकता 1/3 है?",0.96,1,1,,410,21,jev-1.13.0
+E7_P07_HG,P07,probability,hinglish,1,"Ek fair six-sided die ke liye, kya 4 se badi number aane ki probability 1/3 hai?",0.96,1,1,,344,21,jev-1.13.0
+E7_P08_EN,P08,probability,english,0,"For a fair six-sided die, is the probability of rolling a number less than 3 equal to 1/2?",0.03,0,1,,342,21,jev-1.13.0
+E7_P08_HI,P08,probability,hindi,0,"एक निष्पक्ष छह-पक्षीय पासे के लिए, क्या 3 से छोटी संख्या आने की प्रायिकता 1/2 है?",0.05,0,1,,410,21,jev-1.13.0
+E7_P08_HG,P08,probability,hinglish,0,"Ek fair six-sided die ke liye, kya 3 se chhoti number aane ki probability 1/2 hai?",0.07,0,1,,346,21,jev-1.13.0
+E7_P09_EN,P09,probability,english,1,"In a finite sample space, if an event has probability 0, is the event 		impossible?",0.89,1,1,,336,21,jev-1.13.0
+E7_P09_HI,P09,probability,hindi,1,"एक सीमित प्रतिदर्श समष्टि में, यदि किसी घटना की प्रायिकता 0 है, तो क्या वह घटना असंभव है?",0.92,1,1,,408,21,jev-1.13.0
+E7_P09_HG,P09,probability,hinglish,1,"Ek finite sample space mein, agar kisi event ki probability 0 hai, to kya 		woh event impossible hai?",0.94,1,1,,340,21,jev-1.13.0
+E7_P10_EN,P10,probability,english,0,"If a probability is 1, is the event impossible?",0.02,0,1,,316,21,jev-1.13.0
+E7_P10_HI,P10,probability,hindi,0,"यदि किसी घटना की प्रायिकता 1 है, तो क्या वह घटना असंभव है?",0.03,0,1,,364,21,jev-1.13.0
+E7_P10_HG,P10,probability,hinglish,0,"Agar kisi event ki probability 1 hai, to kya woh event impossible hai?",0.03,0,1,,326,21,jev-1.13.0
+E7_P11_EN,P11,probability,english,1,"If two outcomes have probabilities 0.3 and 0.7 and are the only possible outcomes, do their probabilities sum to 1?",0.99,1,1,,350,21,jev-1.13.0
+E7_P11_HI,P11,probability,hindi,1,"यदि दो परिणामों की प्रायिकताएँ 0.3 और 0.7 हैं और केवल यही दो परिणाम संभव हैं, तो क्या उनकी प्रायिकताओं का योग 1 है?",0.99,1,1,,442,21,jev-1.13.0
+E7_P11_HG,P11,probability,hinglish,1,"Agar do outcomes ki probabilities 0.3 aur 0.7 hain aur sirf yehi do outcomes possible hain, to kya unki probabilities ka sum 1 hai?",0.99,1,1,,366,21,jev-1.13.0
+E7_P12_EN,P12,probability,english,0,Can a probability of an event be greater than 1?,0.02,0,1,,316,21,jev-1.13.0
+E7_P12_HI,P12,probability,hindi,0,क्या किसी घटना की प्रायिकता 1 से अधिक हो सकती है?,0.03,0,1,,346,21,jev-1.13.0
+E7_P12_HG,P12,probability,hinglish,0,Kya kisi event ki probability 1 se greater ho sakti hai?,0.03,0,1,,322,21,jev-1.13.0
+E7_L01_EN,L01,formal_logic,english,1,"If A implies B and A is true, must B be true?",0.98,1,1,,320,21,jev-1.13.0
+E7_L01_HI,L01,formal_logic,hindi,1,"यदि A से B निष्कर्षित होता है और A सत्य है, तो क्या B का सत्य होना आवश्यक है?",0.95,1,1,,374,21,jev-1.13.0
+E7_L01_HG,L01,formal_logic,hinglish,1,"Agar A se B imply hota hai aur A true hai, to kya B ka true hona zaroori hai?",0.97,1,1,,342,21,jev-1.13.0
+E7_L02_EN,L02,formal_logic,english,0,"If A implies B and B is true, must A be true?",0.05,0,1,,320,21,jev-1.13.0
+E7_L02_HI,L02,formal_logic,hindi,0,"यदि A से B निष्कर्षित होता है और B सत्य है, तो क्या A का सत्य होना आवश्यक है?",0.07,0,1,,374,21,jev-1.13.0
+E7_L02_HG,L02,formal_logic,hinglish,0,"Agar A se B imply hota hai aur B true hai, to kya A ka true hona zaroori hai?",0.07,0,1,,342,21,jev-1.13.0
+E7_L03_EN,L03,formal_logic,english,0,"If no cats are dogs and all poodles are dogs, can a poodle be a cat?",0.05,0,1,,336,21,jev-1.13.0
+E7_L03_HI,L03,formal_logic,hindi,0,"यदि कोई भी बिल्ली कुत्ता नहीं है और सभी पूडल कुत्ते हैं, तो क्या कोई पूडल बिल्ली हो सकता है?",0.07,0,1,,392,21,jev-1.13.0
+E7_L03_HG,L03,formal_logic,hinglish,0,"Agar koi cat dog nahi hai aur saare poodles dogs hain, to kya koi poodle cat ho sakta hai?",0.09,0,1,,348,21,jev-1.13.0
+E7_L04_EN,L04,formal_logic,english,0,"If all A are B and some B are C, must some A be C?",0.07,0,1,,326,21,jev-1.13.0
+E7_L04_HI,L04,formal_logic,hindi,0,"यदि सभी A, B हैं और कुछ B, C हैं, तो क्या यह आवश्यक है कि कुछ A, C हों?",0.08,0,1,,350,21,jev-1.13.0
+E7_L04_HG,L04,formal_logic,hinglish,0,"Agar saare A, B hain aur kuch B, C hain, to kya zaroori hai ki kuch A, C hon?",0.1,0,1,,348,21,jev-1.13.0
+E7_L05_EN,L05,formal_logic,english,0,"If A is false and A implies B, does this guarantee that B is false?",0.04,0,1,,326,21,jev-1.13.0
+E7_L05_HI,L05,formal_logic,hindi,0,"यदि A असत्य है और A से B निष्कर्षित होता है, तो क्या इससे यह सुनिश्चित होता है कि B असत्य है?",0.05,0,1,,400,21,jev-1.13.0
+E7_L05_HG,L05,formal_logic,hinglish,0,"Agar A false hai aur A se B imply hota hai, to kya isse B ka false hona guarantee hota hai?",0.06,0,1,,346,21,jev-1.13.0
+E7_L06_EN,L06,formal_logic,english,0,"If A implies B and B is false, can A be true?",0.06,0,1,,320,21,jev-1.13.0
+E7_L06_HI,L06,formal_logic,hindi,0,"यदि A से B निष्कर्षित होता है और B असत्य है, तो क्या A सत्य हो सकता है?",0.07,0,1,,368,21,jev-1.13.0
+E7_L06_HG,L06,formal_logic,hinglish,0,"Agar A se B imply hota hai aur B false hai, to kya A true ho sakta hai?",0.07,0,1,,338,21,jev-1.13.0
+E7_L07_EN,L07,formal_logic,english,1,"If every square is a rectangle, is every square a rectangle?",0.98,1,1,,318,21,jev-1.13.0
+E7_L07_HI,L07,formal_logic,hindi,1,"यदि प्रत्येक वर्ग एक आयत है, तो क्या प्रत्येक वर्ग एक आयत है?",0.98,1,1,,374,21,jev-1.13.0
+E7_L07_HG,L07,formal_logic,hinglish,1,"Agar har square ek rectangle hai, to kya har square ek rectangle hai?",0.97,1,1,,324,21,jev-1.13.0
+E7_L08_EN,L08,formal_logic,english,0,"If some A are B, does that mean every A is B?",0.04,0,1,,320,21,jev-1.13.0
+E7_L08_HI,L08,formal_logic,hindi,0,"यदि कुछ A, B हैं, तो क्या इसका अर्थ है कि प्रत्येक A, B है?",0.06,0,1,,360,21,jev-1.13.0
+E7_L08_HG,L08,formal_logic,hinglish,0,"Agar kuch A, B hain, to kya iska matlab hai ki har A, B hai?",0.06,0,1,,332,21,jev-1.13.0
+E7_L09_EN,L09,formal_logic,english,0,"If no mammals are insects and all whales are mammals, can a whale be an insect?",0.04,0,1,,328,21,jev-1.13.0
+E7_L09_HI,L09,formal_logic,hindi,0,"यदि कोई भी स्तनधारी कीट नहीं है और सभी व्हेल स्तनधारी हैं, तो क्या कोई व्हेल कीट हो सकती है?",0.07,0,1,,392,21,jev-1.13.0
+E7_L09_HG,L09,formal_logic,hinglish,0,"Agar koi mammal insect nahi hai aur saari whales mammals hain, to kya koi whale insect ho sakti hai?",0.05,0,1,,342,21,jev-1.13.0
+E7_L10_EN,L10,formal_logic,english,0,"If all A are B and all B are C, must every C be A?",0.04,0,1,,326,21,jev-1.13.0
+E7_L10_HI,L10,formal_logic,hindi,0,"यदि सभी A, B हैं और सभी B, C हैं, तो क्या प्रत्येक C का A होना आवश्यक है?",0.06,0,1,,362,21,jev-1.13.0
+E7_L10_HG,L10,formal_logic,hinglish,0,"Agar saare A, B hain aur saare B, C hain, to kya har C ka A hona zaroori hai?",0.07,0,1,,348,21,jev-1.13.0
+E7_L11_EN,L11,formal_logic,english,1,"If an object is either red or blue, and it is not red, must it be blue?",0.97,1,1,,332,21,jev-1.13.0
+E7_L11_HI,L11,formal_logic,hindi,1,"यदि कोई वस्तु या तो लाल या नीली है और वह लाल नहीं है, तो क्या उसका नीला होना आवश्यक है?",0.97,1,1,,382,21,jev-1.13.0
+E7_L11_HG,L11,formal_logic,hinglish,1,"Agar object ya to red ya blue hai aur woh red nahi hai, to kya uska blue hona zaroori hai?",0.96,1,1,,344,21,jev-1.13.0
+E7_L12_EN,L12,formal_logic,english,0,"If an object is either red or blue, and it is red, must it be green?",0.05,0,1,,330,21,jev-1.13.0
+E7_L12_HI,L12,formal_logic,hindi,0,"यदि कोई वस्तु या तो लाल या नीली है और वह लाल है, तो क्या उसका हरा होना आवश्यक है?",0.06,0,1,,378,21,jev-1.13.0
+E7_L12_HG,L12,formal_logic,hinglish,0,"Agar object ya to red ya blue hai aur woh red hai, to kya uska green hona zaroori hai?",0.04,0,1,,342,21,jev-1.13.0
+E7_S01_EN,S01,science_reasoning,english,1,"At standard atmospheric pressure, does water boil at about 100 degrees Celsius?",0.98,1,1,,326,21,jev-1.13.0
+E7_S01_HI,S01,science_reasoning,hindi,1,"मानक वायुमंडलीय दाब पर, क्या पानी लगभग 100 डिग्री सेल्सियस पर उबलता है?",0.97,1,1,,400,21,jev-1.13.0
+E7_S01_HG,S01,science_reasoning,hinglish,1,"Standard atmospheric pressure par, kya water lagbhag 100 degree Celsius par boil hota hai?",0.96,1,1,,336,21,jev-1.13.0
+E7_S02_EN,S02,science_reasoning,english,0,"At standard atmospheric pressure, does water boil at about 50 degrees Celsius?",0.02,0,1,,324,21,jev-1.13.0
+E7_S02_HI,S02,science_reasoning,hindi,0,"मानक वायुमंडलीय दाब पर, क्या पानी लगभग 50 डिग्री सेल्सियस पर उबलता है?",0.02,0,1,,398,21,jev-1.13.0
+E7_S02_HG,S02,science_reasoning,hinglish,0,"Standard atmospheric pressure par, kya water lagbhag 50 degree Celsius par boil hota hai?",0.03,0,1,,334,21,jev-1.13.0
+E7_S03_EN,S03,science_reasoning,english,1,Does Earth orbit the Sun?,0.98,1,1,,304,21,jev-1.13.0
+E7_S03_HI,S03,science_reasoning,hindi,1,क्या पृथ्वी सूर्य की परिक्रमा करती है?,0.98,1,1,,352,21,jev-1.13.0
+E7_S03_HG,S03,science_reasoning,hinglish,1,Kya Earth Sun ke around orbit karti hai?,0.97,1,1,,314,21,jev-1.13.0
+E7_S04_EN,S04,science_reasoning,english,0,Does the Moon produce most of its own visible light?,0.02,0,1,,314,21,jev-1.13.0
+E7_S04_HI,S04,science_reasoning,hindi,0,क्या चंद्रमा अपने दिखाई देने वाले अधिकांश प्रकाश का स्वयं उत्पादन करता है?,0.03,0,1,,388,21,jev-1.13.0
+E7_S04_HG,S04,science_reasoning,hinglish,0,Kya Moon apni visible light ka most hissa khud produce karta hai?,0.03,0,1,,326,21,jev-1.13.0
+E7_S05_EN,S05,science_reasoning,english,1,Does increasing temperature generally increase the average kinetic energy of particles in a substance?,0.97,1,1,,322,21,jev-1.13.0
+E7_S05_HI,S05,science_reasoning,hindi,1,क्या किसी पदार्थ का तापमान बढ़ाने से सामान्यतः उसके कणों की औसत गतिज ऊर्जा बढ़ती है?,0.96,1,1,,410,21,jev-1.13.0
+E7_S05_HG,S05,science_reasoning,hinglish,1,Kya kisi substance ka temperature badhane se generally particles ki average kinetic energy badhti hai?,0.96,1,1,,332,21,jev-1.13.0
+E7_S06_EN,S06,science_reasoning,english,0,Does increasing temperature generally decrease the average kinetic energy of particles in a substance?,0.03,0,1,,322,21,jev-1.13.0
+E7_S06_HI,S06,science_reasoning,hindi,0,क्या किसी पदार्थ का तापमान बढ़ाने से सामान्यतः उसके कणों की औसत गतिज ऊर्जा घटती है?,0.04,0,1,,408,21,jev-1.13.0
+E7_S06_HG,S06,science_reasoning,hinglish,0,Kya kisi substance ka temperature badhane se generally particles ki average kinetic energy kam hoti hai?,0.03,0,1,,334,21,jev-1.13.0
+E7_S07_EN,S07,science_reasoning,english,1,Does photosynthesis allow green plants to convert light energy into stored chemical energy?,0.98,1,1,,326,21,jev-1.13.0
+E7_S07_HI,S07,science_reasoning,hindi,1,क्या प्रकाश संश्लेषण हरे पौधों को प्रकाश ऊर्जा को संचित रासायनिक ऊर्जा में बदलने देता है?,0.98,1,1,,430,21,jev-1.13.0
+E7_S07_HG,S07,science_reasoning,hinglish,1,Kya photosynthesis green plants ko light energy ko stored chemical energy mein convert karne deta hai?,0.97,1,1,,336,21,jev-1.13.0
+E7_S08_EN,S08,science_reasoning,english,0,Does photosynthesis allow green plants to convert chemical energy directly into sunlight?,0.02,0,1,,324,21,jev-1.13.0
+E7_S08_HI,S08,science_reasoning,hindi,0,क्या प्रकाश संश्लेषण हरे पौधों को रासायनिक ऊर्जा को सीधे सूर्य के प्रकाश में बदलने देता है?,0.03,0,1,,430,21,jev-1.13.0
+E7_S08_HG,S08,science_reasoning,hinglish,0,Kya photosynthesis green plants ko chemical energy ko directly sunlight mein convert karne deta hai?,0.06,0,1,,334,21,jev-1.13.0
+E7_S09_EN,S09,science_reasoning,english,1,Is carbon dioxide a gas at ordinary room conditions?,0.98,1,1,,312,21,jev-1.13.0
+E7_S09_HI,S09,science_reasoning,hindi,1,क्या सामान्य कमरे की परिस्थितियों में कार्बन डाइऑक्साइड एक गैस है?,0.97,1,1,,394,21,jev-1.13.0
+E7_S09_HG,S09,science_reasoning,hinglish,1,Kya normal room conditions mein carbon dioxide ek gas hai?,0.98,1,1,,316,21,jev-1.13.0
+E7_S10_EN,S10,science_reasoning,english,0,Is carbon dioxide a liquid at ordinary room conditions?,0.04,0,1,,312,21,jev-1.13.0
+E7_S10_HI,S10,science_reasoning,hindi,0,क्या सामान्य कमरे की परिस्थितियों में कार्बन डाइऑक्साइड एक तरल है?,0.04,0,1,,394,21,jev-1.13.0
+E7_S10_HG,S10,science_reasoning,hinglish,0,Kya normal room conditions mein carbon dioxide ek liquid hai?,0.04,0,1,,316,21,jev-1.13.0
+E7_S11_EN,S11,science_reasoning,english,1,Does a vacuum contain no matter in the idealized physical sense?,0.92,1,1,,318,21,jev-1.13.0
+E7_S11_HI,S11,science_reasoning,hindi,1,क्या आदर्श भौतिक अर्थ में निर्वात में कोई पदार्थ नहीं होता?,0.87,1,1,,366,21,jev-1.13.0
+E7_S11_HG,S11,science_reasoning,hinglish,1,"Idealized physical sense mein, kya vacuum mein koi matter nahi hota?",0.89,1,1,,324,21,jev-1.13.0
+E7_S12_EN,S12,science_reasoning,english,0,Does sound normally travel faster through air than through steel?,0.03,0,1,,314,21,jev-1.13.0
+E7_S12_HI,S12,science_reasoning,hindi,0,क्या ध्वनि सामान्यतः स्टील की तुलना में हवा में अधिक तेजी से चलती है?,0.03,0,1,,384,21,jev-1.13.0
+E7_S12_HG,S12,science_reasoning,hinglish,0,Kya sound normally steel ke comparison mein air mein faster travel karti hai?,0.03,0,1,,324,21,jev-1.13.0
+E7_D01_EN,D01,data_reasoning,english,1,A dataset contains 10 values and 4 of them are labeled positive. Is the positive proportion 40%?,0.98,1,1,,342,21,jev-1.13.0
+E7_D01_HI,D01,data_reasoning,hindi,1,एक डेटासेट में 10 मान हैं और उनमें से 4 को सकारात्मक लेबल दिया गया है। क्या सकारात्मक अनुपात 40% है?,0.95,1,1,,420,21,jev-1.13.0
+E7_D01_HG,D01,data_reasoning,hinglish,1,Ek dataset mein 10 values hain aur unmein se 4 positive labeled hain. Kya positive proportion 40% hai?,0.98,1,1,,350,21,jev-1.13.0
+E7_D02_EN,D02,data_reasoning,english,0,A dataset contains 10 values and 3 of them are labeled positive. Is the positive proportion 40%?,0.02,0,1,,342,21,jev-1.13.0
+E7_D02_HI,D02,data_reasoning,hindi,0,एक डेटासेट में 10 मान हैं और उनमें से 3 को सकारात्मक लेबल दिया गया है। क्या सकारात्मक अनुपात 40% है?,0.04,0,1,,420,21,jev-1.13.0
+E7_D02_HG,D02,data_reasoning,hinglish,0,Ek dataset mein 10 values hain aur unmein se 3 positive labeled hain. Kya positive proportion 40% hai?,0.03,0,1,,350,21,jev-1.13.0
+E7_D03_EN,D03,data_reasoning,english,1,A classifier correctly predicts 80 out of 100 examples. Is its accuracy 80%?,0.97,1,1,,338,21,jev-1.13.0
+E7_D03_HI,D03,data_reasoning,hindi,1,एक क्लासिफायर 100 उदाहरणों में से 80 का सही अनुमान लगाता है। क्या उसकी सटीकता 80% है?,0.96,1,1,,418,21,jev-1.13.0
+E7_D03_HG,D03,data_reasoning,hinglish,1,Ek classifier 100 examples mein se 80 ko correctly predict karta hai. Kya uski accuracy 80% hai?,0.96,1,1,,350,21,jev-1.13.0
+E7_D04_EN,D04,data_reasoning,english,0,A classifier correctly predicts 70 out of 100 examples. Is its accuracy 80%?,0.02,0,1,,338,21,jev-1.13.0
+E7_D04_HI,D04,data_reasoning,hindi,0,एक क्लासिफायर 100 उदाहरणों में से 70 का सही अनुमान लगाता है। क्या उसकी सटीकता 80% है?,0.03,0,1,,418,21,jev-1.13.0
+E7_D04_HG,D04,data_reasoning,hinglish,0,Ek classifier 100 examples mein se 70 ko correctly predict karta hai. Kya uski accuracy 80% hai?,0.03,0,1,,350,21,jev-1.13.0
+E7_D05_EN,D05,data_reasoning,english,1,"A list contains 2, 4, 6, 8, and 10. Is its median 6?",0.99,1,1,,344,21,jev-1.13.0
+E7_D05_HI,D05,data_reasoning,hindi,1,"एक सूची में 2, 4, 6, 8 और 10 हैं। क्या उसका माध्यिका 6 है?",0.98,1,1,,374,21,jev-1.13.0
+E7_D05_HG,D05,data_reasoning,hinglish,1,"Ek list mein 2, 4, 6, 8 aur 10 hain. Kya uska median 6 hai?",0.98,1,1,,350,21,jev-1.13.0
+E7_D06_EN,D06,data_reasoning,english,0,"A list contains 2, 4, 6, 8, and 10. Is its median 8?",0.02,0,1,,344,21,jev-1.13.0
+E7_D06_HI,D06,data_reasoning,hindi,0,"एक सूची में 2, 4, 6, 8 और 10 हैं। क्या उसका माध्यिका 8 है?",0.03,0,1,,374,21,jev-1.13.0
+E7_D06_HG,D06,data_reasoning,hinglish,0,"Ek list mein 2, 4, 6, 8 aur 10 hain. Kya uska median 8 hai?",0.03,0,1,,350,21,jev-1.13.0
+E7_D07_EN,D07,data_reasoning,english,1,A sample has 25 observations and 5 are missing. Are 20% of the observations missing?,0.98,1,1,,338,21,jev-1.13.0
+E7_D07_HI,D07,data_reasoning,hindi,1,एक नमूने में 25 अवलोकन हैं और 5 गायब हैं। क्या 20% अवलोकन गायब हैं?,0.93,1,1,,380,21,jev-1.13.0
+E7_D07_HG,D07,data_reasoning,hinglish,1,Ek sample mein 25 observations hain aur 5 missing hain. Kya 20% observations missing hain?,0.96,1,1,,340,21,jev-1.13.0
+E7_D08_EN,D08,data_reasoning,english,0,A sample has 25 observations and 10 are missing. Are 20% of the observations missing?,0.05,0,1,,340,21,jev-1.13.0
+E7_D08_HI,D08,data_reasoning,hindi,0,एक नमूने में 25 अवलोकन हैं और 10 गायब हैं। क्या 20% अवलोकन गायब हैं?,0.12,0,1,,382,21,jev-1.13.0
+E7_D08_HG,D08,data_reasoning,hinglish,0,Ek sample mein 25 observations hain aur 10 missing hain. Kya 20% observations missing hain?,0.16,0,1,,342,21,jev-1.13.0
+E7_D09_EN,D09,data_reasoning,english,1,"If a model has 90 correct predictions out of 100, is its error rate 10%?",0.97,1,1,,342,21,jev-1.13.0
+E7_D09_HI,D09,data_reasoning,hindi,1,"यदि किसी मॉडल के 100 में से 90 पूर्वानुमान सही हैं, तो क्या उसकी त्रुटि दर 10% है?",0.95,1,1,,398,21,jev-1.13.0
+E7_D09_HG,D09,data_reasoning,hinglish,1,"Agar model ke 100 mein se 90 predictions correct hain, to kya uski error rate 10% hai?",0.93,1,1,,350,21,jev-1.13.0
+E7_D10_EN,D10,data_reasoning,english,0,"If a model has 90 correct predictions out of 100, is its error rate 20%?",0.02,0,1,,342,21,jev-1.13.0
+E7_D10_HI,D10,data_reasoning,hindi,0,"यदि किसी मॉडल के 100 में से 90 पूर्वानुमान सही हैं, तो क्या उसकी त्रुटि दर 20% है?",0.03,0,1,,398,21,jev-1.13.0
+E7_D10_HG,D10,data_reasoning,hinglish,0,"Agar model ke 100 mein se 90 predictions correct hain, to kya uski error rate 20% hai?",0.03,0,1,,350,21,jev-1.13.0
+E7_D11_EN,D11,data_reasoning,english,1,"If a dataset has 50 examples and 25 belong to class A, is class A exactly half of the dataset?",0.98,1,1,,344,21,jev-1.13.0
+E7_D11_HI,D11,data_reasoning,hindi,1,"यदि किसी डेटासेट में 50 उदाहरण हैं और 25 क्लास A से संबंधित हैं, तो क्या क्लास A डेटासेट का ठीक आधा है?",0.98,1,1,,424,21,jev-1.13.0
+E7_D11_HG,D11,data_reasoning,hinglish,1,"Agar dataset mein 50 examples hain aur 25 class A ke hain, to kya class A dataset ka exactly half hai?",0.97,1,1,,348,21,jev-1.13.0
+E7_D12_EN,D12,data_reasoning,english,0,"If a dataset has 50 examples and 15 belong to class A, is class A exactly half of the dataset?",0.02,0,1,,344,21,jev-1.13.0
+E7_D12_HI,D12,data_reasoning,hindi,0,"यदि किसी डेटासेट में 50 उदाहरण हैं और 15 क्लास A से संबंधित हैं, तो क्या क्लास A डेटासेट का ठीक आधा है?",0.02,0,1,,424,21,jev-1.13.0
+E7_D12_HG,D12,data_reasoning,hinglish,0,"Agar dataset mein 50 examples hain aur 15 class A ke hain, to kya class A dataset ka exactly half hai?",0.02,0,1,,348,21,jev-1.13.0

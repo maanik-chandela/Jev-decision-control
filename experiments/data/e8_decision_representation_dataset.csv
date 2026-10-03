@@ -1,0 +1,181 @@
+case_id,domain,label,proposition,representation,question
+M01,mathematics,1,A square has side length 6 cm. Its area is 36 square cm.,direct,Is it true that A square has side length 6 cm. Its area is 36 square cm.
+M01,mathematics,1,A square has side length 6 cm. Its area is 36 square cm.,predicate,Does the following statement hold: A square has side length 6 cm. Its area is 36 square cm.
+M01,mathematics,1,A square has side length 6 cm. Its area is 36 square cm.,classification,Should the following statement be classified as true: A square has side length 6 cm. Its area is 36 square cm.
+M02,mathematics,0,A rectangle has length 8 cm and width 3 cm. Its area is 30 square cm.,direct,Is it true that A rectangle has length 8 cm and width 3 cm. Its area is 30 square cm.
+M02,mathematics,0,A rectangle has length 8 cm and width 3 cm. Its area is 30 square cm.,predicate,Does the following statement hold: A rectangle has length 8 cm and width 3 cm. Its area is 30 square cm.
+M02,mathematics,0,A rectangle has length 8 cm and width 3 cm. Its area is 30 square cm.,classification,Should the following statement be classified as true: A rectangle has length 8 cm and width 3 cm. Its area is 30 square cm.
+M03,mathematics,1,The sum of the interior angles of a triangle is 180 degrees.,direct,Is it true that The sum of the interior angles of a triangle is 180 degrees.
+M03,mathematics,1,The sum of the interior angles of a triangle is 180 degrees.,predicate,Does the following statement hold: The sum of the interior angles of a triangle is 180 degrees.
+M03,mathematics,1,The sum of the interior angles of a triangle is 180 degrees.,classification,Should the following statement be classified as true: The sum of the interior angles of a triangle is 180 degrees.
+M04,mathematics,0,"The average of 4, 8, and 12 is 10.",direct,"Is it true that The average of 4, 8, and 12 is 10."
+M04,mathematics,0,"The average of 4, 8, and 12 is 10.",predicate,"Does the following statement hold: The average of 4, 8, and 12 is 10."
+M04,mathematics,0,"The average of 4, 8, and 12 is 10.",classification,"Should the following statement be classified as true: The average of 4, 8, and 12 is 10."
+M05,mathematics,1,"If x = 5, then 2x + 3 = 13.",direct,"Is it true that If x = 5, then 2x + 3 = 13."
+M05,mathematics,1,"If x = 5, then 2x + 3 = 13.",predicate,"Does the following statement hold: If x = 5, then 2x + 3 = 13."
+M05,mathematics,1,"If x = 5, then 2x + 3 = 13.",classification,"Should the following statement be classified as true: If x = 5, then 2x + 3 = 13."
+M06,mathematics,0,The square root of 81 is 8.,direct,Is it true that The square root of 81 is 8.
+M06,mathematics,0,The square root of 81 is 8.,predicate,Does the following statement hold: The square root of 81 is 8.
+M06,mathematics,0,The square root of 81 is 8.,classification,Should the following statement be classified as true: The square root of 81 is 8.
+M07,mathematics,1,A prime number greater than 2 is odd.,direct,Is it true that A prime number greater than 2 is odd.
+M07,mathematics,1,A prime number greater than 2 is odd.,predicate,Does the following statement hold: A prime number greater than 2 is odd.
+M07,mathematics,1,A prime number greater than 2 is odd.,classification,Should the following statement be classified as true: A prime number greater than 2 is odd.
+M08,mathematics,0,The perimeter of a square with side 5 cm is 15 cm.,direct,Is it true that The perimeter of a square with side 5 cm is 15 cm.
+M08,mathematics,0,The perimeter of a square with side 5 cm is 15 cm.,predicate,Does the following statement hold: The perimeter of a square with side 5 cm is 15 cm.
+M08,mathematics,0,The perimeter of a square with side 5 cm is 15 cm.,classification,Should the following statement be classified as true: The perimeter of a square with side 5 cm is 15 cm.
+M09,mathematics,1,"If a number is divisible by 10, it is divisible by 5.",direct,"Is it true that If a number is divisible by 10, it is divisible by 5."
+M09,mathematics,1,"If a number is divisible by 10, it is divisible by 5.",predicate,"Does the following statement hold: If a number is divisible by 10, it is divisible by 5."
+M09,mathematics,1,"If a number is divisible by 10, it is divisible by 5.",classification,"Should the following statement be classified as true: If a number is divisible by 10, it is divisible by 5."
+M10,mathematics,0,The fraction 3/4 is equal to 2/3.,direct,Is it true that The fraction 3/4 is equal to 2/3.
+M10,mathematics,0,The fraction 3/4 is equal to 2/3.,predicate,Does the following statement hold: The fraction 3/4 is equal to 2/3.
+M10,mathematics,0,The fraction 3/4 is equal to 2/3.,classification,Should the following statement be classified as true: The fraction 3/4 is equal to 2/3.
+M11,mathematics,1,The derivative of x^2 with respect to x is 2x.,direct,Is it true that The derivative of x^2 with respect to x is 2x.
+M11,mathematics,1,The derivative of x^2 with respect to x is 2x.,predicate,Does the following statement hold: The derivative of x^2 with respect to x is 2x.
+M11,mathematics,1,The derivative of x^2 with respect to x is 2x.,classification,Should the following statement be classified as true: The derivative of x^2 with respect to x is 2x.
+M12,mathematics,0,A right triangle with legs 3 and 4 has hypotenuse 6.,direct,Is it true that A right triangle with legs 3 and 4 has hypotenuse 6.
+M12,mathematics,0,A right triangle with legs 3 and 4 has hypotenuse 6.,predicate,Does the following statement hold: A right triangle with legs 3 and 4 has hypotenuse 6.
+M12,mathematics,0,A right triangle with legs 3 and 4 has hypotenuse 6.,classification,Should the following statement be classified as true: A right triangle with legs 3 and 4 has hypotenuse 6.
+P01,probability,1,"For a fair six-sided die, the probability of rolling an even number is 1/2.",direct,"Is it true that For a fair six-sided die, the probability of rolling an even number is 1/2."
+P01,probability,1,"For a fair six-sided die, the probability of rolling an even number is 1/2.",predicate,"Does the following statement hold: For a fair six-sided die, the probability of rolling an even number is 1/2."
+P01,probability,1,"For a fair six-sided die, the probability of rolling an even number is 1/2.",classification,"Should the following statement be classified as true: For a fair six-sided die, the probability of rolling an even number is 1/2."
+P02,probability,0,"For a fair six-sided die, the probability of rolling a number greater than 4 is 1/2.",direct,"Is it true that For a fair six-sided die, the probability of rolling a number greater than 4 is 1/2."
+P02,probability,0,"For a fair six-sided die, the probability of rolling a number greater than 4 is 1/2.",predicate,"Does the following statement hold: For a fair six-sided die, the probability of rolling a number greater than 4 is 1/2."
+P02,probability,0,"For a fair six-sided die, the probability of rolling a number greater than 4 is 1/2.",classification,"Should the following statement be classified as true: For a fair six-sided die, the probability of rolling a number greater than 4 is 1/2."
+P03,probability,1,An impossible event has probability 0.,direct,Is it true that An impossible event has probability 0.
+P03,probability,1,An impossible event has probability 0.,predicate,Does the following statement hold: An impossible event has probability 0.
+P03,probability,1,An impossible event has probability 0.,classification,Should the following statement be classified as true: An impossible event has probability 0.
+P04,probability,0,A certain event has probability 0.,direct,Is it true that A certain event has probability 0.
+P04,probability,0,A certain event has probability 0.,predicate,Does the following statement hold: A certain event has probability 0.
+P04,probability,0,A certain event has probability 0.,classification,Should the following statement be classified as true: A certain event has probability 0.
+P05,probability,1,The probabilities of all outcomes in a finite sample space sum to 1.,direct,Is it true that The probabilities of all outcomes in a finite sample space sum to 1.
+P05,probability,1,The probabilities of all outcomes in a finite sample space sum to 1.,predicate,Does the following statement hold: The probabilities of all outcomes in a finite sample space sum to 1.
+P05,probability,1,The probabilities of all outcomes in a finite sample space sum to 1.,classification,Should the following statement be classified as true: The probabilities of all outcomes in a finite sample space sum to 1.
+P06,probability,0,A probability can be greater than 1.,direct,Is it true that A probability can be greater than 1.
+P06,probability,0,A probability can be greater than 1.,predicate,Does the following statement hold: A probability can be greater than 1.
+P06,probability,0,A probability can be greater than 1.,classification,Should the following statement be classified as true: A probability can be greater than 1.
+P07,probability,1,"For independent events A and B, P(A and B) equals P(A)P(B).",direct,"Is it true that For independent events A and B, P(A and B) equals P(A)P(B)."
+P07,probability,1,"For independent events A and B, P(A and B) equals P(A)P(B).",predicate,"Does the following statement hold: For independent events A and B, P(A and B) equals P(A)P(B)."
+P07,probability,1,"For independent events A and B, P(A and B) equals P(A)P(B).",classification,"Should the following statement be classified as true: For independent events A and B, P(A and B) equals P(A)P(B)."
+P08,probability,0,"If P(A) = 0.3, then P(not A) = 0.3.",direct,"Is it true that If P(A) = 0.3, then P(not A) = 0.3."
+P08,probability,0,"If P(A) = 0.3, then P(not A) = 0.3.",predicate,"Does the following statement hold: If P(A) = 0.3, then P(not A) = 0.3."
+P08,probability,0,"If P(A) = 0.3, then P(not A) = 0.3.",classification,"Should the following statement be classified as true: If P(A) = 0.3, then P(not A) = 0.3."
+P09,probability,1,"In a finite sample space where every elementary outcome has positive probability, an event with probability 0 is impossible.",direct,"Is it true that In a finite sample space where every elementary outcome has positive probability, an event with probability 0 is impossible."
+P09,probability,1,"In a finite sample space where every elementary outcome has positive probability, an event with probability 0 is impossible.",predicate,"Does the following statement hold: In a finite sample space where every elementary outcome has positive probability, an event with probability 0 is impossible."
+P09,probability,1,"In a finite sample space where every elementary outcome has positive probability, an event with probability 0 is impossible.",classification,"Should the following statement be classified as true: In a finite sample space where every elementary outcome has positive probability, an event with probability 0 is impossible."
+P10,probability,0,"For a fair coin, the probability of heads is 0.7.",direct,"Is it true that For a fair coin, the probability of heads is 0.7."
+P10,probability,0,"For a fair coin, the probability of heads is 0.7.",predicate,"Does the following statement hold: For a fair coin, the probability of heads is 0.7."
+P10,probability,0,"For a fair coin, the probability of heads is 0.7.",classification,"Should the following statement be classified as true: For a fair coin, the probability of heads is 0.7."
+P11,probability,1,The probability of an event and its complement sum to 1.,direct,Is it true that The probability of an event and its complement sum to 1.
+P11,probability,1,The probability of an event and its complement sum to 1.,predicate,Does the following statement hold: The probability of an event and its complement sum to 1.
+P11,probability,1,The probability of an event and its complement sum to 1.,classification,Should the following statement be classified as true: The probability of an event and its complement sum to 1.
+P12,probability,0,Two mutually exclusive events must always be independent.,direct,Is it true that Two mutually exclusive events must always be independent.
+P12,probability,0,Two mutually exclusive events must always be independent.,predicate,Does the following statement hold: Two mutually exclusive events must always be independent.
+P12,probability,0,Two mutually exclusive events must always be independent.,classification,Should the following statement be classified as true: Two mutually exclusive events must always be independent.
+L01,formal_logic,1,"If A implies B and A is true, then B must be true.",direct,"Is it true that If A implies B and A is true, then B must be true."
+L01,formal_logic,1,"If A implies B and A is true, then B must be true.",predicate,"Does the following statement hold: If A implies B and A is true, then B must be true."
+L01,formal_logic,1,"If A implies B and A is true, then B must be true.",classification,"Should the following statement be classified as true: If A implies B and A is true, then B must be true."
+L02,formal_logic,0,"If A implies B and B is true, then A must be true.",direct,"Is it true that If A implies B and B is true, then A must be true."
+L02,formal_logic,0,"If A implies B and B is true, then A must be true.",predicate,"Does the following statement hold: If A implies B and B is true, then A must be true."
+L02,formal_logic,0,"If A implies B and B is true, then A must be true.",classification,"Should the following statement be classified as true: If A implies B and B is true, then A must be true."
+L03,formal_logic,1,"If A implies B and B is false, then A must be false.",direct,"Is it true that If A implies B and B is false, then A must be false."
+L03,formal_logic,1,"If A implies B and B is false, then A must be false.",predicate,"Does the following statement hold: If A implies B and B is false, then A must be false."
+L03,formal_logic,1,"If A implies B and B is false, then A must be false.",classification,"Should the following statement be classified as true: If A implies B and B is false, then A must be false."
+L04,formal_logic,0,"If A implies B and A is false, then B must be false.",direct,"Is it true that If A implies B and A is false, then B must be false."
+L04,formal_logic,0,"If A implies B and A is false, then B must be false.",predicate,"Does the following statement hold: If A implies B and A is false, then B must be false."
+L04,formal_logic,0,"If A implies B and A is false, then B must be false.",classification,"Should the following statement be classified as true: If A implies B and A is false, then B must be false."
+L05,formal_logic,1,"If all cats are mammals and Luna is a cat, then Luna is a mammal.",direct,"Is it true that If all cats are mammals and Luna is a cat, then Luna is a mammal."
+L05,formal_logic,1,"If all cats are mammals and Luna is a cat, then Luna is a mammal.",predicate,"Does the following statement hold: If all cats are mammals and Luna is a cat, then Luna is a mammal."
+L05,formal_logic,1,"If all cats are mammals and Luna is a cat, then Luna is a mammal.",classification,"Should the following statement be classified as true: If all cats are mammals and Luna is a cat, then Luna is a mammal."
+L06,formal_logic,0,"If all cats are mammals and Luna is a mammal, then Luna must be a cat.",direct,"Is it true that If all cats are mammals and Luna is a mammal, then Luna must be a cat."
+L06,formal_logic,0,"If all cats are mammals and Luna is a mammal, then Luna must be a cat.",predicate,"Does the following statement hold: If all cats are mammals and Luna is a mammal, then Luna must be a cat."
+L06,formal_logic,0,"If all cats are mammals and Luna is a mammal, then Luna must be a cat.",classification,"Should the following statement be classified as true: If all cats are mammals and Luna is a mammal, then Luna must be a cat."
+L07,formal_logic,1,"If no birds are mammals and all sparrows are birds, then no sparrow is a mammal.",direct,"Is it true that If no birds are mammals and all sparrows are birds, then no sparrow is a mammal."
+L07,formal_logic,1,"If no birds are mammals and all sparrows are birds, then no sparrow is a mammal.",predicate,"Does the following statement hold: If no birds are mammals and all sparrows are birds, then no sparrow is a mammal."
+L07,formal_logic,1,"If no birds are mammals and all sparrows are birds, then no sparrow is a mammal.",classification,"Should the following statement be classified as true: If no birds are mammals and all sparrows are birds, then no sparrow is a mammal."
+L08,formal_logic,0,"If some A are B, then every A must be B.",direct,"Is it true that If some A are B, then every A must be B."
+L08,formal_logic,0,"If some A are B, then every A must be B.",predicate,"Does the following statement hold: If some A are B, then every A must be B."
+L08,formal_logic,0,"If some A are B, then every A must be B.",classification,"Should the following statement be classified as true: If some A are B, then every A must be B."
+L09,formal_logic,1,"If every A is B and every B is C, then every A is C.",direct,"Is it true that If every A is B and every B is C, then every A is C."
+L09,formal_logic,1,"If every A is B and every B is C, then every A is C.",predicate,"Does the following statement hold: If every A is B and every B is C, then every A is C."
+L09,formal_logic,1,"If every A is B and every B is C, then every A is C.",classification,"Should the following statement be classified as true: If every A is B and every B is C, then every A is C."
+L10,formal_logic,0,"If no A is B, then some A must be B.",direct,"Is it true that If no A is B, then some A must be B."
+L10,formal_logic,0,"If no A is B, then some A must be B.",predicate,"Does the following statement hold: If no A is B, then some A must be B."
+L10,formal_logic,0,"If no A is B, then some A must be B.",classification,"Should the following statement be classified as true: If no A is B, then some A must be B."
+L11,formal_logic,1,A statement and its logical negation cannot both be true.,direct,Is it true that A statement and its logical negation cannot both be true.
+L11,formal_logic,1,A statement and its logical negation cannot both be true.,predicate,Does the following statement hold: A statement and its logical negation cannot both be true.
+L11,formal_logic,1,A statement and its logical negation cannot both be true.,classification,Should the following statement be classified as true: A statement and its logical negation cannot both be true.
+L12,formal_logic,0,"If A or B is true, then A and B must both be true.",direct,"Is it true that If A or B is true, then A and B must both be true."
+L12,formal_logic,0,"If A or B is true, then A and B must both be true.",predicate,"Does the following statement hold: If A or B is true, then A and B must both be true."
+L12,formal_logic,0,"If A or B is true, then A and B must both be true.",classification,"Should the following statement be classified as true: If A or B is true, then A and B must both be true."
+S01,science_reasoning,1,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,direct,Is it true that Water freezes at 0 degrees Celsius under standard atmospheric pressure.
+S01,science_reasoning,1,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,predicate,Does the following statement hold: Water freezes at 0 degrees Celsius under standard atmospheric pressure.
+S01,science_reasoning,1,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,classification,Should the following statement be classified as true: Water freezes at 0 degrees Celsius under standard atmospheric pressure.
+S02,science_reasoning,0,Water boils at 50 degrees Celsius under standard atmospheric pressure.,direct,Is it true that Water boils at 50 degrees Celsius under standard atmospheric pressure.
+S02,science_reasoning,0,Water boils at 50 degrees Celsius under standard atmospheric pressure.,predicate,Does the following statement hold: Water boils at 50 degrees Celsius under standard atmospheric pressure.
+S02,science_reasoning,0,Water boils at 50 degrees Celsius under standard atmospheric pressure.,classification,Should the following statement be classified as true: Water boils at 50 degrees Celsius under standard atmospheric pressure.
+S03,science_reasoning,1,Plants use light energy during photosynthesis.,direct,Is it true that Plants use light energy during photosynthesis.
+S03,science_reasoning,1,Plants use light energy during photosynthesis.,predicate,Does the following statement hold: Plants use light energy during photosynthesis.
+S03,science_reasoning,1,Plants use light energy during photosynthesis.,classification,Should the following statement be classified as true: Plants use light energy during photosynthesis.
+S04,science_reasoning,0,Sound travels faster through a vacuum than through air.,direct,Is it true that Sound travels faster through a vacuum than through air.
+S04,science_reasoning,0,Sound travels faster through a vacuum than through air.,predicate,Does the following statement hold: Sound travels faster through a vacuum than through air.
+S04,science_reasoning,0,Sound travels faster through a vacuum than through air.,classification,Should the following statement be classified as true: Sound travels faster through a vacuum than through air.
+S05,science_reasoning,1,The Earth completes approximately one revolution around the Sun in one year.,direct,Is it true that The Earth completes approximately one revolution around the Sun in one year.
+S05,science_reasoning,1,The Earth completes approximately one revolution around the Sun in one year.,predicate,Does the following statement hold: The Earth completes approximately one revolution around the Sun in one year.
+S05,science_reasoning,1,The Earth completes approximately one revolution around the Sun in one year.,classification,Should the following statement be classified as true: The Earth completes approximately one revolution around the Sun in one year.
+S06,science_reasoning,0,The Moon produces more visible light than the Sun.,direct,Is it true that The Moon produces more visible light than the Sun.
+S06,science_reasoning,0,The Moon produces more visible light than the Sun.,predicate,Does the following statement hold: The Moon produces more visible light than the Sun.
+S06,science_reasoning,0,The Moon produces more visible light than the Sun.,classification,Should the following statement be classified as true: The Moon produces more visible light than the Sun.
+S07,science_reasoning,1,Increasing mass while keeping force constant decreases acceleration.,direct,Is it true that Increasing mass while keeping force constant decreases acceleration.
+S07,science_reasoning,1,Increasing mass while keeping force constant decreases acceleration.,predicate,Does the following statement hold: Increasing mass while keeping force constant decreases acceleration.
+S07,science_reasoning,1,Increasing mass while keeping force constant decreases acceleration.,classification,Should the following statement be classified as true: Increasing mass while keeping force constant decreases acceleration.
+S08,science_reasoning,0,Objects with greater mass always fall faster than lighter objects in a vacuum.,direct,Is it true that Objects with greater mass always fall faster than lighter objects in a vacuum.
+S08,science_reasoning,0,Objects with greater mass always fall faster than lighter objects in a vacuum.,predicate,Does the following statement hold: Objects with greater mass always fall faster than lighter objects in a vacuum.
+S08,science_reasoning,0,Objects with greater mass always fall faster than lighter objects in a vacuum.,classification,Should the following statement be classified as true: Objects with greater mass always fall faster than lighter objects in a vacuum.
+S09,science_reasoning,1,Carbon dioxide is a greenhouse gas.,direct,Is it true that Carbon dioxide is a greenhouse gas.
+S09,science_reasoning,1,Carbon dioxide is a greenhouse gas.,predicate,Does the following statement hold: Carbon dioxide is a greenhouse gas.
+S09,science_reasoning,1,Carbon dioxide is a greenhouse gas.,classification,Should the following statement be classified as true: Carbon dioxide is a greenhouse gas.
+S10,science_reasoning,0,Electrons have a positive electric charge.,direct,Is it true that Electrons have a positive electric charge.
+S10,science_reasoning,0,Electrons have a positive electric charge.,predicate,Does the following statement hold: Electrons have a positive electric charge.
+S10,science_reasoning,0,Electrons have a positive electric charge.,classification,Should the following statement be classified as true: Electrons have a positive electric charge.
+S11,science_reasoning,1,A balanced chemical equation conserves the number of atoms of each element.,direct,Is it true that A balanced chemical equation conserves the number of atoms of each element.
+S11,science_reasoning,1,A balanced chemical equation conserves the number of atoms of each element.,predicate,Does the following statement hold: A balanced chemical equation conserves the number of atoms of each element.
+S11,science_reasoning,1,A balanced chemical equation conserves the number of atoms of each element.,classification,Should the following statement be classified as true: A balanced chemical equation conserves the number of atoms of each element.
+S12,science_reasoning,0,All metals are gases at room temperature.,direct,Is it true that All metals are gases at room temperature.
+S12,science_reasoning,0,All metals are gases at room temperature.,predicate,Does the following statement hold: All metals are gases at room temperature.
+S12,science_reasoning,0,All metals are gases at room temperature.,classification,Should the following statement be classified as true: All metals are gases at room temperature.
+D01,data_reasoning,1,"A dataset containing 20 observations has 5 positive observations, so the positive proportion is 25%.",direct,"Is it true that A dataset containing 20 observations has 5 positive observations, so the positive proportion is 25%."
+D01,data_reasoning,1,"A dataset containing 20 observations has 5 positive observations, so the positive proportion is 25%.",predicate,"Does the following statement hold: A dataset containing 20 observations has 5 positive observations, so the positive proportion is 25%."
+D01,data_reasoning,1,"A dataset containing 20 observations has 5 positive observations, so the positive proportion is 25%.",classification,"Should the following statement be classified as true: A dataset containing 20 observations has 5 positive observations, so the positive proportion is 25%."
+D02,data_reasoning,0,"A dataset containing 20 observations has 5 positive observations, so the positive proportion is 40%.",direct,"Is it true that A dataset containing 20 observations has 5 positive observations, so the positive proportion is 40%."
+D02,data_reasoning,0,"A dataset containing 20 observations has 5 positive observations, so the positive proportion is 40%.",predicate,"Does the following statement hold: A dataset containing 20 observations has 5 positive observations, so the positive proportion is 40%."
+D02,data_reasoning,0,"A dataset containing 20 observations has 5 positive observations, so the positive proportion is 40%.",classification,"Should the following statement be classified as true: A dataset containing 20 observations has 5 positive observations, so the positive proportion is 40%."
+D03,data_reasoning,1,"If a classifier makes 90 correct predictions out of 100, its accuracy is 90%.",direct,"Is it true that If a classifier makes 90 correct predictions out of 100, its accuracy is 90%."
+D03,data_reasoning,1,"If a classifier makes 90 correct predictions out of 100, its accuracy is 90%.",predicate,"Does the following statement hold: If a classifier makes 90 correct predictions out of 100, its accuracy is 90%."
+D03,data_reasoning,1,"If a classifier makes 90 correct predictions out of 100, its accuracy is 90%.",classification,"Should the following statement be classified as true: If a classifier makes 90 correct predictions out of 100, its accuracy is 90%."
+D04,data_reasoning,0,"If a classifier makes 90 correct predictions out of 100, its accuracy is 95%.",direct,"Is it true that If a classifier makes 90 correct predictions out of 100, its accuracy is 95%."
+D04,data_reasoning,0,"If a classifier makes 90 correct predictions out of 100, its accuracy is 95%.",predicate,"Does the following statement hold: If a classifier makes 90 correct predictions out of 100, its accuracy is 95%."
+D04,data_reasoning,0,"If a classifier makes 90 correct predictions out of 100, its accuracy is 95%.",classification,"Should the following statement be classified as true: If a classifier makes 90 correct predictions out of 100, its accuracy is 95%."
+D05,data_reasoning,1,"The median of 2, 4, and 10 is 4.",direct,"Is it true that The median of 2, 4, and 10 is 4."
+D05,data_reasoning,1,"The median of 2, 4, and 10 is 4.",predicate,"Does the following statement hold: The median of 2, 4, and 10 is 4."
+D05,data_reasoning,1,"The median of 2, 4, and 10 is 4.",classification,"Should the following statement be classified as true: The median of 2, 4, and 10 is 4."
+D06,data_reasoning,0,"The median of 2, 4, and 10 is 5.",direct,"Is it true that The median of 2, 4, and 10 is 5."
+D06,data_reasoning,0,"The median of 2, 4, and 10 is 5.",predicate,"Does the following statement hold: The median of 2, 4, and 10 is 5."
+D06,data_reasoning,0,"The median of 2, 4, and 10 is 5.",classification,"Should the following statement be classified as true: The median of 2, 4, and 10 is 5."
+D07,data_reasoning,1,"If every value in a dataset increases by 5, the mean also increases by 5.",direct,"Is it true that If every value in a dataset increases by 5, the mean also increases by 5."
+D07,data_reasoning,1,"If every value in a dataset increases by 5, the mean also increases by 5.",predicate,"Does the following statement hold: If every value in a dataset increases by 5, the mean also increases by 5."
+D07,data_reasoning,1,"If every value in a dataset increases by 5, the mean also increases by 5.",classification,"Should the following statement be classified as true: If every value in a dataset increases by 5, the mean also increases by 5."
+D08,data_reasoning,0,"If every value in a dataset increases by 5, the mean remains unchanged.",direct,"Is it true that If every value in a dataset increases by 5, the mean remains unchanged."
+D08,data_reasoning,0,"If every value in a dataset increases by 5, the mean remains unchanged.",predicate,"Does the following statement hold: If every value in a dataset increases by 5, the mean remains unchanged."
+D08,data_reasoning,0,"If every value in a dataset increases by 5, the mean remains unchanged.",classification,"Should the following statement be classified as true: If every value in a dataset increases by 5, the mean remains unchanged."
+D09,data_reasoning,1,A precision of 80% means that 80% of predicted positive cases are actually positive.,direct,Is it true that A precision of 80% means that 80% of predicted positive cases are actually positive.
+D09,data_reasoning,1,A precision of 80% means that 80% of predicted positive cases are actually positive.,predicate,Does the following statement hold: A precision of 80% means that 80% of predicted positive cases are actually positive.
+D09,data_reasoning,1,A precision of 80% means that 80% of predicted positive cases are actually positive.,classification,Should the following statement be classified as true: A precision of 80% means that 80% of predicted positive cases are actually positive.
+D10,data_reasoning,0,A precision of 80% means that 80% of all actual positive cases were detected.,direct,Is it true that A precision of 80% means that 80% of all actual positive cases were detected.
+D10,data_reasoning,0,A precision of 80% means that 80% of all actual positive cases were detected.,predicate,Does the following statement hold: A precision of 80% means that 80% of all actual positive cases were detected.
+D10,data_reasoning,0,A precision of 80% means that 80% of all actual positive cases were detected.,classification,Should the following statement be classified as true: A precision of 80% means that 80% of all actual positive cases were detected.
+D11,data_reasoning,1,"A dataset with 10 values has 3 positive values, so its positive proportion is 30%.",direct,"Is it true that A dataset with 10 values has 3 positive values, so its positive proportion is 30%."
+D11,data_reasoning,1,"A dataset with 10 values has 3 positive values, so its positive proportion is 30%.",predicate,"Does the following statement hold: A dataset with 10 values has 3 positive values, so its positive proportion is 30%."
+D11,data_reasoning,1,"A dataset with 10 values has 3 positive values, so its positive proportion is 30%.",classification,"Should the following statement be classified as true: A dataset with 10 values has 3 positive values, so its positive proportion is 30%."
+D12,data_reasoning,0,"A dataset with 10 values has 3 positive values, so its positive proportion is 50%.",direct,"Is it true that A dataset with 10 values has 3 positive values, so its positive proportion is 50%."
+D12,data_reasoning,0,"A dataset with 10 values has 3 positive values, so its positive proportion is 50%.",predicate,"Does the following statement hold: A dataset with 10 values has 3 positive values, so its positive proportion is 50%."
+D12,data_reasoning,0,"A dataset with 10 values has 3 positive values, so its positive proportion is 50%.",classification,"Should the following statement be classified as true: A dataset with 10 values has 3 positive values, so its positive proportion is 50%."

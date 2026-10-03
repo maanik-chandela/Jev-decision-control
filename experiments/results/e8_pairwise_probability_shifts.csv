@@ -1,0 +1,4 @@
+pair,mean_signed_change,mean_absolute_change,median_absolute_change,max_absolute_change,decision_change_rate,decision_changes
+direct_vs_predicate,-0.001499999999999999,0.0031666666666666666,0.0,0.039999999999999925,0.0,0
+direct_vs_classification,-0.0013333333333333344,0.004666666666666669,0.0,0.030000000000000027,0.0,0
+predicate_vs_classification,0.00016666666666666482,0.0035,0.0,0.010000000000000009,0.0,0
