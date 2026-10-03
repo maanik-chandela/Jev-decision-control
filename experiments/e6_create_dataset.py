@@ -321,18 +321,17 @@ CASES = [
         "target_state": "A rule states that A implies B. Condition A is not satisfied.",
         "target_question": "Must condition B therefore be absent?",
     },
-
     {
         "core_id": "C27",
         "label": 1,
         "source_domain": "formal_logic",
         "target_domain": "legal_rule_reasoning",
         "source_state": "If A occurs, then B occurs. B does not occur.",
-        "source_question": "Can A have occurred?",
+        "source_question": "Must A not have occurred?",
         "target_state": "A rule states that A implies B. B is known not to have occurred.",
-        "target_question": "Can condition A have been satisfied?",
+        "target_question": "Must condition A not have been satisfied?",
     },
-
+    
     {
         "core_id": "C28",
         "label": 0,

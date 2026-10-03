@@ -51,8 +51,8 @@ E6_C25_SRC,C25,source,formal_logic,legal_rule_reasoning,formal_logic,No member o
 E6_C25_SHIFT,C25,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,No person satisfying condition A may satisfy condition B. Person x satisfies condition A.,Must person x fail to satisfy condition B?,1
 E6_C26_SRC,C26,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs. A does not occur.",Must B not occur?,0
 E6_C26_SHIFT,C26,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,A rule states that A implies B. Condition A is not satisfied.,Must condition B therefore be absent?,0
-E6_C27_SRC,C27,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs. B does not occur.",Can A have occurred?,1
-E6_C27_SHIFT,C27,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,A rule states that A implies B. B is known not to have occurred.,Can condition A have been satisfied?,1
+E6_C27_SRC,C27,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs. B does not occur.",Must A not have occurred?,1
+E6_C27_SHIFT,C27,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,A rule states that A implies B. B is known not to have occurred.,Must condition A not have been satisfied?,1
 E6_C28_SRC,C28,source,formal_logic,legal_rule_reasoning,formal_logic,All A are B. All B are C. Object x is not C.,Must x be A?,0
 E6_C28_SHIFT,C28,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,"Every person satisfying rule A satisfies B, and every person satisfying B satisfies C. Person x does not satisfy C.",Must person x satisfy rule A?,0
 E6_C29_SRC,C29,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs, and if B occurs, then C occurs. A occurs.",Must C occur?,1

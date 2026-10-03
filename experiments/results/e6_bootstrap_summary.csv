@@ -1,0 +1,6 @@
+metric,estimate,ci_lower,ci_upper
+source_accuracy,1.0,1.0,1.0
+shifted_accuracy,1.0,1.0,1.0
+mean_abs_probability_change,0.0268,0.009400000000000002,0.049199999999999994
+decision_change_rate,0.0,0.0,0.0
+mean_confidence_change,-0.022000000000000002,-0.04479999999999999,-0.004200000000000008
