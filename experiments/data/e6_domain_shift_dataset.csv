@@ -1,0 +1,101 @@
+case_id,core_id,shift_group,source_domain,target_domain,domain,state,question,label
+E6_C01_SRC,C01,source,mathematics,finance,mathematics,A quantity has an initial value of 100. It increases by 20 percent and then decreases by 20 percent.,Does the final value equal the original value of 100?,0
+E6_C01_SHIFT,C01,shifted,mathematics,finance,finance,An investment account has an initial value of 100 units. Its value increases by 20 percent and then decreases by 20 percent.,Does the final account value equal the original value of 100 units?,0
+E6_C02_SRC,C02,source,mathematics,finance,mathematics,A rectangle has length 8 units and width 5 units.,Is its area 40 square units?,1
+E6_C02_SHIFT,C02,shifted,mathematics,finance,finance,"A financial portfolio contains 8 units of one asset and 5 units of another, with each unit counted equally for a simple rectangular allocation calculation.",Is the corresponding allocation product 40 units?,1
+E6_C03_SRC,C03,source,mathematics,finance,mathematics,A number is divided by 4 and the result is 7.,Is the original number 24?,0
+E6_C03_SHIFT,C03,shifted,mathematics,finance,finance,A company's total revenue divided equally among 4 reporting periods gives 7 units per period.,Is the total revenue 24 units?,0
+E6_C04_SRC,C04,source,mathematics,finance,mathematics,A price is 80 units. It increases by 25 percent.,Is the new price 100 units?,1
+E6_C04_SHIFT,C04,shifted,mathematics,finance,finance,A financial asset is priced at 80 units and rises by 25 percent.,Is the new asset price 100 units?,1
+E6_C05_SRC,C05,source,mathematics,finance,mathematics,A quantity is 60. Twenty percent of the quantity is 12.,Is this statement false?,0
+E6_C05_SHIFT,C05,shifted,mathematics,finance,finance,A company has 60 units of revenue. Twenty percent of that revenue is 12 units.,Is this statement false?,0
+E6_C06_SRC,C06,source,mathematics,finance,mathematics,Five equal quantities sum to 45.,Is each quantity equal to 9?,1
+E6_C06_SHIFT,C06,shifted,mathematics,finance,finance,Five equal business expenses have a combined total of 45 units.,Is each expense equal to 9 units?,1
+E6_C07_SRC,C07,source,mathematics,finance,mathematics,A square has side length 6 units.,Is its perimeter 36 units?,0
+E6_C07_SHIFT,C07,shifted,mathematics,finance,finance,A square financial dashboard has six equal intervals on each side.,Is the total perimeter count 36 intervals?,0
+E6_C08_SRC,C08,source,mathematics,finance,mathematics,"The values 4, 6, and 8 are given.",Is their arithmetic mean 6?,1
+E6_C08_SHIFT,C08,shifted,mathematics,finance,finance,"Three equally weighted investments have returns of 4, 6, and 8 percent.",Is their arithmetic mean return 6 percent?,1
+E6_C09_SRC,C09,source,mathematics,finance,mathematics,A number is 15.,Is 30 percent of the number equal to 6?,0
+E6_C09_SHIFT,C09,shifted,mathematics,finance,finance,A financial balance is 15 units.,Is 30 percent of the balance equal to 6 units?,0
+E6_C10_SRC,C10,source,mathematics,finance,mathematics,A quantity increases from 50 to 60.,Is the percentage increase 20 percent?,1
+E6_C10_SHIFT,C10,shifted,mathematics,finance,finance,A company's revenue increases from 50 units to 60 units.,Is the percentage increase in revenue 20 percent?,1
+E6_C11_SRC,C11,source,probability,medical,probability,A fair coin is tossed once.,Is the probability of obtaining heads 0.5?,1
+E6_C11_SHIFT,C11,shifted,probability,medical,medical,A diagnostic test has equal probability of producing either of two equally likely outcomes under a specified null condition.,Is the probability of the specified positive outcome 0.5?,1
+E6_C12_SRC,C12,source,probability,medical,probability,A fair six-sided die is rolled once.,Is the probability of rolling a number greater than 4 equal to 0.5?,0
+E6_C12_SHIFT,C12,shifted,probability,medical,medical,A medical screening procedure has six equally likely outcome categories under a controlled test.,Is the probability of obtaining one of two specified categories equal to 0.5?,0
+E6_C13_SRC,C13,source,probability,medical,probability,A fair coin is tossed twice.,Is the probability of obtaining two heads equal to 0.25?,1
+E6_C13_SHIFT,C13,shifted,probability,medical,medical,"A treatment outcome is independently successful on two trials, with probability 0.5 on each trial.",Is the probability of success on both trials equal to 0.25?,1
+E6_C14_SRC,C14,source,probability,medical,probability,A fair die is rolled once.,Is the probability of rolling an even number equal to 0.25?,0
+E6_C14_SHIFT,C14,shifted,probability,medical,medical,"A controlled medical experiment has four equally likely outcome categories, two of which are classified as even-coded outcomes.",Is the probability of obtaining an even-coded outcome 0.25?,0
+E6_C15_SRC,C15,source,probability,medical,probability,An event has probability 0.3.,Is the probability that the event does not occur 0.7?,1
+E6_C15_SHIFT,C15,shifted,probability,medical,medical,A medical event has probability 0.3 under a specified model.,Is the probability that the event does not occur 0.7?,1
+E6_C16_SRC,C16,source,probability,medical,probability,Two independent events have probabilities 0.5 and 0.4.,Is the probability that both occur equal to 0.5?,0
+E6_C16_SHIFT,C16,shifted,probability,medical,medical,Two independent clinical outcomes have probabilities 0.5 and 0.4.,Is the probability that both outcomes occur equal to 0.5?,0
+E6_C17_SRC,C17,source,probability,medical,probability,A fair die is rolled once.,Is the probability of rolling a number less than 3 equal to 1/3?,1
+E6_C17_SHIFT,C17,shifted,probability,medical,medical,"A controlled medical process has six equally likely outcome categories, with two categories satisfying a specified condition.",Is the probability of satisfying the specified condition equal to 1/3?,1
+E6_C18_SRC,C18,source,probability,medical,probability,A fair coin is tossed three times.,Is the probability of obtaining three heads equal to 0.5?,0
+E6_C18_SHIFT,C18,shifted,probability,medical,medical,"A treatment succeeds independently on three trials, with success probability 0.5 each time.",Is the probability of three consecutive successes equal to 0.5?,0
+E6_C19_SRC,C19,source,probability,medical,probability,An event has probability 0.8.,Is the probability of the event occurring at least once in one trial 0.8?,1
+E6_C19_SHIFT,C19,shifted,probability,medical,medical,A medical outcome has probability 0.8 in one trial.,Is the probability of observing the outcome in one trial 0.8?,1
+E6_C20_SRC,C20,source,probability,medical,probability,"There are 10 equally likely outcomes, and 3 satisfy a specified condition.",Is the probability of the condition 0.5?,0
+E6_C20_SHIFT,C20,shifted,probability,medical,medical,"A clinical protocol has 10 equally likely outcome categories, and 3 satisfy a specified criterion.",Is the probability of satisfying the criterion 0.5?,0
+E6_C21_SRC,C21,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs. A occurs.",Must B occur?,1
+E6_C21_SHIFT,C21,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,"A rule states that if condition A is satisfied, condition B must follow. Condition A is satisfied.",Must condition B follow?,1
+E6_C22_SRC,C22,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs. B occurs.",Must A have occurred?,0
+E6_C22_SHIFT,C22,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,"A rule states that if condition A is satisfied, condition B follows. Condition B is observed.",Must condition A have been satisfied?,0
+E6_C23_SRC,C23,source,formal_logic,legal_rule_reasoning,formal_logic,All members of set A are members of set B. Object x is a member of A.,Must x be a member of B?,1
+E6_C23_SHIFT,C23,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,Every person satisfying rule A also satisfies rule B. Person x satisfies rule A.,Must person x satisfy rule B?,1
+E6_C24_SRC,C24,source,formal_logic,legal_rule_reasoning,formal_logic,Some members of A are members of B. Object x is a member of A.,Must x be a member of B?,0
+E6_C24_SHIFT,C24,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,Some people satisfying condition A also satisfy condition B. Person x satisfies condition A.,Must person x satisfy condition B?,0
+E6_C25_SRC,C25,source,formal_logic,legal_rule_reasoning,formal_logic,No member of A is a member of B. Object x is a member of A.,Must x not be a member of B?,1
+E6_C25_SHIFT,C25,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,No person satisfying condition A may satisfy condition B. Person x satisfies condition A.,Must person x fail to satisfy condition B?,1
+E6_C26_SRC,C26,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs. A does not occur.",Must B not occur?,0
+E6_C26_SHIFT,C26,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,A rule states that A implies B. Condition A is not satisfied.,Must condition B therefore be absent?,0
+E6_C27_SRC,C27,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs. B does not occur.",Can A have occurred?,1
+E6_C27_SHIFT,C27,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,A rule states that A implies B. B is known not to have occurred.,Can condition A have been satisfied?,1
+E6_C28_SRC,C28,source,formal_logic,legal_rule_reasoning,formal_logic,All A are B. All B are C. Object x is not C.,Must x be A?,0
+E6_C28_SHIFT,C28,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,"Every person satisfying rule A satisfies B, and every person satisfying B satisfies C. Person x does not satisfy C.",Must person x satisfy rule A?,0
+E6_C29_SRC,C29,source,formal_logic,legal_rule_reasoning,formal_logic,"If A occurs, then B occurs, and if B occurs, then C occurs. A occurs.",Must C occur?,1
+E6_C29_SHIFT,C29,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,"Rule A implies rule B, and rule B implies rule C. Condition A is satisfied.",Must condition C follow?,1
+E6_C30_SRC,C30,source,formal_logic,legal_rule_reasoning,formal_logic,Some A are B. No B are C.,Must every A be outside C?,0
+E6_C30_SHIFT,C30,shifted,formal_logic,legal_rule_reasoning,legal_rule_reasoning,Some people satisfying A also satisfy B. No person satisfying B may satisfy C.,Must every person satisfying A fail to satisfy C?,0
+E6_C31_SRC,C31,source,science_reasoning,engineering,science_reasoning,An object travels 100 meters in 10 seconds at constant speed.,Is its speed 10 meters per second?,1
+E6_C31_SHIFT,C31,shifted,science_reasoning,engineering,engineering,A machine moves a component 100 meters in 10 seconds at constant speed.,Is the component's speed 10 meters per second?,1
+E6_C32_SRC,C32,source,science_reasoning,engineering,science_reasoning,An object travels 120 meters in 10 seconds at constant speed.,Is its speed 10 meters per second?,0
+E6_C32_SHIFT,C32,shifted,science_reasoning,engineering,engineering,A machine moves a component 120 meters in 10 seconds at constant speed.,Is the component's speed 10 meters per second?,0
+E6_C33_SRC,C33,source,science_reasoning,engineering,science_reasoning,A sample has mass 20 grams and volume 4 cubic centimeters.,Is its density 5 grams per cubic centimeter?,1
+E6_C33_SHIFT,C33,shifted,science_reasoning,engineering,engineering,An engineered material has mass 20 grams and volume 4 cubic centimeters.,Is its density 5 grams per cubic centimeter?,1
+E6_C34_SRC,C34,source,science_reasoning,engineering,science_reasoning,A sample has mass 20 grams and volume 5 cubic centimeters.,Is its density 5 grams per cubic centimeter?,0
+E6_C34_SHIFT,C34,shifted,science_reasoning,engineering,engineering,An engineered material has mass 20 grams and volume 5 cubic centimeters.,Is its density 5 grams per cubic centimeter?,0
+E6_C35_SRC,C35,source,science_reasoning,engineering,science_reasoning,A process requires 2 units of energy for each unit of output. It produces 10 units of output.,Does it require 20 units of energy?,1
+E6_C35_SHIFT,C35,shifted,science_reasoning,engineering,engineering,A manufacturing process consumes 2 energy units per manufactured unit and produces 10 units.,Does it require 20 energy units?,1
+E6_C36_SRC,C36,source,science_reasoning,engineering,science_reasoning,A process requires 3 units of energy for each unit of output. It produces 10 units of output.,Does it require 20 units of energy?,0
+E6_C36_SHIFT,C36,shifted,science_reasoning,engineering,engineering,A manufacturing process consumes 3 energy units per manufactured unit and produces 10 units.,Does it require 20 energy units?,0
+E6_C37_SRC,C37,source,science_reasoning,engineering,science_reasoning,A system receives 100 units of input and has efficiency 80 percent.,Is its useful output 80 units?,1
+E6_C37_SHIFT,C37,shifted,science_reasoning,engineering,engineering,An engineered system receives 100 units of input energy and operates at 80 percent efficiency.,Is its useful output 80 units?,1
+E6_C38_SRC,C38,source,science_reasoning,engineering,science_reasoning,A system receives 100 units of input and has efficiency 70 percent.,Is its useful output 80 units?,0
+E6_C38_SHIFT,C38,shifted,science_reasoning,engineering,engineering,An engineered system receives 100 units of input energy and operates at 70 percent efficiency.,Is its useful output 80 units?,0
+E6_C39_SRC,C39,source,science_reasoning,engineering,science_reasoning,A temperature rises from 20 degrees to 30 degrees.,Is the increase 10 degrees?,1
+E6_C39_SHIFT,C39,shifted,science_reasoning,engineering,engineering,An engineered component's temperature rises from 20 degrees to 30 degrees.,Is the temperature increase 10 degrees?,1
+E6_C40_SRC,C40,source,science_reasoning,engineering,science_reasoning,A temperature rises from 20 degrees to 35 degrees.,Is the increase 10 degrees?,0
+E6_C40_SHIFT,C40,shifted,science_reasoning,engineering,engineering,An engineered component's temperature rises from 20 degrees to 35 degrees.,Is the temperature increase 10 degrees?,0
+E6_C41_SRC,C41,source,data_reasoning,business_operations,data_reasoning,"A dataset contains the values 2, 4, 6, 8, and 10.",Is the mean equal to 6?,1
+E6_C41_SHIFT,C41,shifted,data_reasoning,business_operations,business_operations,"Five equally weighted business observations have values 2, 4, 6, 8, and 10.",Is the mean equal to 6?,1
+E6_C42_SRC,C42,source,data_reasoning,business_operations,data_reasoning,"A dataset contains the values 2, 4, 6, 8, and 10.",Is the median equal to 8?,0
+E6_C42_SHIFT,C42,shifted,data_reasoning,business_operations,business_operations,"Five ordered business observations have values 2, 4, 6, 8, and 10.",Is the median equal to 8?,0
+E6_C43_SRC,C43,source,data_reasoning,business_operations,data_reasoning,"A dataset has 20 observations, of which 5 belong to class A.",Does class A represent 25 percent of the observations?,1
+E6_C43_SHIFT,C43,shifted,data_reasoning,business_operations,business_operations,"A business dataset has 20 transactions, of which 5 belong to category A.",Does category A represent 25 percent of the transactions?,1
+E6_C44_SRC,C44,source,data_reasoning,business_operations,data_reasoning,"A dataset has 20 observations, of which 8 belong to class A.",Does class A represent 25 percent of the observations?,0
+E6_C44_SHIFT,C44,shifted,data_reasoning,business_operations,business_operations,"A business dataset has 20 transactions, of which 8 belong to category A.",Does category A represent 25 percent of the transactions?,0
+E6_C45_SRC,C45,source,data_reasoning,business_operations,data_reasoning,A classifier correctly identifies 90 out of 100 cases.,Is its accuracy 90 percent?,1
+E6_C45_SHIFT,C45,shifted,data_reasoning,business_operations,business_operations,A business screening system correctly processes 90 out of 100 transactions.,Is its accuracy rate 90 percent?,1
+E6_C46_SRC,C46,source,data_reasoning,business_operations,data_reasoning,A classifier correctly identifies 80 out of 100 cases.,Is its accuracy 90 percent?,0
+E6_C46_SHIFT,C46,shifted,data_reasoning,business_operations,business_operations,A business screening system correctly processes 80 out of 100 transactions.,Is its accuracy rate 90 percent?,0
+E6_C47_SRC,C47,source,data_reasoning,business_operations,data_reasoning,A dataset contains 40 positive cases and 60 negative cases.,Do positive cases make up 40 percent of the dataset?,1
+E6_C47_SHIFT,C47,shifted,data_reasoning,business_operations,business_operations,A business dataset contains 40 positive outcomes and 60 negative outcomes.,Do positive outcomes make up 40 percent of the dataset?,1
+E6_C48_SRC,C48,source,data_reasoning,business_operations,data_reasoning,A dataset contains 30 positive cases and 70 negative cases.,Do positive cases make up 40 percent of the dataset?,0
+E6_C48_SHIFT,C48,shifted,data_reasoning,business_operations,business_operations,A business dataset contains 30 positive outcomes and 70 negative outcomes.,Do positive outcomes make up 40 percent of the dataset?,0
+E6_C49_SRC,C49,source,data_reasoning,business_operations,data_reasoning,A dataset contains 50 observations. The average value is 10.,Is the sum of all observations 500?,1
+E6_C49_SHIFT,C49,shifted,data_reasoning,business_operations,business_operations,A business dataset contains 50 observations with an average value of 10 units.,Is the total across all observations 500 units?,1
+E6_C50_SRC,C50,source,data_reasoning,business_operations,data_reasoning,A dataset contains 50 observations. The average value is 8.,Is the sum of all observations 500?,0
+E6_C50_SHIFT,C50,shifted,data_reasoning,business_operations,business_operations,A business dataset contains 50 observations with an average value of 8 units.,Is the total across all observations 500 units?,0
