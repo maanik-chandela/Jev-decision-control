@@ -1,0 +1,101 @@
+original_id,domain,difficulty,state,question,label
+E3_M01,mathematics,easy,A rectangle has length 8 cm and width 5 cm.,Is its area 41 square centimeters?,0
+E3_M02,mathematics,easy,A triangle has base 10 cm and height 6 cm.,Is its area 31 square centimeters?,0
+E3_M03,mathematics,easy,The number 26 is given.,Is 26 a perfect square?,0
+E3_M04,mathematics,easy,"A line has slope 2 and passes through (0, 3).","Does the line pass through (1, 4)?",0
+E3_M05,mathematics,easy,A square has side length 7 cm.,Is its perimeter 30 cm?,0
+E3_M06,mathematics,moderate,The equation is x + 9 = 14.,Is x equal to 5?,1
+E3_M07,mathematics,moderate,"The sequence is 2, 4, 6, 8, 10.",Is the next term 12?,1
+E3_M08,mathematics,moderate,A circle has radius 3 cm.,Is its diameter 6 cm?,1
+E3_M09,mathematics,moderate,The equation is 3x + 4 = 19.,Is x equal to 5?,1
+E3_M10,mathematics,moderate,A number is increased from 80 to 100.,Is the percentage increase 25 percent?,1
+E3_M11,mathematics,moderate,"The average of 6, 8, 10, and 12 is considered.",Is the average 9?,1
+E3_M12,mathematics,moderate,The quadratic equation is x^2 - 5x + 6 = 0.,Is x = 2 one of its solutions?,1
+E3_M13,mathematics,moderate,A rectangle has area 72 square centimeters and width 8 cm.,Is its length 9 cm?,1
+E3_M14,mathematics,moderate,The fraction 18/24 is simplified.,Is its simplified value 2/3?,0
+E3_M15,mathematics,hard,A right triangle has legs 9 cm and 12 cm.,Is its hypotenuse 15 cm?,1
+E3_M16,mathematics,hard,The equation 2x + 3 = 5x - 12 is given.,Is x equal to 4?,0
+E3_M17,mathematics,hard,A number is first increased by 20 percent and then decreased by 20 percent.,Does this sequence of changes return the number exactly to its original value?,0
+E3_M18,mathematics,hard,"For positive a and b, a > b.",Must a^2 be greater than b^2?,1
+E3_M19,mathematics,easy,The integer -7 is given.,Is -7 greater than -3?,0
+E3_M20,mathematics,moderate,A number is 40 percent of 250.,Is the number 120?,0
+E3_P01,probability,easy,A fair coin is tossed once.,Is the probability of heads 0.5?,1
+E3_P02,probability,easy,A standard six-sided die is rolled once.,Is the probability of rolling a 6 equal to 1/6?,1
+E3_P03,probability,easy,A standard six-sided die is rolled once.,Is the probability of rolling an even number 1/2?,1
+E3_P04,probability,easy,A bag contains 3 red balls and 2 blue balls.,Is the probability of drawing a red ball 3/5?,1
+E3_P05,probability,easy,A fair coin is tossed twice.,Is the probability of getting two heads 1/4?,1
+E3_P06,probability,easy,A standard deck has 52 cards.,Is the probability of drawing an ace 4/52?,1
+E3_P07,probability,easy,A die is rolled once.,Is the probability of rolling a number greater than 4 equal to 1/3?,1
+E3_P08,probability,easy,A bag contains 5 green balls and 5 yellow balls.,Is the probability of drawing a green ball 1/2?,1
+E3_P09,probability,moderate,A fair coin is tossed three times.,Is the probability of getting exactly two heads 3/8?,1
+E3_P10,probability,moderate,A standard die is rolled twice.,Is the probability that both rolls are 6 equal to 1/36?,1
+E3_P11,probability,moderate,A bag contains 4 red and 6 blue balls. One ball is drawn.,Is the probability of drawing a red ball 0.5?,0
+E3_P12,probability,moderate,Two fair dice are rolled.,Is the probability that their sum is 7 equal to 1/4?,0
+E3_P13,probability,moderate,A fair coin is tossed four times.,Is the probability of getting at least one head 1/2?,0
+E3_P14,probability,moderate,A card is selected from a standard 52-card deck.,Is the probability of selecting a heart 1/2?,0
+E3_P15,probability,hard,Two fair dice are rolled.,Is the probability that the sum is greater than 10 equal to 1/6?,0
+E3_P16,probability,hard,A fair coin is tossed five times.,Is the probability of getting exactly three heads 5/32?,0
+E3_P17,probability,hard,Two cards are drawn without replacement from a standard deck.,Is the probability that both are aces equal to 1/52?,0
+E3_P18,probability,hard,A box contains 3 red and 7 blue balls. Two balls are drawn without replacement.,Is the probability that both are red equal to 1/10?,0
+E3_P19,probability,easy,A fair six-sided die is rolled.,Is the probability of rolling a 7 equal to 1/6?,0
+E3_P20,probability,moderate,A fair coin is tossed twice.,Is the probability of getting at least one head equal to 1/4?,0
+E3_L01,formal_logic,easy,All cats are mammals. Felix is a cat.,Must Felix not be a mammal?,0
+E3_L02,formal_logic,easy,All squares are rectangles. ABCD is a square.,Must ABCD not be a rectangle?,0
+E3_L03,formal_logic,easy,No birds are mammals. A sparrow is a bird.,Must the sparrow be a mammal?,0
+E3_L04,formal_logic,easy,All doctors are professionals. Ravi is a doctor.,Must Ravi be a professional?,1
+E3_L05,formal_logic,easy,Some students are athletes.,Does this imply that at least one student is an athlete?,1
+E3_L06,formal_logic,easy,No A are B. X is an A.,Must X not be a B?,1
+E3_L07,formal_logic,moderate,All poets are writers. Maya is a poet.,Must Maya be a writer?,1
+E3_L08,formal_logic,easy,Some engineers are musicians.,Must every engineer be a musician?,0
+E3_L09,formal_logic,moderate,"If it rains, the ground becomes wet. It rains.",Must the ground become wet?,1
+E3_L10,formal_logic,moderate,"If A occurs, then B occurs. B occurs.",Must A have occurred?,0
+E3_L11,formal_logic,moderate,All birds can fly. Penguins are birds.,Does the premise set imply that penguins can fly?,1
+E3_L12,formal_logic,moderate,Some A are B. No B are C.,Must every A be outside C?,0
+E3_L13,formal_logic,moderate,Some A are not B.,Does this imply that at least one A exists?,1
+E3_L14,formal_logic,moderate,All A are B. No B are C.,Must every A be a non-C?,1
+E3_L15,formal_logic,hard,If P then Q. If Q then R. P is true.,Must R be true?,1
+E3_L16,formal_logic,hard,If P then Q. Q is false.,Must P be false?,1
+E3_L17,formal_logic,hard,If P then Q. P is false.,Must Q be false?,0
+E3_L18,formal_logic,hard,All A are B. Some B are C.,Must some A be C?,0
+E3_L19,formal_logic,easy,No mammals are reptiles. A dog is a mammal.,Must the dog be a reptile?,0
+E3_L20,formal_logic,moderate,All A are B. All B are C.,Must every C be an A?,0
+E3_S01,science_reasoning,easy,Water at standard atmospheric pressure boils at 100 degrees Celsius.,Does water boil at 90 degrees Celsius under these conditions?,0
+E3_S02,science_reasoning,easy,An object has mass 2 kg and acceleration 3 m/s^2.,Is the net force 5 newtons?,0
+E3_S03,science_reasoning,easy,Plants use sunlight as an energy source during photosynthesis.,Does photosynthesis require no light energy?,0
+E3_S04,science_reasoning,easy,The Earth completes approximately one rotation in 24 hours.,Does one rotation take approximately 12 hours?,0
+E3_S05,science_reasoning,easy,Sound requires a material medium to propagate.,Can sound propagate through a perfect vacuum?,0
+E3_S06,science_reasoning,easy,A substance has pH 3.,Is the substance neutral?,0
+E3_S07,science_reasoning,moderate,An object moves at constant velocity in a straight line.,Is its acceleration zero?,1
+E3_S08,science_reasoning,easy,The density of an object is mass divided by volume.,Is density equal to mass divided by volume?,1
+E3_S09,science_reasoning,moderate,A circuit has voltage 12 V and resistance 4 ohms.,Is the current 3 A according to Ohm's law?,1
+E3_S10,science_reasoning,moderate,An isolated system receives no heat and performs no work on its surroundings.,Does its total internal energy remain constant?,1
+E3_S11,science_reasoning,moderate,A metal wire is heated while its length is free to change.,Does the wire generally expand when heated?,1
+E3_S12,science_reasoning,moderate,An object has density 2 g/cm^3 and volume 10 cm^3.,Is its mass 10 g?,0
+E3_S13,science_reasoning,moderate,A force of 20 N acts on a mass of 5 kg.,Is the resulting acceleration 4 m/s^2?,1
+E3_S14,science_reasoning,moderate,"In a vacuum, two objects of different masses are dropped from the same height.","Ignoring air resistance, do they have the same gravitational acceleration?",1
+E3_S15,science_reasoning,hard,A car increases its speed from 20 m/s to 30 m/s in 5 seconds.,Is its average acceleration 2 m/s^2?,1
+E3_S16,science_reasoning,hard,A sealed object is electrically neutral.,Must the object contain no charged particles?,0
+E3_S17,science_reasoning,hard,A gas is compressed while its temperature remains constant.,Does its pressure generally increase according to Boyle's law?,1
+E3_S18,science_reasoning,hard,An object is moving in a circle at constant speed.,Is its velocity necessarily constant?,0
+E3_S19,science_reasoning,easy,The Sun is closer to Earth than the Moon is.,Is this statement true?,0
+E3_S20,science_reasoning,moderate,A solution has pH 7 at standard conditions.,Is it approximately neutral?,1
+E3_D01,data_reasoning,easy,"A dataset contains the values 2, 4, 6, 8, and 10.",Is the mean 7?,0
+E3_D02,data_reasoning,easy,"A dataset contains the values 1, 2, 3, 4, and 5.",Is the median 4?,0
+E3_D03,data_reasoning,easy,"A dataset contains the values 5, 5, 7, 8, and 9.",Is the mode 7?,0
+E3_D04,data_reasoning,easy,A classifier makes 90 correct predictions out of 100.,Is its accuracy 80 percent?,0
+E3_D05,data_reasoning,easy,"A binary classifier has TP=30, TN=50, FP=10, FN=10.",Is its accuracy 70 percent?,0
+E3_D06,data_reasoning,easy,A binary classifier has TP=40 and FP=10.,Is its precision 70 percent?,0
+E3_D07,data_reasoning,easy,A binary classifier has TP=45 and FN=5.,Is its recall 80 percent?,0
+E3_D08,data_reasoning,easy,A dataset contains 20 positive and 80 negative examples.,Is the positive-class proportion 20 percent?,1
+E3_D09,data_reasoning,moderate,"A dataset contains 10, 20, 30, 40, and 100.",Is the median 30?,1
+E3_D10,data_reasoning,moderate,"A classifier has TP=50, TN=40, FP=5, FN=5.",Is its accuracy 90 percent?,1
+E3_D11,data_reasoning,moderate,A classifier has TP=40 and FP=20.,Is its precision 50 percent?,0
+E3_D12,data_reasoning,moderate,A classifier has TP=60 and FN=20.,Is its recall 75 percent?,1
+E3_D13,data_reasoning,moderate,"A dataset contains values 10, 10, 20, 30, and 30.",Is the mean 20?,1
+E3_D14,data_reasoning,moderate,"A dataset contains values 3, 5, 7, 9.",Is the median 6?,1
+E3_D15,data_reasoning,hard,"A classifier has TP=40, TN=50, FP=10, FN=0.",Is its accuracy 90 percent?,1
+E3_D16,data_reasoning,hard,A classifier has TP=80 and FN=20.,Is its recall 80 percent?,1
+E3_D17,data_reasoning,hard,A classifier has TP=40 and FP=20.,Is its precision approximately 66.7 percent?,1
+E3_D18,data_reasoning,hard,"A dataset contains 100 observations, of which 25 are missing.",Is the missing-data proportion 20 percent?,0
+E3_D19,data_reasoning,easy,"A dataset contains the values 2, 4, 6, 8.",Is the mean 5?,1
+E3_D20,data_reasoning,moderate,"A binary classifier has TP=30, TN=60, FP=10, FN=0.",Is its accuracy 80 percent?,0
