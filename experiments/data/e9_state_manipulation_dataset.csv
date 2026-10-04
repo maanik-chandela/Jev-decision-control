@@ -1,0 +1,181 @@
+case_id,domain,condition,label,state,question
+M01,mathematics,original,1,A rectangle has length 8 cm and width 5 cm.,Is its area 40 square centimeters?
+M01,mathematics,irrelevant_context,1,A rectangle has length 8 cm and width 5 cm. The calculation is being done on a Monday.,Is its area 40 square centimeters?
+M01,mathematics,distracting_context,1,"A rectangle has length 8 cm and width 5 cm. A nearby square has side length 10 cm, and someone writes that its area is 100 square centimeters.",Is its area 40 square centimeters?
+M02,mathematics,original,0,A square has side length 6 cm.,Is its area 30 square centimeters?
+M02,mathematics,irrelevant_context,0,A square has side length 6 cm. The square is drawn with a black pencil.,Is its area 30 square centimeters?
+M02,mathematics,distracting_context,0,A square has side length 6 cm. A nearby rectangle has area 30 square centimeters.,Is its area 30 square centimeters?
+M03,mathematics,original,1,The number 18 is divisible by 3.,Is 18 divisible by 3?
+M03,mathematics,irrelevant_context,1,The number 18 is divisible by 3. The number is printed in bold type.,Is 18 divisible by 3?
+M03,mathematics,distracting_context,1,"The number 18 is divisible by 3. Another number, 20, is mentioned as an example of an even number.",Is 18 divisible by 3?
+M04,mathematics,original,0,"A triangle has angles measuring 60, 60, and 60 degrees.",Is one of its angles 90 degrees?
+M04,mathematics,irrelevant_context,0,"A triangle has angles measuring 60, 60, and 60 degrees. The diagram is shown on white paper.",Is one of its angles 90 degrees?
+M04,mathematics,distracting_context,0,"A triangle has angles measuring 60, 60, and 60 degrees. A different right triangle is also mentioned.",Is one of its angles 90 degrees?
+M05,mathematics,original,1,"If x = 7, then x + 5 = 12.",Is x + 5 equal to 12?
+M05,mathematics,irrelevant_context,1,"If x = 7, then x + 5 = 12. The equation is written in a notebook.",Is x + 5 equal to 12?
+M05,mathematics,distracting_context,1,"If x = 7, then x + 5 = 12. Another example states that 7 + 6 = 13.",Is x + 5 equal to 12?
+M06,mathematics,original,0,A circle has radius 4 cm.,Is its diameter 6 cm?
+M06,mathematics,irrelevant_context,0,A circle has radius 4 cm. The circle is colored gray.,Is its diameter 6 cm?
+M06,mathematics,distracting_context,0,A circle has radius 4 cm. A different circle has radius 3 cm and diameter 6 cm.,Is its diameter 6 cm?
+M07,mathematics,original,1,"The sequence is 2, 4, 6, 8, 10.",Is the next number 12?
+M07,mathematics,irrelevant_context,1,"The sequence is 2, 4, 6, 8, 10. The sequence appears in a textbook.",Is the next number 12?
+M07,mathematics,distracting_context,1,"The sequence is 2, 4, 6, 8, 10. Another sequence is 1, 3, 5, 7.",Is the next number 12?
+M08,mathematics,original,0,The integer 15 is less than 10.,Is 15 less than 10?
+M08,mathematics,irrelevant_context,0,The integer 15 is less than 10. The statement is written in blue ink.,Is 15 less than 10?
+M08,mathematics,distracting_context,0,The integer 15 is less than 10. Another statement says that 5 is less than 10.,Is 15 less than 10?
+M09,mathematics,original,1,A line segment has endpoints at 0 and 10 on a number line.,Is its length 10 units?
+M09,mathematics,irrelevant_context,1,A line segment has endpoints at 0 and 10 on a number line. The number line is horizontal.,Is its length 10 units?
+M09,mathematics,distracting_context,1,A line segment has endpoints at 0 and 10 on a number line. Another segment has endpoints at 0 and 6.,Is its length 10 units?
+M10,mathematics,original,0,A cube has 6 faces.,Does the cube have 8 faces?
+M10,mathematics,irrelevant_context,0,A cube has 6 faces. The cube is made of wood.,Does the cube have 8 faces?
+M10,mathematics,distracting_context,0,A cube has 6 faces. A different geometric object has 8 faces.,Does the cube have 8 faces?
+M11,mathematics,original,1,The average of 4 and 8 is 6.,Is the average equal to 6?
+M11,mathematics,irrelevant_context,1,The average of 4 and 8 is 6. The values are written on a whiteboard.,Is the average equal to 6?
+M11,mathematics,distracting_context,1,"The average of 4 and 8 is 6. Another pair of numbers, 2 and 10, also has average 6.",Is the average equal to 6?
+M12,mathematics,original,0,A rectangle has length 9 cm and width 3 cm.,Is its perimeter 18 cm?
+M12,mathematics,irrelevant_context,0,A rectangle has length 9 cm and width 3 cm. The rectangle is drawn with a ruler.,Is its perimeter 18 cm?
+M12,mathematics,distracting_context,0,A rectangle has length 9 cm and width 3 cm. A different rectangle has perimeter 18 cm.,Is its perimeter 18 cm?
+P01,probability,original,1,A fair six-sided die is rolled once.,Is the probability of rolling a 6 equal to 1/6?
+P01,probability,irrelevant_context,1,A fair six-sided die is rolled once. The die is on a wooden table.,Is the probability of rolling a 6 equal to 1/6?
+P01,probability,distracting_context,1,A fair six-sided die is rolled once. A different example says that the probability of rolling an even number is 1/2.,Is the probability of rolling a 6 equal to 1/6?
+P02,probability,original,0,A fair six-sided die is rolled once.,Is the probability of rolling a 6 equal to 1/2?
+P02,probability,irrelevant_context,0,A fair six-sided die is rolled once. The experiment takes place indoors.,Is the probability of rolling a 6 equal to 1/2?
+P02,probability,distracting_context,0,A fair six-sided die is rolled once. The probability of rolling an even number is 1/2.,Is the probability of rolling a 6 equal to 1/2?
+P03,probability,original,1,A bag contains 4 red balls and 6 blue balls.,Is the probability of drawing a red ball 0.4?
+P03,probability,irrelevant_context,1,A bag contains 4 red balls and 6 blue balls. The bag is placed on a table.,Is the probability of drawing a red ball 0.4?
+P03,probability,distracting_context,1,A bag contains 4 red balls and 6 blue balls. Another bag contains 5 red and 5 blue balls.,Is the probability of drawing a red ball 0.4?
+P04,probability,original,0,A bag contains 2 green balls and 8 yellow balls.,Is the probability of drawing a green ball 0.8?
+P04,probability,irrelevant_context,0,A bag contains 2 green balls and 8 yellow balls. The balls are small.,Is the probability of drawing a green ball 0.8?
+P04,probability,distracting_context,0,A bag contains 2 green balls and 8 yellow balls. Another bag has 8 green and 2 yellow balls.,Is the probability of drawing a green ball 0.8?
+P05,probability,original,1,A coin is fair and is tossed once.,Is the probability of heads 0.5?
+P05,probability,irrelevant_context,1,A coin is fair and is tossed once. The coin is silver.,Is the probability of heads 0.5?
+P05,probability,distracting_context,1,A coin is fair and is tossed once. A different coin has been observed to land heads three times in a row.,Is the probability of heads 0.5?
+P06,probability,original,0,A fair die is rolled once.,Is the probability of rolling a number greater than 4 equal to 1/2?
+P06,probability,irrelevant_context,0,A fair die is rolled once. The die is red.,Is the probability of rolling a number greater than 4 equal to 1/2?
+P06,probability,distracting_context,0,A fair die is rolled once. The probability of rolling an even number is 1/2.,Is the probability of rolling a number greater than 4 equal to 1/2?
+P07,probability,original,1,"A class has 20 students, 5 of whom wear glasses.",Is the proportion of students wearing glasses 0.25?
+P07,probability,irrelevant_context,1,"A class has 20 students, 5 of whom wear glasses. The class meets in Room 12.",Is the proportion of students wearing glasses 0.25?
+P07,probability,distracting_context,1,"A class has 20 students, 5 of whom wear glasses. Another class has 10 students, 5 of whom wear glasses.",Is the proportion of students wearing glasses 0.25?
+P08,probability,original,0,"A box contains 10 cards, 3 of which are red.",Is the probability of selecting a red card 0.7?
+P08,probability,irrelevant_context,0,"A box contains 10 cards, 3 of which are red. The box is made of cardboard.",Is the probability of selecting a red card 0.7?
+P08,probability,distracting_context,0,"A box contains 10 cards, 3 of which are red. Another box contains 7 red cards out of 10.",Is the probability of selecting a red card 0.7?
+P09,probability,original,1,"In a finite sample space where every elementary outcome has positive probability, an event has probability 0.",Is the event impossible?
+P09,probability,irrelevant_context,1,"In a finite sample space where every elementary outcome has positive probability, an event has probability 0. The sample space is written formally.",Is the event impossible?
+P09,probability,distracting_context,1,"In a finite sample space where every elementary outcome has positive probability, an event has probability 0. Another example discusses a very unlikely event.",Is the event impossible?
+P10,probability,original,0,A fair coin is tossed twice.,Is the probability of getting two heads equal to 1/2?
+P10,probability,irrelevant_context,0,A fair coin is tossed twice. The coin is made of metal.,Is the probability of getting two heads equal to 1/2?
+P10,probability,distracting_context,0,A fair coin is tossed twice. The probability of getting at least one head is 3/4.,Is the probability of getting two heads equal to 1/2?
+P11,probability,original,1,A bag contains 5 red balls and 5 blue balls.,Is the probability of drawing a red ball 0.5?
+P11,probability,irrelevant_context,1,A bag contains 5 red balls and 5 blue balls. The balls are numbered.,Is the probability of drawing a red ball 0.5?
+P11,probability,distracting_context,1,A bag contains 5 red balls and 5 blue balls. Another bag contains 8 red balls and 2 blue balls.,Is the probability of drawing a red ball 0.5?
+P12,probability,original,0,A fair six-sided die is rolled once.,Is the probability of rolling a number less than 3 equal to 2/3?
+P12,probability,irrelevant_context,0,A fair six-sided die is rolled once. The die is plastic.,Is the probability of rolling a number less than 3 equal to 2/3?
+P12,probability,distracting_context,0,A fair six-sided die is rolled once. The probability of rolling an even number is 1/2.,Is the probability of rolling a number less than 3 equal to 2/3?
+L01,formal_logic,original,1,All cats are mammals. Luna is a cat.,Must Luna be a mammal?
+L01,formal_logic,irrelevant_context,1,All cats are mammals. Luna is a cat. Luna lives indoors.,Must Luna be a mammal?
+L01,formal_logic,distracting_context,1,"All cats are mammals. Luna is a cat. Dogs are also mammals, but Bruno is a dog.",Must Luna be a mammal?
+L02,formal_logic,original,0,All cats are mammals. Luna is a cat.,Must Luna be a reptile?
+L02,formal_logic,irrelevant_context,0,All cats are mammals. Luna is a cat. Luna has a collar.,Must Luna be a reptile?
+L02,formal_logic,distracting_context,0,All cats are mammals. Luna is a cat. Some reptiles are green.,Must Luna be a reptile?
+L03,formal_logic,original,1,"If A occurs, then B occurs. A occurs.",Must B occur?
+L03,formal_logic,irrelevant_context,1,"If A occurs, then B occurs. A occurs. The statement is written in a notebook.",Must B occur?
+L03,formal_logic,distracting_context,1,"If A occurs, then B occurs. A occurs. Another statement says that C implies D.",Must B occur?
+L04,formal_logic,original,0,"If A occurs, then B occurs. B occurs.",Must A have occurred?
+L04,formal_logic,irrelevant_context,0,"If A occurs, then B occurs. B occurs. The symbols are written in black ink.",Must A have occurred?
+L04,formal_logic,distracting_context,0,"If A occurs, then B occurs. B occurs. Another implication states that C implies D.",Must A have occurred?
+L05,formal_logic,original,1,No birds are mammals. Eagles are birds.,Must an eagle not be a mammal?
+L05,formal_logic,irrelevant_context,1,No birds are mammals. Eagles are birds. The eagle is shown in a diagram.,Must an eagle not be a mammal?
+L05,formal_logic,distracting_context,1,No birds are mammals. Eagles are birds. Whales are mammals.,Must an eagle not be a mammal?
+L06,formal_logic,original,0,No birds are mammals. Eagles are birds.,Must an eagle be a mammal?
+L06,formal_logic,irrelevant_context,0,No birds are mammals. Eagles are birds. The statement is printed in a textbook.,Must an eagle be a mammal?
+L06,formal_logic,distracting_context,0,No birds are mammals. Eagles are birds. Some whales are mammals.,Must an eagle be a mammal?
+L07,formal_logic,original,1,All engineers are graduates. Ravi is an engineer.,Must Ravi be a graduate?
+L07,formal_logic,irrelevant_context,1,All engineers are graduates. Ravi is an engineer. Ravi wears glasses.,Must Ravi be a graduate?
+L07,formal_logic,distracting_context,1,All engineers are graduates. Ravi is an engineer. Some graduates are musicians.,Must Ravi be a graduate?
+L08,formal_logic,original,0,All engineers are graduates. Ravi is an engineer.,Must Ravi be a professor?
+L08,formal_logic,irrelevant_context,0,All engineers are graduates. Ravi is an engineer. Ravi lives in Delhi.,Must Ravi be a professor?
+L08,formal_logic,distracting_context,0,All engineers are graduates. Ravi is an engineer. Some professors are graduates.,Must Ravi be a professor?
+L09,formal_logic,original,1,No dogs are cats. Bruno is a dog.,Must Bruno not be a cat?
+L09,formal_logic,irrelevant_context,1,No dogs are cats. Bruno is a dog. Bruno has a red collar.,Must Bruno not be a cat?
+L09,formal_logic,distracting_context,1,No dogs are cats. Bruno is a dog. Some cats are black.,Must Bruno not be a cat?
+L10,formal_logic,original,0,Some students are athletes. Ravi is a student.,Must Ravi be an athlete?
+L10,formal_logic,irrelevant_context,0,Some students are athletes. Ravi is a student. Ravi studies mathematics.,Must Ravi be an athlete?
+L10,formal_logic,distracting_context,0,"Some students are athletes. Ravi is a student. Another student, Arjun, is an athlete.",Must Ravi be an athlete?
+L11,formal_logic,original,1,If P then Q. P is true.,Must Q be true?
+L11,formal_logic,irrelevant_context,1,If P then Q. P is true. The symbols are written on a whiteboard.,Must Q be true?
+L11,formal_logic,distracting_context,1,If P then Q. P is true. Another rule states that R implies S.,Must Q be true?
+L12,formal_logic,original,0,If P then Q. Q is true.,Must P be true?
+L12,formal_logic,irrelevant_context,0,If P then Q. Q is true. The statement appears in a logic exercise.,Must P be true?
+L12,formal_logic,distracting_context,0,If P then Q. Q is true. Another rule states that R implies S.,Must P be true?
+S01,science_reasoning,original,1,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,Does water freeze at 0 degrees Celsius under these conditions?
+S01,science_reasoning,irrelevant_context,1,Water freezes at 0 degrees Celsius under standard atmospheric pressure. The container is made of glass.,Does water freeze at 0 degrees Celsius under these conditions?
+S01,science_reasoning,distracting_context,1,Water freezes at 0 degrees Celsius under standard atmospheric pressure. Ethanol freezes at a lower temperature.,Does water freeze at 0 degrees Celsius under these conditions?
+S02,science_reasoning,original,0,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,Does water freeze at 100 degrees Celsius under these conditions?
+S02,science_reasoning,irrelevant_context,0,Water freezes at 0 degrees Celsius under standard atmospheric pressure. The water is clear.,Does water freeze at 100 degrees Celsius under these conditions?
+S02,science_reasoning,distracting_context,0,Water freezes at 0 degrees Celsius under standard atmospheric pressure. Water boils at approximately 100 degrees Celsius.,Does water freeze at 100 degrees Celsius under these conditions?
+S03,science_reasoning,original,1,Plants use sunlight during photosynthesis.,Does photosynthesis use sunlight?
+S03,science_reasoning,irrelevant_context,1,Plants use sunlight during photosynthesis. The plant is in a ceramic pot.,Does photosynthesis use sunlight?
+S03,science_reasoning,distracting_context,1,Plants use sunlight during photosynthesis. Plants also require water.,Does photosynthesis use sunlight?
+S04,science_reasoning,original,0,Plants use sunlight during photosynthesis.,Does photosynthesis require no energy input?
+S04,science_reasoning,irrelevant_context,0,Plants use sunlight during photosynthesis. The plant has green leaves.,Does photosynthesis require no energy input?
+S04,science_reasoning,distracting_context,0,Plants use sunlight during photosynthesis. Cellular respiration releases energy.,Does photosynthesis require no energy input?
+S05,science_reasoning,original,1,The Earth revolves around the Sun.,Does the Earth revolve around the Sun?
+S05,science_reasoning,irrelevant_context,1,The Earth revolves around the Sun. The statement is printed in a textbook.,Does the Earth revolve around the Sun?
+S05,science_reasoning,distracting_context,1,The Earth revolves around the Sun. The Moon revolves around the Earth.,Does the Earth revolve around the Sun?
+S06,science_reasoning,original,0,The Earth revolves around the Sun.,Does the Sun revolve around the Earth?
+S06,science_reasoning,irrelevant_context,0,The Earth revolves around the Sun. The diagram is drawn on a whiteboard.,Does the Sun revolve around the Earth?
+S06,science_reasoning,distracting_context,0,The Earth revolves around the Sun. The Moon revolves around the Earth.,Does the Sun revolve around the Earth?
+S07,science_reasoning,original,1,Sound requires a medium to propagate.,Can sound propagate through a material medium?
+S07,science_reasoning,irrelevant_context,1,Sound requires a medium to propagate. The experiment is performed indoors.,Can sound propagate through a material medium?
+S07,science_reasoning,distracting_context,1,Sound requires a medium to propagate. Light can travel through vacuum.,Can sound propagate through a material medium?
+S08,science_reasoning,original,0,Sound requires a medium to propagate.,Can ordinary sound propagate through a perfect vacuum?
+S08,science_reasoning,irrelevant_context,0,Sound requires a medium to propagate. The statement is written in a notebook.,Can ordinary sound propagate through a perfect vacuum?
+S08,science_reasoning,distracting_context,0,Sound requires a medium to propagate. Electromagnetic waves can travel through vacuum.,Can ordinary sound propagate through a perfect vacuum?
+S09,science_reasoning,original,1,"An object with greater mass has greater inertia, all else equal.",Does greater mass imply greater inertia?
+S09,science_reasoning,irrelevant_context,1,"An object with greater mass has greater inertia, all else equal. The objects are measured in kilograms.",Does greater mass imply greater inertia?
+S09,science_reasoning,distracting_context,1,"An object with greater mass has greater inertia, all else equal. A different experiment compares object speeds.",Does greater mass imply greater inertia?
+S10,science_reasoning,original,0,"An object with greater mass has greater inertia, all else equal.",Does greater mass imply zero inertia?
+S10,science_reasoning,irrelevant_context,0,"An object with greater mass has greater inertia, all else equal. The statement is in a physics textbook.",Does greater mass imply zero inertia?
+S10,science_reasoning,distracting_context,0,"An object with greater mass has greater inertia, all else equal. Another object has a different velocity.",Does greater mass imply zero inertia?
+S11,science_reasoning,original,1,Metals generally conduct electricity.,Can metals conduct electricity?
+S11,science_reasoning,irrelevant_context,1,Metals generally conduct electricity. The sample is placed on a laboratory table.,Can metals conduct electricity?
+S11,science_reasoning,distracting_context,1,Metals generally conduct electricity. Rubber is an electrical insulator.,Can metals conduct electricity?
+S12,science_reasoning,original,0,Metals generally conduct electricity.,Are metals generally perfect electrical insulators?
+S12,science_reasoning,irrelevant_context,0,Metals generally conduct electricity. The sample is silver-colored.,Are metals generally perfect electrical insulators?
+S12,science_reasoning,distracting_context,0,Metals generally conduct electricity. Rubber is commonly used as an insulator.,Are metals generally perfect electrical insulators?
+D01,data_reasoning,original,1,"A dataset contains values 2, 4, 6, 8, 10.",Is the mean equal to 6?
+D01,data_reasoning,irrelevant_context,1,"A dataset contains values 2, 4, 6, 8, 10. The values are stored in a spreadsheet.",Is the mean equal to 6?
+D01,data_reasoning,distracting_context,1,"A dataset contains values 2, 4, 6, 8, 10. Another dataset has mean 20.",Is the mean equal to 6?
+D02,data_reasoning,original,0,"A dataset contains values 2, 4, 6, 8, 10.",Is the mean equal to 8?
+D02,data_reasoning,irrelevant_context,0,"A dataset contains values 2, 4, 6, 8, 10. The data are arranged in ascending order.",Is the mean equal to 8?
+D02,data_reasoning,distracting_context,0,"A dataset contains values 2, 4, 6, 8, 10. Another dataset has mean 8.",Is the mean equal to 8?
+D03,data_reasoning,original,1,"Out of 100 observations, 20 belong to category A.",Is the proportion of category A equal to 20%?
+D03,data_reasoning,irrelevant_context,1,"Out of 100 observations, 20 belong to category A. The observations are stored in a CSV file.",Is the proportion of category A equal to 20%?
+D03,data_reasoning,distracting_context,1,"Out of 100 observations, 20 belong to category A. Another dataset has 40 observations in category A.",Is the proportion of category A equal to 20%?
+D04,data_reasoning,original,0,"Out of 100 observations, 20 belong to category A.",Is the proportion of category A equal to 80%?
+D04,data_reasoning,irrelevant_context,0,"Out of 100 observations, 20 belong to category A. The dataset is shown as a table.",Is the proportion of category A equal to 80%?
+D04,data_reasoning,distracting_context,0,"Out of 100 observations, 20 belong to category A. Category B contains 80 observations.",Is the proportion of category A equal to 80%?
+D05,data_reasoning,original,1,A survey reports 80 positive responses out of 100 respondents.,Is the positive response rate 80%?
+D05,data_reasoning,irrelevant_context,1,A survey reports 80 positive responses out of 100 respondents. The survey was conducted online.,Is the positive response rate 80%?
+D05,data_reasoning,distracting_context,1,A survey reports 80 positive responses out of 100 respondents. Another survey reports 60 positive responses out of 100.,Is the positive response rate 80%?
+D06,data_reasoning,original,0,A survey reports 80 positive responses out of 100 respondents.,Is the positive response rate 20%?
+D06,data_reasoning,irrelevant_context,0,A survey reports 80 positive responses out of 100 respondents. The questionnaire had five questions.,Is the positive response rate 20%?
+D06,data_reasoning,distracting_context,0,A survey reports 80 positive responses out of 100 respondents. Another survey reports 20 positive responses out of 100.,Is the positive response rate 20%?
+D07,data_reasoning,original,1,"A dataset contains values 3, 5, 7, 9, 11.",Is the median equal to 7?
+D07,data_reasoning,irrelevant_context,1,"A dataset contains values 3, 5, 7, 9, 11. The values are sorted.",Is the median equal to 7?
+D07,data_reasoning,distracting_context,1,"A dataset contains values 3, 5, 7, 9, 11. Another dataset has median 9.",Is the median equal to 7?
+D08,data_reasoning,original,0,"A dataset contains values 3, 5, 7, 9, 11.",Is the median equal to 9?
+D08,data_reasoning,irrelevant_context,0,"A dataset contains values 3, 5, 7, 9, 11. The data are numeric.",Is the median equal to 9?
+D08,data_reasoning,distracting_context,0,"A dataset contains values 3, 5, 7, 9, 11. Another dataset has median 9.",Is the median equal to 9?
+D09,data_reasoning,original,1,A classifier makes 90 correct predictions out of 100 cases.,Is its accuracy 90%?
+D09,data_reasoning,irrelevant_context,1,A classifier makes 90 correct predictions out of 100 cases. The predictions are stored in a table.,Is its accuracy 90%?
+D09,data_reasoning,distracting_context,1,A classifier makes 90 correct predictions out of 100 cases. Another classifier has 80 correct predictions out of 100.,Is its accuracy 90%?
+D10,data_reasoning,original,0,A classifier makes 90 correct predictions out of 100 cases.,Is its accuracy 10%?
+D10,data_reasoning,irrelevant_context,0,A classifier makes 90 correct predictions out of 100 cases. The evaluation is performed automatically.,Is its accuracy 10%?
+D10,data_reasoning,distracting_context,0,A classifier makes 90 correct predictions out of 100 cases. Its error rate is 10%.,Is its accuracy 10%?
+D11,data_reasoning,original,1,A table contains 50 rows and 4 columns.,Does the table contain 200 cells?
+D11,data_reasoning,irrelevant_context,1,A table contains 50 rows and 4 columns. The table is displayed on a computer.,Does the table contain 200 cells?
+D11,data_reasoning,distracting_context,1,A table contains 50 rows and 4 columns. Another table has 100 rows and 2 columns.,Does the table contain 200 cells?
+D12,data_reasoning,original,0,A table contains 50 rows and 4 columns.,Does the table contain 100 cells?
+D12,data_reasoning,irrelevant_context,0,A table contains 50 rows and 4 columns. The table is saved as a spreadsheet.,Does the table contain 100 cells?
+D12,data_reasoning,distracting_context,0,A table contains 50 rows and 4 columns. Another table contains 100 cells.,Does the table contain 100 cells?

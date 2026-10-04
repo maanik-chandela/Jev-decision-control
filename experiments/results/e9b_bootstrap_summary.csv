@@ -1,0 +1,8 @@
+metric,estimate,ci_lower,ci_upper
+mean_probability_spread,0.0235,0.014833333333333336,0.03333333333333333
+median_probability_spread,0.010000000000000005,0.009999999999999998,0.010000000000000009
+mean_abs_original_irrelevant,0.010166666666666668,0.005000000000000003,0.016333333333333335
+mean_abs_original_distracting,0.01833333333333333,0.011166666666666668,0.027000000000000003
+decision_change_original_irrelevant,0.0,0.0,0.0
+decision_change_original_distracting,0.0,0.0,0.0
+any_decision_change,0.0,0.0,0.0

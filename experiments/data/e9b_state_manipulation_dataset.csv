@@ -1,0 +1,181 @@
+case_id,domain,label,condition,state,question
+M01,mathematics,1,original,A square has side length 6 cm.,Is the area of the square 36 square centimeters?
+M01,mathematics,1,irrelevant_context,"A square has side length 6 cm. A triangle is also drawn nearby, but its dimensions are not relevant.",Is the area of the square 36 square centimeters?
+M01,mathematics,1,distracting_context,A square has side length 6 cm. A different rectangle has length 5 cm and width 4 cm. The square is still the target object.,Is the area of the square 36 square centimeters?
+M02,mathematics,0,original,A square has side length 5 cm.,Is the area of the square 30 square centimeters?
+M02,mathematics,0,irrelevant_context,A square has side length 5 cm. A triangle has base 8 cm and height 3 cm.,Is the area of the square 30 square centimeters?
+M02,mathematics,0,distracting_context,A square has side length 5 cm. A different rectangle has area 30 square centimeters. The square remains the target object.,Is the area of the square 30 square centimeters?
+M03,mathematics,1,original,A rectangle has length 8 cm and width 3 cm.,Is the area of the rectangle 24 square centimeters?
+M03,mathematics,1,irrelevant_context,A rectangle has length 8 cm and width 3 cm. A circle with radius 2 cm is mentioned.,Is the area of the rectangle 24 square centimeters?
+M03,mathematics,1,distracting_context,A rectangle has length 8 cm and width 3 cm. A different square has side length 5 cm. The rectangle remains the target object.,Is the area of the rectangle 24 square centimeters?
+M04,mathematics,0,original,A rectangle has length 7 cm and width 2 cm.,Is the area of the first rectangle 20 square centimeters?
+M04,mathematics,0,irrelevant_context,"A rectangle has length 7 cm and width 2 cm. A triangle has three sides of lengths 3, 4, and 5 cm.",Is the area of the first rectangle 20 square centimeters?
+M04,mathematics,0,distracting_context,A rectangle has length 7 cm and width 2 cm. A different rectangle has area 20 square centimeters. The first rectangle remains the target object.,Is the area of the first rectangle 20 square centimeters?
+M05,mathematics,1,original,A circle has radius 4 cm.,Is the diameter of the first circle 8 cm?
+M05,mathematics,1,irrelevant_context,A circle has radius 4 cm. A square with side length 10 cm is also described.,Is the diameter of the first circle 8 cm?
+M05,mathematics,1,distracting_context,A circle has radius 4 cm. A different circle has radius 3 cm and diameter 6 cm. The first circle remains the target object.,Is the diameter of the first circle 8 cm?
+M06,mathematics,0,original,A circle has radius 4 cm.,Is the diameter of the first circle 6 cm?
+M06,mathematics,0,irrelevant_context,A circle has radius 4 cm. A triangle with base 5 cm and height 4 cm is also described.,Is the diameter of the first circle 6 cm?
+M06,mathematics,0,distracting_context,A circle has radius 4 cm. A different circle has radius 3 cm and diameter 6 cm. The first circle remains the target object.,Is the diameter of the first circle 6 cm?
+M07,mathematics,1,original,A triangle has base 10 cm and height 6 cm.,Is the area of the first triangle 30 square centimeters?
+M07,mathematics,1,irrelevant_context,A triangle has base 10 cm and height 6 cm. A rectangle with length 9 cm and width 2 cm is mentioned.,Is the area of the first triangle 30 square centimeters?
+M07,mathematics,1,distracting_context,A triangle has base 10 cm and height 6 cm. A different triangle has area 20 square centimeters. The first triangle remains the target object.,Is the area of the first triangle 30 square centimeters?
+M08,mathematics,0,original,A triangle has base 10 cm and height 6 cm.,Is the area of the first triangle 40 square centimeters?
+M08,mathematics,0,irrelevant_context,A triangle has base 10 cm and height 6 cm. A circle with diameter 12 cm is mentioned.,Is the area of the first triangle 40 square centimeters?
+M08,mathematics,0,distracting_context,A triangle has base 10 cm and height 6 cm. A different triangle has area 40 square centimeters. The first triangle remains the target object.,Is the area of the first triangle 40 square centimeters?
+M09,mathematics,1,original,An integer is 17.,Is the integer greater than 10?
+M09,mathematics,1,irrelevant_context,An integer is 17. Another integer is 4.,Is the integer greater than 10?
+M09,mathematics,1,distracting_context,"An integer is 17. A different integer is 4, but the target integer is still 17.",Is the integer greater than 10?
+M10,mathematics,0,original,An integer is 17.,Is the integer less than 10?
+M10,mathematics,0,irrelevant_context,An integer is 17. A triangle has three sides.,Is the integer less than 10?
+M10,mathematics,0,distracting_context,"An integer is 17. A different integer is 4, but the target integer is still 17.",Is the integer less than 10?
+M11,mathematics,1,original,The sum of 8 and 7 is 15.,Is the stated sum equal to 15?
+M11,mathematics,1,irrelevant_context,The sum of 8 and 7 is 15. The product of 3 and 4 is also mentioned.,Is the stated sum equal to 15?
+M11,mathematics,1,distracting_context,"The sum of 8 and 7 is 15. A different calculation, 8 + 6, equals 14. The target calculation remains 8 + 7.",Is the stated sum equal to 15?
+M12,mathematics,0,original,A rectangle has length 6 cm and width 3 cm.,Is the perimeter of the target rectangle 20 cm?
+M12,mathematics,0,irrelevant_context,A rectangle has length 6 cm and width 3 cm. A circle has radius 2 cm.,Is the perimeter of the target rectangle 20 cm?
+M12,mathematics,0,distracting_context,A rectangle has length 6 cm and width 3 cm. A different rectangle has perimeter 18 cm. The target rectangle has dimensions 6 cm by 3 cm.,Is the perimeter of the target rectangle 20 cm?
+P01,probability,1,original,A fair six-sided die is rolled once.,Is the probability of rolling a 6 on the target die equal to 1/6?
+P01,probability,1,irrelevant_context,A fair six-sided die is rolled once. A coin is also tossed once.,Is the probability of rolling a 6 on the target die equal to 1/6?
+P01,probability,1,distracting_context,A fair six-sided die is rolled once. A different die is weighted toward 6. The target die is the fair die.,Is the probability of rolling a 6 on the target die equal to 1/6?
+P02,probability,0,original,A fair six-sided die is rolled once.,Is the probability of rolling a 6 on the target die equal to 1/2?
+P02,probability,0,irrelevant_context,A fair six-sided die is rolled once. A coin is also tossed once.,Is the probability of rolling a 6 on the target die equal to 1/2?
+P02,probability,0,distracting_context,A fair six-sided die is rolled once. A different die has probability 1/2 of rolling a 6. The target die is fair.,Is the probability of rolling a 6 on the target die equal to 1/2?
+P03,probability,1,original,A fair coin is tossed once.,Is the probability of heads on the target coin 0.5?
+P03,probability,1,irrelevant_context,A fair coin is tossed once. A six-sided die is also rolled.,Is the probability of heads on the target coin 0.5?
+P03,probability,1,distracting_context,A fair coin is tossed once. A different biased coin has probability 0.8 of heads. The target coin is fair.,Is the probability of heads on the target coin 0.5?
+P04,probability,0,original,A fair coin is tossed once.,Is the probability of heads on the target coin 0.8?
+P04,probability,0,irrelevant_context,A fair coin is tossed once. A die is also rolled.,Is the probability of heads on the target coin 0.8?
+P04,probability,0,distracting_context,A fair coin is tossed once. A different biased coin has probability 0.8 of heads. The target coin is fair.,Is the probability of heads on the target coin 0.8?
+P05,probability,1,original,A bag contains 3 red balls and 7 blue balls.,Is the probability of drawing a red ball from the target bag 0.3?
+P05,probability,1,irrelevant_context,A bag contains 3 red balls and 7 blue balls. A second bag contains 5 green balls.,Is the probability of drawing a red ball from the target bag 0.3?
+P05,probability,1,distracting_context,A bag contains 3 red balls and 7 blue balls. A different bag contains 8 red balls and 2 blue balls. The target bag contains 3 red and 7 blue balls.,Is the probability of drawing a red ball from the target bag 0.3?
+P06,probability,0,original,A bag contains 3 red balls and 7 blue balls.,Is the probability of drawing a red ball from the taget bag 0.5?
+P06,probability,0,irrelevant_context,A bag contains 3 red balls and 7 blue balls. A second bag contains 5 green balls.,Is the probability of drawing a red ball from the taget bag 0.5?
+P06,probability,0,distracting_context,A bag contains 3 red balls and 7 blue balls. A different bag contains 8 red balls and 2 blue balls. The target bag contains 3 red and 7 blue balls.,Is the probability of drawing a red ball from the taget bag 0.5?
+P07,probability,1,original,A fair die is rolled once.,Is the probability of rolling a number greater than 4 on the target die equal to 1/3?
+P07,probability,1,irrelevant_context,A fair die is rolled once. A coin is tossed after the die roll.,Is the probability of rolling a number greater than 4 on the target die equal to 1/3?
+P07,probability,1,distracting_context,A fair die is rolled once. A different die has a 1/2 probability of producing a number greater than 4. The target die is fair.,Is the probability of rolling a number greater than 4 on the target die equal to 1/3?
+P08,probability,0,original,A box contains 3 red cards and 7 blue cards.,Is the probability of selecting a red card from the first box 0.7?
+P08,probability,0,irrelevant_context,A box contains 3 red cards and 7 blue cards. A second box contains 5 green cards.,Is the probability of selecting a red card from the first box 0.7?
+P08,probability,0,distracting_context,"A box contains 3 red cards and 7 blue cards. A second box contains 7 red cards and 3 blue cards. The target is the first box, which contains 3 red and 7 blue cards.",Is the probability of selecting a red card from the first box 0.7?
+P09,probability,1,original,"In a finite sample space, an event has probability 0.",Is the target event impossible?
+P09,probability,1,irrelevant_context,"In a finite sample space, an event has probability 0. Another event has probability 0.5.",Is the target event impossible?
+P09,probability,1,distracting_context,"In a finite sample space, an event has probability 0. A different event is certain to occur. The target event has probability 0 in the finite sample space.",Is the target event impossible?
+P10,probability,0,original,A fair six-sided die is rolled once.,Is the probability of rolling an even number equal to 1/3?
+P10,probability,0,irrelevant_context,A fair six-sided die is rolled once. A coin is tossed separately.,Is the probability of rolling an even number equal to 1/3?
+P10,probability,0,distracting_context,A fair six-sided die is rolled once. A different experiment has probability 1/3 of producing an even result. The target die is fair.,Is the probability of rolling an even number equal to 1/3?
+P11,probability,1,original,A bag contains 8 red balls and 2 blue balls.,Is the probability of drawing a red ball from the first bag 0.8?
+P11,probability,1,irrelevant_context,A bag contains 8 red balls and 2 blue balls. A second bag contains 5 red and 5 blue balls.,Is the probability of drawing a red ball from the first bag 0.8?
+P11,probability,1,distracting_context,A bag contains 8 red balls and 2 blue balls. A second bag contains 5 red and 5 blue balls. The target is the first bag with 8 red and 2 blue balls.,Is the probability of drawing a red ball from the first bag 0.8?
+P12,probability,0,original,A bag contains 8 red balls and 2 blue balls.,Is the probability of drawing a red ball from the first bag 0.5?
+P12,probability,0,irrelevant_context,A bag contains 8 red balls and 2 blue balls. A second bag contains 5 red and 5 blue balls.,Is the probability of drawing a red ball from the first bag 0.5?
+P12,probability,0,distracting_context,A bag contains 8 red balls and 2 blue balls. A second bag contains 5 red and 5 blue balls. The target is the first bag with 8 red and 2 blue balls.,Is the probability of drawing a red ball from the first bag 0.5?
+L01,formal_logic,1,original,"If A occurs, then B occurs. A occurs.",Must B occur?
+L01,formal_logic,1,irrelevant_context,"If A occurs, then B occurs. A occurs. A separate statement says C occurs.",Must B occur?
+L01,formal_logic,1,distracting_context,"If A occurs, then B occurs. A occurs. Another rule says C implies D. The target rule remains A implies B.",Must B occur?
+L02,formal_logic,0,original,"If A occurs, then B occurs. A does not occur.",Must B not occur?
+L02,formal_logic,0,irrelevant_context,"If A occurs, then B occurs. A does not occur. A separate statement says C occurs.",Must B not occur?
+L02,formal_logic,0,distracting_context,"If A occurs, then B occurs. A does not occur. Another rule says C implies B. The target rule concerns A implying B.",Must B not occur?
+L03,formal_logic,0,original,"If A occurs, then B occurs. B occurs.",Must A have occurred?
+L03,formal_logic,0,irrelevant_context,"If A occurs, then B occurs. B occurs. C also occurs.",Must A have occurred?
+L03,formal_logic,0,distracting_context,"If A occurs, then B occurs. B occurs. A separate rule states that C implies B. The target rule is still A implies B.",Must A have occurred?
+L04,formal_logic,1,original,"If A occurs, then B occurs. B does not occur.",Must A not have occurred?
+L04,formal_logic,1,irrelevant_context,"If A occurs, then B occurs. B does not occur. C is known to occur.",Must A not have occurred?
+L04,formal_logic,1,distracting_context,"If A occurs, then B occurs. B does not occur. A separate rule states C implies D. The target rule is still A implies B.",Must A not have occurred?
+L05,formal_logic,1,original,All A are B. X is A.,Must X be B?
+L05,formal_logic,1,irrelevant_context,All A are B. X is A. Y is C.,Must X be B?
+L05,formal_logic,1,distracting_context,All A are B. X is A. All C are D and Y is C. The target statement remains all A are B.,Must X be B?
+L06,formal_logic,0,original,All A are B. X is not A.,Must X not be B?
+L06,formal_logic,0,irrelevant_context,All A are B. X is not A. Y is C.,Must X not be B?
+L06,formal_logic,0,distracting_context,All A are B. X is not A. All C are B and Y is C. The target statement remains all A are B.,Must X not be B?
+L07,formal_logic,1,original,No A are B. X is A.,Must X not be B?
+L07,formal_logic,1,irrelevant_context,No A are B. X is A. Y is C.,Must X not be B?
+L07,formal_logic,1,distracting_context,No A are B. X is A. Some C are B. The target statement remains that no A are B.,Must X not be B?
+L08,formal_logic,0,original,Some A are B.,Must every A be B?
+L08,formal_logic,0,irrelevant_context,Some A are B. Some C are D.,Must every A be B?
+L08,formal_logic,0,distracting_context,Some A are B. Every C is D. The target statement is only that some A are B.,Must every A be B?
+L09,formal_logic,0,original,No A are B. All C are A.,Must every C be B?
+L09,formal_logic,0,irrelevant_context,No A are B. All C are A. Some D are E.,Must every C be B?
+L09,formal_logic,0,distracting_context,"No A are B. All C are A. All D are B. The target relation remains C is a subset of A, with A disjoint from B.",Must every C be B?
+L10,formal_logic,1,original,All birds in a specified group are animals. Penguin P is a bird in that group.,Must Penguin P be an animal?
+L10,formal_logic,1,irrelevant_context,All birds in a specified group are animals. Penguin P is a bird in that group. A fish is also mentioned.,Must Penguin P be an animal?
+L10,formal_logic,1,distracting_context,All birds in a specified group are animals. Penguin P is a bird in that group. A different group contains a non-bird animal. Penguin P remains in the specified bird group.,Must Penguin P be an animal?
+L11,formal_logic,1,original,All birds in a specified group are animals. X is not an animal.,Must X not be a bird in that group?
+L11,formal_logic,1,irrelevant_context,All birds in a specified group are animals. X is not an animal. A fish is mentioned.,Must X not be a bird in that group?
+L11,formal_logic,1,distracting_context,All birds in a specified group are animals. X is not an animal. A different bird group is described. The target group is the one in which all birds are animals.,Must X not be a bird in that group?
+L12,formal_logic,0,original,"If a device is certified, then it passes inspection. Device X is certified.",Must Device X fail inspection?
+L12,formal_logic,0,irrelevant_context,"If a device is certified, then it passes inspection. Device X is certified. Device Y has not yet been inspected.",Must Device X fail inspection?
+L12,formal_logic,0,distracting_context,"If a device is certified, then it passes inspection. Device X is certified. A different device failed inspection. Device X remains certified under the target rule.",Must Device X fail inspection?
+S01,science_reasoning,1,original,Pure water freezes at 0 degrees Celsius under standard atmospheric pressure.,Does pure water freeze at 0 degrees Celsius under standard atmospheric pressure?
+S01,science_reasoning,1,irrelevant_context,Pure water freezes at 0 degrees Celsius under standard atmospheric pressure. Iron melts at a much higher temperature.,Does pure water freeze at 0 degrees Celsius under standard atmospheric pressure?
+S01,science_reasoning,1,distracting_context,Pure water freezes at 0 degrees Celsius under standard atmospheric pressure. Salt water can freeze below 0 degrees Celsius. The target substance is pure water.,Does pure water freeze at 0 degrees Celsius under standard atmospheric pressure?
+S02,science_reasoning,0,original,Pure water freezes at 0 degrees Celsius under standard atmospheric pressure.,Does pure water freeze at 10 degrees Celsius under standard atmospheric pressure?
+S02,science_reasoning,0,irrelevant_context,Pure water freezes at 0 degrees Celsius under standard atmospheric pressure. Copper conducts electricity.,Does pure water freeze at 10 degrees Celsius under standard atmospheric pressure?
+S02,science_reasoning,0,distracting_context,Pure water freezes at 0 degrees Celsius under standard atmospheric pressure. A salt solution freezes below 0 degrees Celsius. The target substance is pure water.,Does pure water freeze at 10 degrees Celsius under standard atmospheric pressure?
+S03,science_reasoning,1,original,Objects near Earth's surface accelerate downward at approximately 9.8 m/s^2 when air resistance is neglected.,Is the acceleration approximately 9.8 m/s^2?
+S03,science_reasoning,1,irrelevant_context,Objects near Earth's surface accelerate downward at approximately 9.8 m/s^2 when air resistance is neglected. The object also has a mass of 2 kg.,Is the acceleration approximately 9.8 m/s^2?
+S03,science_reasoning,1,distracting_context,Objects near Earth's surface accelerate downward at approximately 9.8 m/s^2 when air resistance is neglected. A different planet has a different gravitational acceleration. The target is near Earth's surface.,Is the acceleration approximately 9.8 m/s^2?
+S04,science_reasoning,0,original,Objects near Earth's surface accelerate downward at approximately 9.8 m/s^2 when air resistance is neglected.,Is the acceleration approximately 20 m/s^2?
+S04,science_reasoning,0,irrelevant_context,Objects near Earth's surface accelerate downward at approximately 9.8 m/s^2 when air resistance is neglected. The object has mass 2 kg.,Is the acceleration approximately 20 m/s^2?
+S04,science_reasoning,0,distracting_context,Objects near Earth's surface accelerate downward at approximately 9.8 m/s^2 when air resistance is neglected. A different planet has gravitational acceleration approximately 20 m/s^2. The target is near Earth's surface.,Is the acceleration approximately 20 m/s^2?
+S05,science_reasoning,1,original,Plants use carbon dioxide during photosynthesis.,Is carbon dioxide used during photosynthesis?
+S05,science_reasoning,1,irrelevant_context,Plants use carbon dioxide during photosynthesis. Plants also require water.,Is carbon dioxide used during photosynthesis?
+S05,science_reasoning,1,distracting_context,Plants use carbon dioxide during photosynthesis. Plants release carbon dioxide during cellular respiration. The target process is photosynthesis.,Is carbon dioxide used during photosynthesis?
+S06,science_reasoning,0,original,Plants use carbon dioxide during photosynthesis.,Is carbon dioxide not used during photosynthesis?
+S06,science_reasoning,0,irrelevant_context,Plants use carbon dioxide during photosynthesis. Plants also require water.,Is carbon dioxide not used during photosynthesis?
+S06,science_reasoning,0,distracting_context,Plants use carbon dioxide during photosynthesis. Plants release carbon dioxide during cellular respiration. The target process is photosynthesis.,Is carbon dioxide not used during photosynthesis?
+S07,science_reasoning,1,original,"At constant pressure, heating an ideal gas increases its volume when the amount of gas is fixed.",Does heating increase the volume under these conditions?
+S07,science_reasoning,1,irrelevant_context,"At constant pressure, heating an ideal gas increases its volume when the amount of gas is fixed. The gas has a pressure of 1 atmosphere.",Does heating increase the volume under these conditions?
+S07,science_reasoning,1,distracting_context,"At constant pressure, heating an ideal gas increases its volume when the amount of gas is fixed. At constant volume, heating increases pressure instead. The target condition is constant pressure.",Does heating increase the volume under these conditions?
+S08,science_reasoning,0,original,"At constant pressure, heating an ideal gas increases its volume when the amount of gas is fixed.",Does heating decrease the volume under these conditions?
+S08,science_reasoning,0,irrelevant_context,"At constant pressure, heating an ideal gas increases its volume when the amount of gas is fixed. The gas is in a container.",Does heating decrease the volume under these conditions?
+S08,science_reasoning,0,distracting_context,"At constant pressure, heating an ideal gas increases its volume when the amount of gas is fixed. At constant volume, heating increases pressure. The target condition is constant pressure.",Does heating decrease the volume under these conditions?
+S09,science_reasoning,1,original,"An object with greater mass requires greater force to produce the same acceleration, assuming the same conditions.",Does greater mass require greater force for the same acceleration?
+S09,science_reasoning,1,irrelevant_context,"An object with greater mass requires greater force to produce the same acceleration, assuming the same conditions. Both objects are moving horizontally.",Does greater mass require greater force for the same acceleration?
+S09,science_reasoning,1,distracting_context,"An object with greater mass requires greater force to produce the same acceleration, assuming the same conditions. A lighter object requires less force for the same acceleration. The target comparison concerns the heavier object.",Does greater mass require greater force for the same acceleration?
+S10,science_reasoning,0,original,"An object with greater mass requires greater force to produce the same acceleration, assuming the same conditions.",Does greater mass require less force for the same acceleration?
+S10,science_reasoning,0,irrelevant_context,"An object with greater mass requires greater force to produce the same acceleration, assuming the same conditions. Both objects are moving horizontally.",Does greater mass require less force for the same acceleration?
+S10,science_reasoning,0,distracting_context,"An object with greater mass requires greater force to produce the same acceleration, assuming the same conditions. A lighter object requires less force for the same acceleration. The target comparison concerns the heavier object.",Does greater mass require less force for the same acceleration?
+S11,science_reasoning,1,original,Light can propagate through a vacuum.,Can light propagate through a vacuum?
+S11,science_reasoning,1,irrelevant_context,Light can propagate through a vacuum. Sound requires a material medium to propagate.,Can light propagate through a vacuum?
+S11,science_reasoning,1,distracting_context,"Light can propagate through a vacuum. Sound cannot propagate through a vacuum, but light can. The target phenomenon is light.",Can light propagate through a vacuum?
+S12,science_reasoning,0,original,Sound requires a material medium to propagate.,Can sound propagate through a vacuum?
+S12,science_reasoning,0,irrelevant_context,Sound requires a material medium to propagate. Light can propagate through a vacuum.,Can sound propagate through a vacuum?
+S12,science_reasoning,0,distracting_context,"Sound requires a material medium to propagate. Light can propagate through a vacuum, but sound requires a material medium. The target phenomenon is sound.",Can sound propagate through a vacuum?
+D01,data_reasoning,1,original,"Dataset A contains the values 2, 4, 6, and 8.",Is the mean of Dataset A equal to 5?
+D01,data_reasoning,1,irrelevant_context,"Dataset A contains the values 2, 4, 6, and 8. Dataset B contains the values 100 and 200.",Is the mean of Dataset A equal to 5?
+D01,data_reasoning,1,distracting_context,"Dataset A contains the values 2, 4, 6, and 8. Dataset B has mean 150. The target is Dataset A, whose values are 2, 4, 6, and 8.",Is the mean of Dataset A equal to 5?
+D02,data_reasoning,0,original,"Dataset A contains the values 2, 4, 6, and 8.",Is the mean of Dataset A equal to 8?
+D02,data_reasoning,0,irrelevant_context,"Dataset A contains the values 2, 4, 6, and 8. Dataset B contains the values 8 and 8.",Is the mean of Dataset A equal to 8?
+D02,data_reasoning,0,distracting_context,"Dataset A contains the values 2, 4, 6, and 8. Dataset B has mean 8. The target is Dataset A, whose mean is 5.",Is the mean of Dataset A equal to 8?
+D03,data_reasoning,1,original,"Dataset A contains 20 observations, of which 5 belong to category X.",Is the proportion of category X equal to 25%?
+D03,data_reasoning,1,irrelevant_context,"Dataset A contains 20 observations, of which 5 belong to category X. Dataset B contains 100 observations.",Is the proportion of category X equal to 25%?
+D03,data_reasoning,1,distracting_context,"Dataset A contains 20 observations, of which 5 belong to category X. Dataset B has category X proportion 80%. The target is Dataset A.",Is the proportion of category X equal to 25%?
+D04,data_reasoning,0,original,"Dataset A contains 20 observations, of which 5 belong to category X.",Is the proportion of category X equal to 50%?
+D04,data_reasoning,0,irrelevant_context,"Dataset A contains 20 observations, of which 5 belong to category X. Dataset B contains 100 observations.",Is the proportion of category X equal to 50%?
+D04,data_reasoning,0,distracting_context,"Dataset A contains 20 observations, of which 5 belong to category X. Dataset B has category X proportion 50%. The target is Dataset A.",Is the proportion of category X equal to 50%?
+D05,data_reasoning,1,original,"Dataset A contains values 1, 3, 5, 7, and 9.",Is the median of Dataset A equal to 5?
+D05,data_reasoning,1,irrelevant_context,"Dataset A contains values 1, 3, 5, 7, and 9. Dataset B contains values 100 and 200.",Is the median of Dataset A equal to 5?
+D05,data_reasoning,1,distracting_context,"Dataset A contains values 1, 3, 5, 7, and 9. Dataset B has median 150. The target is Dataset A.",Is the median of Dataset A equal to 5?
+D06,data_reasoning,0,original,"Dataset A contains values 1, 3, 5, 7, and 9.",Is the median of Dataset A equal to 7?
+D06,data_reasoning,0,irrelevant_context,"Dataset A contains values 1, 3, 5, 7, and 9. Dataset B contains values 7 and 7.",Is the median of Dataset A equal to 7?
+D06,data_reasoning,0,distracting_context,"Dataset A contains values 1, 3, 5, 7, and 9. Dataset B has median 7. The target is Dataset A, whose median is 5.",Is the median of Dataset A equal to 7?
+D07,data_reasoning,1,original,Dataset A has 80 correct predictions out of 100 predictions.,Is the accuracy of Dataset A's predictions 80%?
+D07,data_reasoning,1,irrelevant_context,Dataset A has 80 correct predictions out of 100 predictions. Dataset B has 90 correct predictions out of 100.,Is the accuracy of Dataset A's predictions 80%?
+D07,data_reasoning,1,distracting_context,"Dataset A has 80 correct predictions out of 100 predictions. Dataset B has accuracy 90%. The target is Dataset A, whose accuracy is 80%.",Is the accuracy of Dataset A's predictions 80%?
+D08,data_reasoning,0,original,Dataset A has 80 correct predictions out of 100 predictions.,Is the accuracy of Dataset A's predictions 90%?
+D08,data_reasoning,0,irrelevant_context,Dataset A has 80 correct predictions out of 100 predictions. Dataset B has 90 correct predictions out of 100.,Is the accuracy of Dataset A's predictions 90%?
+D08,data_reasoning,0,distracting_context,"Dataset A has 80 correct predictions out of 100 predictions. Dataset B has accuracy 90%. The target is Dataset A, whose accuracy is 80%.",Is the accuracy of Dataset A's predictions 90%?
+D09,data_reasoning,1,original,"Group A contains 30 people, and 12 prefer option X.",Is the proportion preferring option X equal to 40%?
+D09,data_reasoning,1,irrelevant_context,"Group A contains 30 people, and 12 prefer option X. Group B contains 50 people.",Is the proportion preferring option X equal to 40%?
+D09,data_reasoning,1,distracting_context,"Group A contains 30 people, and 12 prefer option X. Group B has 50% preference for option X. The target is Group A.",Is the proportion preferring option X equal to 40%?
+D10,data_reasoning,0,original,"Group A contains 30 people, and 12 prefer option X.",Is the proportion preferring option X equal to 50%?
+D10,data_reasoning,0,irrelevant_context,"Group A contains 30 people, and 12 prefer option X. Group B contains 50 people.",Is the proportion preferring option X equal to 50%?
+D10,data_reasoning,0,distracting_context,"Group A contains 30 people, and 12 prefer option X. Group B has 50% preference for option X. The target is Group A.",Is the proportion preferring option X equal to 50%?
+D11,data_reasoning,1,original,"Dataset A contains values 2, 4, 8, 10, and 12.",Is the median of Dataset A equal to 8?
+D11,data_reasoning,1,irrelevant_context,"Dataset A contains values 2, 4, 8, 10, and 12. Dataset B contains values 8, 8, and 8.",Is the median of Dataset A equal to 8?
+D11,data_reasoning,1,distracting_context,"Dataset A contains values 2, 4, 8, 10, and 12. Dataset B has median 8. The target is Dataset A, whose median is also 8.",Is the median of Dataset A equal to 8?
+D12,data_reasoning,0,original,"Dataset A contains values 2, 4, 8, 10, and 12.",Is the median of Dataset A equal to 10?
+D12,data_reasoning,0,irrelevant_context,"Dataset A contains values 2, 4, 8, 10, and 12. Dataset B contains values 10, 10, and 10.",Is the median of Dataset A equal to 10?
+D12,data_reasoning,0,distracting_context,"Dataset A contains values 2, 4, 8, 10, and 12. Dataset B has median 10. The target is Dataset A, whose median is 8.",Is the median of Dataset A equal to 10?
