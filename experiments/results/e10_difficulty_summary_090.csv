@@ -1,0 +1,4 @@
+difficulty,n,base_accuracy,strong_accuracy,router_accuracy,escalation_rate,base_errors,router_errors
+easy,50,0.98,1.0,1.0,0.1,1,0
+hard,50,0.98,1.0,1.0,0.1,1,0
+moderate,50,1.0,1.0,1.0,0.08,0,0

@@ -1,0 +1,151 @@
+case_id,domain,difficulty,question,label
+M01,mathematics,easy,Is 17 greater than 20?,0
+M02,mathematics,easy,Is 8 multiplied by 7 equal to 56?,1
+M03,mathematics,easy,Is 144 divisible by 11?,0
+M04,mathematics,easy,Is the square root of 81 equal to 9?,1
+M05,mathematics,easy,Is 3/4 less than 1/2?,0
+M06,mathematics,easy,Is 25 an odd number?,1
+M07,mathematics,easy,Is 81 the square of 8?,0
+M08,mathematics,easy,Is 2^5 equal to 32?,1
+M09,mathematics,easy,Is 49 divisible by 7?,1
+M10,mathematics,easy,Is the integer 36 divisible by 5?,0
+M11,mathematics,moderate,A rectangle has length 12 cm and width 5 cm. Is its area 70 square centimeters?,0
+M12,mathematics,moderate,A square has side length 6 cm. Is its perimeter 24 cm?,1
+M13,mathematics,moderate,"If x + 7 = 19, is x equal to 12?",1
+M14,mathematics,moderate,"Is the average of 8, 12, and 16 equal to 13?",0
+M15,mathematics,moderate,"If 3x = 21, is x equal to 8?",0
+M16,mathematics,moderate,Is the area of a triangle with base 10 cm and height 6 cm equal to 30 square centimeters?,1
+M17,mathematics,moderate,"If x = 5, is 2x + 3 equal to 14?",0
+M18,mathematics,moderate,Is 15% of 200 equal to 30?,1
+M19,mathematics,moderate,"If 5x - 10 = 15, is x equal to 5?",1
+M20,mathematics,moderate,Is the circumference of a circle with radius 1 exactly 2π?,1
+M21,mathematics,hard,"If an integer is divisible by both 6 and 10, must it be divisible by 20?",0
+M22,mathematics,hard,"If a number is divisible by 12, must it be divisible by 8?",0
+M23,mathematics,hard,"For every real x, if x > 2 then x^2 > 4?",1
+M24,mathematics,hard,"For every real x, is x^2 greater than or equal to x?",0
+M25,mathematics,hard,"If a and b are positive and a > b, must a^2 < b^2?",0
+M26,mathematics,hard,"If two real numbers have the same square, must the two numbers be equal?",0
+M27,mathematics,hard,"If x and y are positive real numbers and x > y, must x^2 > y^2?",1
+M28,mathematics,hard,"If an integer is divisible by 4 and 6, must it be divisible by 12?",1
+M29,mathematics,hard,"If n^2 is even, must n be even?",1
+M30,mathematics,hard,"If a^2 = b^2 for real numbers a and b, must a = b?",0
+P01,probability,easy,"For a fair six-sided die, is the probability of rolling a 6 equal to 1/5?",0
+P02,probability,easy,"For a fair coin, is the probability of heads equal to 1/3?",0
+P03,probability,easy,"For a fair six-sided die, is the probability of rolling a number greater than 6 equal to 1/6?",0
+P04,probability,easy,"For a fair six-sided die, is the probability of rolling an even number equal to 1/2?",1
+P05,probability,easy,Is the probability of an impossible event equal to 0?,1
+P06,probability,easy,Is the probability of a certain event equal to 1?,1
+P07,probability,easy,"For a fair coin, is the probability of tails equal to 1/3?",0
+P08,probability,easy,"For a fair six-sided die, is the probability of rolling a number less than 7 equal to 1?",1
+P09,probability,easy,"In a finite sample space, if an event has probability 0, is the event impossible?",1
+P10,probability,easy,"For a fair six-sided die, is the probability of rolling 2 or 5 equal to 1/2?",0
+P11,probability,moderate,"For a fair six-sided die, is the probability of rolling a number greater than 4 equal to 1/3?",1
+P12,probability,moderate,"For a fair six-sided die, is the probability of rolling a prime number equal to 1/3?",0
+P13,probability,moderate,"If two events are mutually exclusive, can both occur in the same trial?",0
+P14,probability,moderate,"For two independent fair coin tosses, is the probability of getting two heads equal to 1/4?",1
+P15,probability,moderate,"For two independent fair coin tosses, is the probability of getting at least one head equal to 1/2?",0
+P16,probability,moderate,A bag contains 3 red balls and 2 blue balls. Is the probability of drawing a red ball equal to 3/5?,1
+P17,probability,moderate,A bag contains 4 red balls and 6 blue balls. Is the probability of drawing a red ball equal to 2/5?,1
+P18,probability,moderate,"If P(A) = 0.4, must P(A complement) equal 0.4?",0
+P19,probability,moderate,"If P(A) = 0.3 and P(B) = 0.2 for mutually exclusive events, is P(A or B) = 0.5?",1
+P20,probability,moderate,"For two fair dice, is the probability that their sum is 2 equal to 1/6?",0
+P21,probability,hard,"For two fair six-sided dice, is the probability that the sum is 7 equal to 1/5?",0
+P22,probability,hard,"For two fair six-sided dice, is the probability that the sum is greater than 10 equal to 1/12?",1
+P23,probability,hard,"If events A and B are independent, must P(A and B) equal P(A) + P(B)?",0
+P24,probability,hard,"If P(A) = 0.5 and P(B) = 0.5 and A and B are independent, is P(A and B) = 0.25?",1
+P25,probability,hard,"If P(A|B) = P(A), does that establish independence of A and B when P(B) > 0?",1
+P26,probability,hard,"For two fair six-sided dice, is the probability that the second die is greater than the first equal to 1/2?",0
+P27,probability,hard,"If A is a subset of B, must P(A) be less than or equal to P(B)?",1
+P28,probability,hard,"If P(A) = 0.7 and P(B) = 0.6, must P(A and B) equal 0.42?",0
+P29,probability,hard,"If P(A) = 0.8 and P(B) = 0.5, can P(A and B) be 0.4?",1
+P30,probability,hard,"If P(A or B) = P(A) + P(B), must A and B be independent?",0
+L01,formal_logic,easy,"If all cats are animals, and Luna is a cat, must Luna be a plant?",0
+L02,formal_logic,easy,"If all birds can fly, and Robin is a bird, does the premise imply that Robin can fly?",1
+L03,formal_logic,easy,"If no A are B, and x is an A, must x be a B?",0
+L04,formal_logic,easy,"If all A are B, and x is not B, must x be an A?",0
+L05,formal_logic,easy,"If A implies B, and A is true, must B be true?",1
+L06,formal_logic,easy,"If A implies B, and B is false, must A be true?",0
+L07,formal_logic,easy,"If all dogs are mammals and Rex is a dog, must Rex be a mammal?",1
+L08,formal_logic,easy,"If no students are teachers and Ravi is a student, must Ravi be a teacher?",0
+L09,formal_logic,easy,"If all roses are flowers and some roses exist, must at least one flower exist?",1
+L10,formal_logic,easy,"If all programmers are adults and Ravi is not an adult, can Ravi be a programmer under these premises?",0
+L11,formal_logic,moderate,"If every bird in a specified group is an animal and X is not an animal, must X not be a bird in that group?",1
+L12,formal_logic,moderate,"If a device is certified, then it passes inspection. Device X is certified. Must Device X fail inspection?",0
+L13,formal_logic,moderate,"If no A are B and some C are A, must those C that are A be non-B?",1
+L14,formal_logic,moderate,"If every certified device passes inspection and device X is certified, must device X fail inspection?",0
+L15,formal_logic,moderate,"If all A are B and all B are C, must all A be C?",1
+L16,formal_logic,moderate,"If all A are B and some B are C, must some A be C?",0
+L17,formal_logic,moderate,"If some A are B and no B are C, must every A be non-C?",0
+L18,formal_logic,moderate,"If no A are B and all C are A, must no C be B?",1
+L19,formal_logic,moderate,"If A implies B and B implies C, does A imply C?",1
+L20,formal_logic,moderate,"If some A are B and no B are C, does it follow that every A is non-C?",0
+L21,formal_logic,hard,"If every A is B, every B is C, and no C is D, must every A be non-D?",1
+L22,formal_logic,hard,"If every A is B and no B is C, can an A also be a C under these premises?",0
+L23,formal_logic,hard,"If some A are B and every B is C, must at least one A be C?",1
+L24,formal_logic,hard,"If every A is B and some B are C, does it follow that some A are C?",0
+L25,formal_logic,hard,"If no A are B, and every C is A, must no C be B?",1
+L26,formal_logic,hard,"If A implies B, B implies C, and C is false, must A be false?",1
+L27,formal_logic,hard,"If A implies B and B is true, must A be true?",0
+L28,formal_logic,hard,"If A and B cannot both be true, and A is true, must B be false?",1
+L29,formal_logic,hard,"If at least one A is B and every B is C, must at least one A be C?",1
+L30,formal_logic,hard,"If at least one A is B, and A is false, must B be false?",0
+S01,science_reasoning,easy,Does water freeze at 0 degrees Celsius under standard atmospheric pressure?,1
+S02,science_reasoning,easy,Does the Earth orbit the Sun?,1
+S03,science_reasoning,easy,Is the Earth a star?,0
+S04,science_reasoning,easy,Is oxygen a gas at standard room conditions?,1
+S05,science_reasoning,easy,Is oxygen required for ordinary anaerobic respiration?,0
+S06,science_reasoning,easy,Does the Moon produce its own visible light like a star?,0
+S07,science_reasoning,easy,Is liquid water made of H2O molecules?,1
+S08,science_reasoning,easy,Does increasing temperature generally increase the average kinetic energy of particles in a substance?,1
+S09,science_reasoning,easy,Is gravity a force that repels masses from one another?,0
+S10,science_reasoning,easy,Can sound propagate through a vacuum?,0
+S11,science_reasoning,moderate,Does light travel faster in vacuum than in air?,1
+S12,science_reasoning,moderate,Does sound travel through a vacuum?,0
+S13,science_reasoning,moderate,"If the net force on an object is zero, must the object be stationary?",0
+S14,science_reasoning,moderate,"If the net force on an object is zero, can the object move at constant velocity?",1
+S15,science_reasoning,moderate,"For a fixed mass, does increasing net force increase acceleration?",1
+S16,science_reasoning,moderate,"If two objects have the same mass and experience the same net force, must their accelerations be equal?",1
+S17,science_reasoning,moderate,Does an object with zero velocity necessarily have zero acceleration?,0
+S18,science_reasoning,moderate,"If an object is accelerating, must its speed be increasing?",0
+S19,science_reasoning,moderate,Does increasing the frequency of a sound wave while keeping its propagation medium fixed increase its wavelength?,0
+S20,science_reasoning,moderate,"At constant speed in a circle, is the object still accelerating?",1
+S21,science_reasoning,hard,"If two objects experience the same net force but have different masses, must their accelerations be different?",1
+S22,science_reasoning,hard,"If two objects experience the same force and have different masses, must their accelerations be equal?",0
+S23,science_reasoning,hard,"If an object has constant momentum and constant mass, must its velocity be constant?",1
+S24,science_reasoning,hard,Can an object have zero acceleration while moving with nonzero constant velocity?,1
+S25,science_reasoning,hard,"If two objects have equal kinetic energy, must they have equal momentum?",0
+S26,science_reasoning,hard,"If two objects have equal momentum, must they have equal kinetic energy?",0
+S27,science_reasoning,hard,"If an isolated system has no external net force, must its total momentum be conserved?",1
+S28,science_reasoning,hard,"If an object has nonzero acceleration, must its speed be changing?",0
+S29,science_reasoning,hard,"For a fixed mass moving in a circle at constant speed, changing the radius changes the required centripetal acceleration.",1
+S30,science_reasoning,hard,"If the net work done on an object is zero, must the object's speed have remained constant throughout the motion?",0
+D01,data_reasoning,easy,"A dataset contains the values 2, 4, 6, 8. Is the mean equal to 6?",0
+D02,data_reasoning,easy,"A dataset contains the values 1, 3, 5, 7, 9. Is the median equal to 6?",0
+D03,data_reasoning,easy,A model correctly classifies 95 out of 100 examples. Is its accuracy 95%?,1
+D04,data_reasoning,easy,A confusion matrix has TP=80 and FN=20. Is recall 70%?,0
+D05,data_reasoning,easy,A classifier has precision 1.0. Does this necessarily mean its recall is also 1.0?,0
+D06,data_reasoning,easy,A dataset contains 90 negative examples and 10 positive examples. Are the classes balanced?,0
+D07,data_reasoning,easy,"A sample contains the values 10, 10, 10, 10, and 20. Is the median equal to 10?",1
+D08,data_reasoning,easy,A correlation coefficient between X and Y is exactly zero. Does this prove that X and Y are independent?,0
+D09,data_reasoning,easy,A scatter plot shows a perfect straight-line relationship with positive slope. Is the Pearson correlation coefficient equal to 1?,1
+D10,data_reasoning,easy,A sample has standard deviation zero. Must every observation have the same value?,1
+D11,data_reasoning,moderate,"A confusion matrix has TP=50, FP=50, FN=0, TN=100. Is recall equal to 100%?",1
+D12,data_reasoning,moderate,"A confusion matrix has TP=50, FP=50, FN=0, TN=100. Is precision equal to 50%?",1
+D13,data_reasoning,moderate,A model's test accuracy is 99% on a dataset where 99% of examples belong to one class. Does 99% accuracy alone establish that the model handles both classes well?,0
+D14,data_reasoning,moderate,"Five measurements are 5, 10, 10, 20, and 25. Is the median equal to 10?",1
+D15,data_reasoning,moderate,"A dataset contains 100 observations, but 25 are missing from the recorded table. Does the recorded table contain 100 observed values?",0
+D16,data_reasoning,moderate,"If TP=80 and FP=20, is precision equal to 70%?",0
+D17,data_reasoning,moderate,"If TP=80 and FN=20, is recall equal to 80%?",1
+D18,data_reasoning,moderate,"If a dataset has mean 10 and every observation is increased by 5, does the new mean become 15?",1
+D19,data_reasoning,moderate,"If every value in a dataset is multiplied by 2, does the median remain unchanged?",0
+D20,data_reasoning,moderate,"A dataset contains 10, 20, and 30. Is its mean equal to 20?",1
+D21,data_reasoning,hard,"If a classifier has precision 1.0, must every predicted positive be a true positive?",1
+D22,data_reasoning,hard,"If a classifier has recall 1.0, must every predicted positive be a true positive?",0
+D23,data_reasoning,hard,"If a model has 90% accuracy on a dataset with 90% negatives, does that alone prove it learned meaningful patterns?",0
+D24,data_reasoning,hard,"If a correlation coefficient is 1, must the relationship between the two variables be exactly linear with positive slope?",1
+D25,data_reasoning,hard,"If two datasets have the same mean, must they have the same variance?",0
+D26,data_reasoning,hard,"For the dataset [1, 2, 3, 100], is the mean equal to 26.5 and the median equal to 2.5?",1
+D27,data_reasoning,hard,"If every observation in a dataset is increased by the same constant, does the variance remain unchanged?",1
+D28,data_reasoning,hard,"If two models have the same accuracy, must they have the same confusion matrix?",0
+D29,data_reasoning,hard,"If a classifier has zero false positives, must its precision be 100% provided it makes at least one positive prediction?",1
+D30,data_reasoning,hard,"If every value in a dataset is multiplied by 3, does the median remain unchanged?",0

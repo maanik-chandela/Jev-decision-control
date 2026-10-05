@@ -1,0 +1,2 @@
+n_cases,brier_score,log_loss,ece,mean_probability,mean_correct_probability,mean_incorrect_probability
+150,0.015522000000000001,0.07943710654720094,0.05459999999999998,0.9336666666666668,0.9450675675675676,0.09
