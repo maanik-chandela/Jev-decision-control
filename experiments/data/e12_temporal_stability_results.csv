@@ -1,0 +1,181 @@
+case_id,domain,difficulty,label,timepoint,question,probability,prediction,correct,timestamp_utc,latency_ms,api_model,input_tokens,output_tokens,estimated_cost_usd
+M01,mathematics,easy,1,T2,Does the equation 7 + 5 = 12 hold?,0.99,1.0,1.0,2026-10-06T18:21:10.188553+00:00,378.75,jev-1.13.0,280.0,20.0,1.176e-05
+M01,mathematics,easy,1,T3,Consider the arithmetic statement: 7 plus 5 equals 12. Is it true?,0.99,1.0,1.0,2026-10-06T18:21:10.578747+00:00,558.8,jev-1.13.0,285.0,20.0,1.197e-05
+M02,mathematics,easy,0,T1,Is 9 × 6 equal to 52?,0.01,0.0,1.0,2026-10-06T18:21:11.144175+00:00,607.45,jev-1.13.0,278.0,20.0,1.1676e-05
+M02,mathematics,easy,0,T2,Does 9 multiplied by 6 give 52?,0.01,0.0,1.0,2026-10-06T18:21:11.757642+00:00,574.08,jev-1.13.0,278.0,20.0,1.1676e-05
+M02,mathematics,easy,0,T3,Consider the arithmetic statement that 9 times 6 equals 52. Is it true?,0.01,0.0,1.0,2026-10-06T18:21:12.340998+00:00,985.21,jev-1.13.0,285.0,20.0,1.197e-05
+M03,mathematics,easy,1,T1,Is the square of 8 equal to 64?,0.93,1.0,1.0,2026-10-06T18:21:13.331727+00:00,339.83,jev-1.13.0,278.0,20.0,1.1676e-05
+M03,mathematics,easy,1,T2,Does 8 squared equal 64?,0.92,1.0,1.0,2026-10-06T18:21:13.678315+00:00,363.19,jev-1.13.0,275.0,20.0,1.155e-05
+M03,mathematics,easy,1,T3,Consider the mathematical statement: the square of 8 is 64. Is it true?,0.94,1.0,1.0,2026-10-06T18:21:14.050773+00:00,407.29,jev-1.13.0,285.0,20.0,1.197e-05
+M04,mathematics,easy,0,T1,Is 15 divided by 3 equal to 4?,0.01,0.0,1.0,2026-10-06T18:21:14.464668+00:00,472.8,jev-1.13.0,279.0,20.0,1.1718e-05
+M04,mathematics,easy,0,T2,Does 15 ÷ 3 equal 4?,0.01,0.0,1.0,2026-10-06T18:21:14.945958+00:00,496.77,jev-1.13.0,278.0,20.0,1.1676e-05
+M04,mathematics,easy,0,T3,Consider the arithmetic claim that dividing 15 by 3 gives 4. Is it true?,0.02,0.0,1.0,2026-10-06T18:21:15.451861+00:00,709.9,jev-1.13.0,286.0,20.0,1.2012e-05
+M05,mathematics,moderate,1,T1,"If a rectangle has length 8 and width 5, is its area 40?",0.99,1.0,1.0,2026-10-06T18:21:16.167097+00:00,403.69,jev-1.13.0,285.0,20.0,1.197e-05
+M05,mathematics,moderate,1,T2,Does a rectangle measuring 8 by 5 have area 40?,1.0,1.0,1.0,2026-10-06T18:21:16.576936+00:00,499.76,jev-1.13.0,281.0,20.0,1.1802e-05
+M05,mathematics,moderate,1,T3,A rectangle has sides of length 8 and 5. Is its area 40 square units?,0.98,1.0,1.0,2026-10-06T18:21:17.083933+00:00,402.67,jev-1.13.0,287.0,20.0,1.2054e-05
+M06,mathematics,moderate,0,T1,"If a square has side length 6, is its perimeter 20?",0.01,0.0,1.0,2026-10-06T18:21:17.495344+00:00,1720.82,jev-1.13.0,282.0,20.0,1.1844e-05
+M06,mathematics,moderate,0,T2,Does a square with side 6 have perimeter 20?,0.01,0.0,1.0,2026-10-06T18:21:19.222888+00:00,522.63,jev-1.13.0,279.0,20.0,1.1718e-05
+M06,mathematics,moderate,0,T3,A square has side length 6 units. Is its perimeter 20 units?,0.02,0.0,1.0,2026-10-06T18:21:19.752571+00:00,404.49,jev-1.13.0,283.0,20.0,1.1886e-05
+M07,mathematics,moderate,1,T1,"Is the average of 4, 8, and 12 equal to 8?",0.99,1.0,1.0,2026-10-06T18:21:20.162529+00:00,498.47,jev-1.13.0,285.0,20.0,1.197e-05
+M07,mathematics,moderate,1,T2,"Does the arithmetic mean of 4, 8, and 12 equal 8?",0.99,1.0,1.0,2026-10-06T18:21:20.667327+00:00,512.36,jev-1.13.0,285.0,20.0,1.197e-05
+M07,mathematics,moderate,1,T3,"The numbers are 4, 8, and 12. Is their mean 8?",0.99,1.0,1.0,2026-10-06T18:21:21.186760+00:00,709.57,jev-1.13.0,286.0,20.0,1.2012e-05
+M08,mathematics,moderate,0,T1,"Is the average of 3, 9, and 12 equal to 9?",0.0,0.0,1.0,2026-10-06T18:21:21.902466+00:00,496.19,jev-1.13.0,285.0,20.0,1.197e-05
+M08,mathematics,moderate,0,T2,"Does the arithmetic mean of 3, 9, and 12 equal 9?",0.0,0.0,1.0,2026-10-06T18:21:22.405489+00:00,613.99,jev-1.13.0,285.0,20.0,1.197e-05
+M08,mathematics,moderate,0,T3,"The numbers are 3, 9, and 12. Is their mean 9?",0.0,0.0,1.0,2026-10-06T18:21:23.026012+00:00,700.73,jev-1.13.0,286.0,20.0,1.2012e-05
+M09,mathematics,hard,1,T1,"If x + 7 = 15, must x equal 8?",0.98,1.0,1.0,2026-10-06T18:21:23.733407+00:00,346.4,jev-1.13.0,282.0,20.0,1.1844e-05
+M09,mathematics,hard,1,T2,Does the equation x + 7 = 15 imply x = 8?,0.99,1.0,1.0,2026-10-06T18:21:24.085684+00:00,549.49,jev-1.13.0,283.0,20.0,1.1886e-05
+M09,mathematics,hard,1,T3,Suppose x + 7 = 15. Is x necessarily 8?,0.98,1.0,1.0,2026-10-06T18:21:24.641011+00:00,652.21,jev-1.13.0,283.0,20.0,1.1886e-05
+M10,mathematics,hard,0,T1,"If x² = 25, must x equal 5?",0.06,0.0,1.0,2026-10-06T18:21:25.300564+00:00,897.78,jev-1.13.0,280.0,20.0,1.176e-05
+M10,mathematics,hard,0,T2,Does x squared equal to 25 necessarily imply x = 5?,0.04,0.0,1.0,2026-10-06T18:21:26.204475+00:00,415.15,jev-1.13.0,281.0,20.0,1.1802e-05
+M10,mathematics,hard,0,T3,Suppose x² = 25. Must x be exactly 5?,0.06,0.0,1.0,2026-10-06T18:21:26.626583+00:00,378.64,jev-1.13.0,282.0,20.0,1.1844e-05
+M11,mathematics,hard,1,T1,"If two angles of a triangle are 50° and 60°, is the third angle 70°?",1.0,1.0,1.0,2026-10-06T18:21:27.012152+00:00,345.31,jev-1.13.0,291.0,20.0,1.2222e-05
+M11,mathematics,hard,1,T2,Does a triangle with angles 50° and 60° have a third angle of 70°?,1.0,1.0,1.0,2026-10-06T18:21:27.365293+00:00,494.02,jev-1.13.0,290.0,20.0,1.218e-05
+M11,mathematics,hard,1,T3,A triangle has two angles measuring 50 and 60 degrees. Is its remaining angle 70 degrees?,1.0,1.0,1.0,2026-10-06T18:21:27.865511+00:00,401.79,jev-1.13.0,290.0,20.0,1.218e-05
+M12,mathematics,hard,0,T1,"If two angles of a triangle are 40° and 50°, is the third angle 100°?",0.13,0.0,1.0,2026-10-06T18:21:28.274473+00:00,584.85,jev-1.13.0,292.0,20.0,1.2264000000000002e-05
+M12,mathematics,hard,0,T2,Does a triangle with angles 40° and 50° have a third angle of 100°?,0.09,0.0,1.0,2026-10-06T18:21:28.865533+00:00,505.83,jev-1.13.0,291.0,20.0,1.2222e-05
+M12,mathematics,hard,0,T3,A triangle has two angles measuring 40 and 50 degrees. Is its remaining angle 100 degrees?,0.23,0.0,1.0,2026-10-06T18:21:29.378010+00:00,537.9,jev-1.13.0,291.0,20.0,1.2222e-05
+P01,probability,easy,1,T1,"For a fair six-sided die, is the probability of rolling a 3 equal to 1/6?",0.98,1.0,1.0,2026-10-06T18:21:29.922925+00:00,432.57,jev-1.13.0,288.0,20.0,1.2096e-05
+P01,probability,easy,1,T2,Is P(rolling a 3) = 1/6 for a fair six-sided die?,0.98,1.0,1.0,2026-10-06T18:21:30.361487+00:00,444.77,jev-1.13.0,287.0,20.0,1.2054e-05
+P01,probability,easy,1,T3,A fair six-sided die is rolled. Is the probability of obtaining 3 equal to one sixth?,0.98,1.0,1.0,2026-10-06T18:21:30.812741+00:00,607.54,jev-1.13.0,286.0,20.0,1.2012e-05
+P02,probability,easy,0,T1,"For a fair six-sided die, is the probability of rolling a 7 equal to 1/6?",0.01,0.0,1.0,2026-10-06T18:21:31.427117+00:00,739.8,jev-1.13.0,288.0,20.0,1.2096e-05
+P02,probability,easy,0,T2,Is P(rolling a 7) = 1/6 for a fair six-sided die?,0.02,0.0,1.0,2026-10-06T18:21:32.174041+00:00,632.05,jev-1.13.0,287.0,20.0,1.2054e-05
+P02,probability,easy,0,T3,A fair six-sided die is rolled. Is the probability of obtaining 7 equal to one sixth?,0.01,0.0,1.0,2026-10-06T18:21:32.813455+00:00,346.84,jev-1.13.0,286.0,20.0,1.2012e-05
+P03,probability,easy,1,T1,Is the probability of an impossible event equal to 0?,0.98,1.0,1.0,2026-10-06T18:21:33.167341+00:00,401.58,jev-1.13.0,278.0,20.0,1.1676e-05
+P03,probability,easy,1,T2,Does an impossible event have probability 0?,0.94,1.0,1.0,2026-10-06T18:21:33.576215+00:00,710.51,jev-1.13.0,275.0,20.0,1.155e-05
+P03,probability,easy,1,T3,"For an event that cannot occur, is its probability zero?",0.93,1.0,1.0,2026-10-06T18:21:34.293253+00:00,358.88,jev-1.13.0,278.0,20.0,1.1676e-05
+P04,probability,easy,0,T1,Is the probability of any event allowed to be greater than 1?,0.04,0.0,1.0,2026-10-06T18:21:34.658502+00:00,498.22,jev-1.13.0,280.0,20.0,1.176e-05
+P04,probability,easy,0,T2,Can a valid event probability exceed 1?,0.02,0.0,1.0,2026-10-06T18:21:35.164576+00:00,329.65,jev-1.13.0,275.0,20.0,1.155e-05
+P04,probability,easy,0,T3,"In ordinary probability theory, can an event have probability greater than one?",0.03,0.0,1.0,2026-10-06T18:21:35.501050+00:00,629.85,jev-1.13.0,280.0,20.0,1.176e-05
+P05,probability,moderate,1,T1,"For a fair coin, is the probability of heads 1/2?",0.98,1.0,1.0,2026-10-06T18:21:36.138571+00:00,356.58,jev-1.13.0,281.0,20.0,1.1802e-05
+P05,probability,moderate,1,T2,Does a fair coin give probability 0.5 to heads?,0.97,1.0,1.0,2026-10-06T18:21:36.501679+00:00,380.41,jev-1.13.0,279.0,20.0,1.1718e-05
+P05,probability,moderate,1,T3,A coin is fair. Is the probability of heads one half?,0.96,1.0,1.0,2026-10-06T18:21:36.888909+00:00,364.17,jev-1.13.0,279.0,20.0,1.1718e-05
+P06,probability,moderate,0,T1,"For a fair coin, is the probability of heads 2/3?",0.01,0.0,1.0,2026-10-06T18:21:37.258555+00:00,516.28,jev-1.13.0,281.0,20.0,1.1802e-05
+P06,probability,moderate,0,T2,Does a fair coin give probability two thirds to heads?,0.01,0.0,1.0,2026-10-06T18:21:37.782753+00:00,370.38,jev-1.13.0,277.0,20.0,1.1634e-05
+P06,probability,moderate,0,T3,A coin is fair. Is the probability of heads two thirds?,0.02,0.0,1.0,2026-10-06T18:21:38.158714+00:00,646.69,jev-1.13.0,279.0,20.0,1.1718e-05
+P07,probability,moderate,1,T1,"If an event has probability 0.3, is its complement probability 0.7?",0.99,1.0,1.0,2026-10-06T18:21:38.811946+00:00,392.08,jev-1.13.0,285.0,20.0,1.197e-05
+P07,probability,moderate,1,T2,Does an event with probability 0.3 have complement probability 0.7?,0.99,1.0,1.0,2026-10-06T18:21:39.210746+00:00,400.12,jev-1.13.0,283.0,20.0,1.1886e-05
+P07,probability,moderate,1,T3,An event has probability 0.3. Is the probability that it does not occur 0.7?,0.99,1.0,1.0,2026-10-06T18:21:39.618045+00:00,708.0,jev-1.13.0,288.0,20.0,1.2096e-05
+P08,probability,moderate,0,T1,"If an event has probability 0.4, is its complement probability 0.4?",0.01,0.0,1.0,2026-10-06T18:21:40.333651+00:00,979.93,jev-1.13.0,285.0,20.0,1.197e-05
+P08,probability,moderate,0,T2,Does an event with probability 0.4 have complement probability 0.4?,0.02,0.0,1.0,2026-10-06T18:21:41.320358+00:00,345.98,jev-1.13.0,283.0,20.0,1.1886e-05
+P08,probability,moderate,0,T3,An event has probability 0.4. Is the probability that it does not occur also 0.4?,0.02,0.0,1.0,2026-10-06T18:21:41.672966+00:00,499.34,jev-1.13.0,289.0,20.0,1.2138e-05
+P10,probability,hard,0,T1,"If two events are independent, must they be mutually exclusive?",0.04,0.0,1.0,2026-10-06T18:21:43.566093+00:00,345.0,jev-1.13.0,278.0,20.0,1.1676e-05
+P10,probability,hard,0,T2,Does independence necessarily imply mutual exclusivity?,0.05,0.0,1.0,2026-10-06T18:21:43.917425+00:00,809.66,jev-1.13.0,275.0,20.0,1.155e-05
+P10,probability,hard,0,T3,Two events are independent. Must they therefore be mutually exclusive?,0.04,0.0,1.0,2026-10-06T18:21:44.734001+00:00,577.98,jev-1.13.0,278.0,20.0,1.1676e-05
+P11,probability,hard,1,T1,"If an event has probability 1 in a finite discrete sample space, must it occur?",0.95,1.0,1.0,2026-10-06T18:21:45.319398+00:00,435.44,jev-1.13.0,284.0,20.0,1.1928e-05
+P11,probability,hard,1,T2,"In a finite discrete sample space, does probability 1 imply that an event occurs?",0.9,1.0,1.0,2026-10-06T18:21:45.761819+00:00,864.56,jev-1.13.0,283.0,20.0,1.1886e-05
+P11,probability,hard,1,T3,"Consider a finite discrete sample space. If an event has probability one, must the event occur?",0.83,1.0,1.0,2026-10-06T18:21:46.633352+00:00,383.74,jev-1.13.0,285.0,20.0,1.197e-05
+P12,probability,hard,0,T1,"If two events are mutually exclusive, must they be independent?",0.07,0.0,1.0,2026-10-06T18:21:47.024574+00:00,772.22,jev-1.13.0,278.0,20.0,1.1676e-05
+P12,probability,hard,0,T2,Does mutual exclusivity necessarily imply independence?,0.06,0.0,1.0,2026-10-06T18:21:47.806659+00:00,354.97,jev-1.13.0,275.0,20.0,1.155e-05
+P12,probability,hard,0,T3,Two events are mutually exclusive and both have positive probability. Must they be independent?,0.04,0.0,1.0,2026-10-06T18:21:48.168273+00:00,556.58,jev-1.13.0,282.0,20.0,1.1844e-05
+L01,formal_logic,easy,1,T1,"If all cats are animals and Milo is a cat, must Milo be an animal?",0.98,1.0,1.0,2026-10-06T18:21:48.734721+00:00,497.56,jev-1.13.0,283.0,20.0,1.1886e-05
+L01,formal_logic,easy,1,T2,Does the premise that all cats are animals and Milo is a cat imply that Milo is an animal?,0.98,1.0,1.0,2026-10-06T18:21:49.239453+00:00,1078.55,jev-1.13.0,286.0,20.0,1.2012e-05
+L01,formal_logic,easy,1,T3,All cats are animals. Milo is a cat. Must Milo therefore be an animal?,0.98,1.0,1.0,2026-10-06T18:21:50.325441+00:00,384.38,jev-1.13.0,283.0,20.0,1.1886e-05
+L02,formal_logic,easy,0,T1,"If all cats are animals and Milo is an animal, must Milo be a cat?",0.05,0.0,1.0,2026-10-06T18:21:50.716491+00:00,351.76,jev-1.13.0,283.0,20.0,1.1886e-05
+L02,formal_logic,easy,0,T2,Does being an animal necessarily imply that Milo is a cat?,0.07,0.0,1.0,2026-10-06T18:21:51.075645+00:00,378.45,jev-1.13.0,278.0,20.0,1.1676e-05
+L02,formal_logic,easy,0,T3,All cats are animals. Milo is an animal. Must Milo therefore be a cat?,0.05,0.0,1.0,2026-10-06T18:21:51.460552+00:00,353.96,jev-1.13.0,283.0,20.0,1.1886e-05
+L04,formal_logic,easy,0,T1,"If some students are athletes, must every student be an athlete?",0.04,0.0,1.0,2026-10-06T18:21:53.231832+00:00,412.08,jev-1.13.0,279.0,20.0,1.1718e-05
+L04,formal_logic,easy,0,T2,Does the existence of student-athletes imply that all students are athletes?,0.02,0.0,1.0,2026-10-06T18:21:53.651335+00:00,380.39,jev-1.13.0,280.0,20.0,1.176e-05
+L04,formal_logic,easy,0,T3,Some students are athletes. Must every student therefore be an athlete?,0.03,0.0,1.0,2026-10-06T18:21:54.038815+00:00,618.49,jev-1.13.0,279.0,20.0,1.1718e-05
+L05,formal_logic,moderate,1,T1,"If A implies B and A is true, must B be true?",0.98,1.0,1.0,2026-10-06T18:21:54.664059+00:00,453.38,jev-1.13.0,280.0,20.0,1.176e-05
+L05,formal_logic,moderate,1,T2,Does A → B together with A imply B?,0.98,1.0,1.0,2026-10-06T18:21:55.124970+00:00,364.42,jev-1.13.0,276.0,20.0,1.1592e-05
+L05,formal_logic,moderate,1,T3,Suppose A implies B and A is known to be true. Must B also be true?,0.98,1.0,1.0,2026-10-06T18:21:55.497655+00:00,437.2,jev-1.13.0,285.0,20.0,1.197e-05
+L06,formal_logic,moderate,0,T1,"If A implies B and B is true, must A be true?",0.07,0.0,1.0,2026-10-06T18:21:55.943222+00:00,374.68,jev-1.13.0,280.0,20.0,1.176e-05
+L06,formal_logic,moderate,0,T2,Does B being true together with A → B imply A?,0.06,0.0,1.0,2026-10-06T18:21:56.325347+00:00,398.4,jev-1.13.0,278.0,20.0,1.1676e-05
+L06,formal_logic,moderate,0,T3,Suppose A implies B and B is known to be true. Must A also be true?,0.07,0.0,1.0,2026-10-06T18:21:56.730273+00:00,335.32,jev-1.13.0,285.0,20.0,1.197e-05
+L07,formal_logic,moderate,1,T1,"If A and B are both true, must A be true?",0.99,1.0,1.0,2026-10-06T18:21:57.072629+00:00,440.41,jev-1.13.0,279.0,20.0,1.1718e-05
+L07,formal_logic,moderate,1,T2,Does A ∧ B imply A?,0.98,1.0,1.0,2026-10-06T18:21:57.520021+00:00,361.32,jev-1.13.0,274.0,20.0,1.1508e-05
+L07,formal_logic,moderate,1,T3,Suppose both A and B are true. Must A itself be true?,0.98,1.0,1.0,2026-10-06T18:21:57.890207+00:00,612.99,jev-1.13.0,281.0,20.0,1.1802e-05
+L08,formal_logic,moderate,0,T1,"If A or B is true, must both A and B be true?",0.04,0.0,1.0,2026-10-06T18:21:58.509835+00:00,336.63,jev-1.13.0,281.0,20.0,1.1802e-05
+L08,formal_logic,moderate,0,T2,Does A ∨ B imply A ∧ B?,0.05,0.0,1.0,2026-10-06T18:21:58.853936+00:00,342.2,jev-1.13.0,277.0,20.0,1.1634e-05
+L08,formal_logic,moderate,0,T3,"If at least one of A and B is true, must both be true?",0.16,0.0,1.0,2026-10-06T18:21:59.202871+00:00,370.04,jev-1.13.0,282.0,20.0,1.1844e-05
+L10,formal_logic,hard,0,T1,"If some A are B and no B are C, must every A be outside C?",0.07,0.0,1.0,2026-10-06T18:22:00.916449+00:00,353.28,jev-1.13.0,284.0,20.0,1.1928e-05
+L10,formal_logic,hard,0,T2,Does some A being B together with no B being C imply that every A is not C?,0.09,0.0,1.0,2026-10-06T18:22:01.277363+00:00,359.48,jev-1.13.0,285.0,20.0,1.197e-05
+L10,formal_logic,hard,0,T3,"Some A are B, and no B is C. Must every A necessarily be non-C?",0.06,0.0,1.0,2026-10-06T18:22:01.644200+00:00,372.86,jev-1.13.0,285.0,20.0,1.197e-05
+L11,formal_logic,hard,1,T1,"If A implies B and B is false, must A be false?",0.97,1.0,1.0,2026-10-06T18:22:02.024369+00:00,422.42,jev-1.13.0,280.0,20.0,1.176e-05
+L11,formal_logic,hard,1,T2,Does A → B together with not-B imply not-A?,0.98,1.0,1.0,2026-10-06T18:22:02.455341+00:00,347.82,jev-1.13.0,278.0,20.0,1.1676e-05
+L11,formal_logic,hard,1,T3,"Suppose A implies B, but B is false. Must A therefore be false?",0.97,1.0,1.0,2026-10-06T18:22:02.810862+00:00,520.11,jev-1.13.0,283.0,20.0,1.1886e-05
+L12,formal_logic,hard,0,T1,"If A implies B and A is false, must B be false?",0.06,0.0,1.0,2026-10-06T18:22:03.340361+00:00,417.62,jev-1.13.0,280.0,20.0,1.176e-05
+L12,formal_logic,hard,0,T2,Does not-A together with A → B imply not-B?,0.06,0.0,1.0,2026-10-06T18:22:03.766387+00:00,556.07,jev-1.13.0,278.0,20.0,1.1676e-05
+L12,formal_logic,hard,0,T3,"Suppose A implies B, but A is false. Must B therefore be false?",0.05,0.0,1.0,2026-10-06T18:22:04.332026+00:00,365.67,jev-1.13.0,283.0,20.0,1.1886e-05
+S01,science_reasoning,easy,1,T1,Does water freeze at 0°C under standard atmospheric pressure?,0.98,1.0,1.0,2026-10-06T18:22:04.704642+00:00,405.34,jev-1.13.0,278.0,20.0,1.1676e-05
+S01,science_reasoning,easy,1,T2,"Under standard atmospheric pressure, does water freeze at 0°C?",0.97,1.0,1.0,2026-10-06T18:22:05.118920+00:00,334.68,jev-1.13.0,279.0,20.0,1.1718e-05
+S01,science_reasoning,easy,1,T3,"At standard atmospheric pressure, is 0 degrees Celsius the freezing point of water?",0.98,1.0,1.0,2026-10-06T18:22:05.460915+00:00,336.71,jev-1.13.0,282.0,20.0,1.1844e-05
+S02,science_reasoning,easy,0,T1,Does water boil at 50°C under standard atmospheric pressure?,0.01,0.0,1.0,2026-10-06T18:22:05.805216+00:00,427.2,jev-1.13.0,279.0,20.0,1.1718e-05
+S02,science_reasoning,easy,0,T2,"Under standard atmospheric pressure, does water boil at 50°C?",0.01,0.0,1.0,2026-10-06T18:22:06.240963+00:00,409.89,jev-1.13.0,280.0,20.0,1.176e-05
+S02,science_reasoning,easy,0,T3,"At standard atmospheric pressure, is 50 degrees Celsius the boiling point of water?",0.01,0.0,1.0,2026-10-06T18:22:06.658559+00:00,597.68,jev-1.13.0,283.0,20.0,1.1886e-05
+S03,science_reasoning,easy,1,T1,Does the Earth orbit the Sun?,0.98,1.0,1.0,2026-10-06T18:22:07.264291+00:00,387.84,jev-1.13.0,273.0,20.0,1.1466000000000002e-05
+S03,science_reasoning,easy,1,T2,Is the Earth in orbit around the Sun?,0.98,1.0,1.0,2026-10-06T18:22:07.661725+00:00,530.99,jev-1.13.0,275.0,20.0,1.155e-05
+S03,science_reasoning,easy,1,T3,Is Earth's motion around the Sun an orbital motion?,0.98,1.0,1.0,2026-10-06T18:22:08.200011+00:00,492.86,jev-1.13.0,277.0,20.0,1.1634e-05
+S04,science_reasoning,easy,0,T1,Does the Moon produce most of its own visible light?,0.02,0.0,1.0,2026-10-06T18:22:08.699722+00:00,500.24,jev-1.13.0,277.0,20.0,1.1634e-05
+S04,science_reasoning,easy,0,T2,Is most of the Moon's visible light produced by the Moon itself?,0.02,0.0,1.0,2026-10-06T18:22:09.206322+00:00,446.05,jev-1.13.0,280.0,20.0,1.176e-05
+S04,science_reasoning,easy,0,T3,Does the Moon generate most of the visible light we observe from it?,0.03,0.0,1.0,2026-10-06T18:22:09.659293+00:00,336.81,jev-1.13.0,280.0,20.0,1.176e-05
+S05,science_reasoning,moderate,1,T1,Does increasing the mass of an object while keeping acceleration fixed increase its net force?,0.97,1.0,1.0,2026-10-06T18:22:10.003360+00:00,337.65,jev-1.13.0,282.0,20.0,1.1844e-05
+S05,science_reasoning,moderate,1,T2,"With acceleration fixed, does greater mass imply greater net force?",0.95,1.0,1.0,2026-10-06T18:22:10.348824+00:00,395.92,jev-1.13.0,278.0,20.0,1.1676e-05
+S05,science_reasoning,moderate,1,T3,"If acceleration stays constant, does increasing mass increase the net force?",0.89,1.0,1.0,2026-10-06T18:22:10.752452+00:00,500.86,jev-1.13.0,279.0,20.0,1.1718e-05
+S06,science_reasoning,moderate,0,T1,"If net force on an object is zero, must the object be stationary?",0.06,0.0,1.0,2026-10-06T18:22:11.261360+00:00,499.46,jev-1.13.0,281.0,20.0,1.1802e-05
+S06,science_reasoning,moderate,0,T2,Does zero net force necessarily mean an object is at rest?,0.05,0.0,1.0,2026-10-06T18:22:11.770477+00:00,507.63,jev-1.13.0,278.0,20.0,1.1676e-05
+S06,science_reasoning,moderate,0,T3,"If the net force is zero, must the object's velocity be zero?",0.05,0.0,1.0,2026-10-06T18:22:12.285908+00:00,417.81,jev-1.13.0,281.0,20.0,1.1802e-05
+S07,science_reasoning,moderate,1,T1,Can plants perform photosynthesis using light energy?,0.99,1.0,1.0,2026-10-06T18:22:12.711812+00:00,487.2,jev-1.13.0,277.0,20.0,1.1634e-05
+S07,science_reasoning,moderate,1,T2,Does photosynthesis use light energy in plants?,0.99,1.0,1.0,2026-10-06T18:22:13.206931+00:00,506.81,jev-1.13.0,277.0,20.0,1.1634e-05
+S07,science_reasoning,moderate,1,T3,Is light energy used by plants during photosynthesis?,0.99,1.0,1.0,2026-10-06T18:22:13.722300+00:00,500.23,jev-1.13.0,278.0,20.0,1.1676e-05
+S08,science_reasoning,moderate,0,T1,Does photosynthesis occur only at night?,0.01,0.0,1.0,2026-10-06T18:22:14.230467+00:00,468.88,jev-1.13.0,276.0,20.0,1.1592e-05
+S08,science_reasoning,moderate,0,T2,Is photosynthesis restricted to nighttime?,0.01,0.0,1.0,2026-10-06T18:22:14.707542+00:00,505.14,jev-1.13.0,275.0,20.0,1.155e-05
+S08,science_reasoning,moderate,0,T3,Do plants perform photosynthesis exclusively during the night?,0.01,0.0,1.0,2026-10-06T18:22:15.220139+00:00,396.09,jev-1.13.0,278.0,20.0,1.1676e-05
+S09,science_reasoning,hard,1,T1,"If an object moves at constant velocity, is its acceleration zero?",0.98,1.0,1.0,2026-10-06T18:22:15.623738+00:00,448.63,jev-1.13.0,279.0,20.0,1.1718e-05
+S09,science_reasoning,hard,1,T2,Does constant velocity imply zero acceleration?,0.98,1.0,1.0,2026-10-06T18:22:16.080340+00:00,396.21,jev-1.13.0,273.0,20.0,1.1466000000000002e-05
+S09,science_reasoning,hard,1,T3,An object has constant velocity. Must its acceleration be zero?,0.97,1.0,1.0,2026-10-06T18:22:16.484354+00:00,380.14,jev-1.13.0,278.0,20.0,1.1676e-05
+S10,science_reasoning,hard,0,T1,"If an object has zero acceleration, must its velocity be zero?",0.05,0.0,1.0,2026-10-06T18:22:16.872708+00:00,415.74,jev-1.13.0,279.0,20.0,1.1718e-05
+S10,science_reasoning,hard,0,T2,Does zero acceleration necessarily imply zero velocity?,0.05,0.0,1.0,2026-10-06T18:22:17.295884+00:00,553.94,jev-1.13.0,274.0,20.0,1.1508e-05
+S10,science_reasoning,hard,0,T3,An object has zero acceleration. Must it therefore have zero velocity?,0.06,0.0,1.0,2026-10-06T18:22:17.858008+00:00,460.77,jev-1.13.0,279.0,20.0,1.1718e-05
+S11,science_reasoning,hard,0,T1,Can sound propagate through a vacuum?,0.02,0.0,1.0,2026-10-06T18:22:18.327579+00:00,357.63,jev-1.13.0,273.0,20.0,1.1466000000000002e-05
+S11,science_reasoning,hard,0,T2,Is sound able to travel through a vacuum?,0.02,0.0,1.0,2026-10-06T18:22:18.693319+00:00,446.5,jev-1.13.0,275.0,20.0,1.155e-05
+S11,science_reasoning,hard,0,T3,Can a sound wave propagate when there is no material medium?,0.04,0.0,1.0,2026-10-06T18:22:19.146809+00:00,423.21,jev-1.13.0,278.0,20.0,1.1676e-05
+S12,science_reasoning,hard,1,T1,Can light propagate through a vacuum?,0.99,1.0,1.0,2026-10-06T18:22:19.578110+00:00,375.0,jev-1.13.0,273.0,20.0,1.1466000000000002e-05
+S12,science_reasoning,hard,1,T2,Is light able to travel through a vacuum?,0.99,1.0,1.0,2026-10-06T18:22:19.960875+00:00,442.37,jev-1.13.0,275.0,20.0,1.155e-05
+S12,science_reasoning,hard,1,T3,Can electromagnetic light propagate when there is no material medium?,0.98,1.0,1.0,2026-10-06T18:22:20.411027+00:00,376.12,jev-1.13.0,277.0,20.0,1.1634e-05
+D01,data_reasoning,easy,1,T1,"If a dataset contains 10 values and 3 are missing, are 7 values observed?",0.97,1.0,1.0,2026-10-06T18:22:20.794822+00:00,370.05,jev-1.13.0,286.0,20.0,1.2012e-05
+D01,data_reasoning,easy,1,T2,Does a dataset with 10 values and 3 missing values contain 7 observed values?,0.98,1.0,1.0,2026-10-06T18:22:21.173184+00:00,483.58,jev-1.13.0,285.0,20.0,1.197e-05
+D01,data_reasoning,easy,1,T3,"A dataset has 10 entries, of which 3 are missing. Are 7 entries observed?",0.98,1.0,1.0,2026-10-06T18:22:21.664802+00:00,389.04,jev-1.13.0,287.0,20.0,1.2054e-05
+D02,data_reasoning,easy,0,T1,"If 20 out of 100 observations are positive, is the positive proportion 30%?",0.01,0.0,1.0,2026-10-06T18:22:22.061930+00:00,365.25,jev-1.13.0,289.0,20.0,1.2138e-05
+D02,data_reasoning,easy,0,T2,Is the positive proportion 30% when 20 of 100 observations are positive?,0.04,0.0,1.0,2026-10-06T18:22:22.435577+00:00,648.68,jev-1.13.0,287.0,20.0,1.2054e-05
+D02,data_reasoning,easy,0,T3,"A dataset contains 100 observations, 20 of which are positive. Is the positive proportion 30 percent?",0.02,0.0,1.0,2026-10-06T18:22:23.092361+00:00,458.61,jev-1.13.0,292.0,20.0,1.2264000000000002e-05
+D03,data_reasoning,easy,1,T1,"If 80 out of 100 predictions are correct, is accuracy 80%?",0.98,1.0,1.0,2026-10-06T18:22:23.559162+00:00,461.7,jev-1.13.0,287.0,20.0,1.2054e-05
+D03,data_reasoning,easy,1,T2,Does 80 correct predictions out of 100 correspond to 80% accuracy?,0.99,1.0,1.0,2026-10-06T18:22:24.028242+00:00,537.89,jev-1.13.0,286.0,20.0,1.2012e-05
+D03,data_reasoning,easy,1,T3,A model makes 100 predictions and gets 80 correct. Is its accuracy 80 percent?,0.95,1.0,1.0,2026-10-06T18:22:24.574654+00:00,509.28,jev-1.13.0,289.0,20.0,1.2138e-05
+D04,data_reasoning,easy,0,T1,"If 80 out of 100 predictions are correct, is accuracy 90%?",0.02,0.0,1.0,2026-10-06T18:22:25.091864+00:00,497.54,jev-1.13.0,287.0,20.0,1.2054e-05
+D04,data_reasoning,easy,0,T2,Does 80 correct predictions out of 100 correspond to 90% accuracy?,0.01,0.0,1.0,2026-10-06T18:22:25.596670+00:00,343.63,jev-1.13.0,286.0,20.0,1.2012e-05
+D04,data_reasoning,easy,0,T3,A model makes 100 predictions and gets 80 correct. Is its accuracy 90 percent?,0.02,0.0,1.0,2026-10-06T18:22:25.948322+00:00,394.67,jev-1.13.0,289.0,20.0,1.2138e-05
+D05,data_reasoning,moderate,1,T1,"If a dataset has values 2, 4, 6, and 8, is its mean 5?",0.98,1.0,1.0,2026-10-06T18:22:26.350158+00:00,379.46,jev-1.13.0,290.0,20.0,1.218e-05
+D05,data_reasoning,moderate,1,T2,"Does the dataset {2,4,6,8} have mean 5?",0.97,1.0,1.0,2026-10-06T18:22:26.738260+00:00,400.99,jev-1.13.0,283.0,20.0,1.1886e-05
+D05,data_reasoning,moderate,1,T3,"The values are 2, 4, 6, and 8. Is their arithmetic mean 5?",0.99,1.0,1.0,2026-10-06T18:22:27.146427+00:00,696.96,jev-1.13.0,289.0,20.0,1.2138e-05
+D06,data_reasoning,moderate,0,T1,"If a dataset has values 2, 4, 6, and 8, is its median 6?",0.03,0.0,1.0,2026-10-06T18:22:27.851708+00:00,520.71,jev-1.13.0,290.0,20.0,1.218e-05
+D06,data_reasoning,moderate,0,T2,"Does the dataset {2,4,6,8} have median 6?",0.03,0.0,1.0,2026-10-06T18:22:28.380685+00:00,454.27,jev-1.13.0,283.0,20.0,1.1886e-05
+D06,data_reasoning,moderate,0,T3,"The values are 2, 4, 6, and 8. Is their median 6?",0.11,0.0,1.0,2026-10-06T18:22:28.842742+00:00,433.61,jev-1.13.0,288.0,20.0,1.2096e-05
+D07,data_reasoning,moderate,1,T1,"If 30 of 50 observations belong to class A, is class A the majority class?",0.97,1.0,1.0,2026-10-06T18:22:29.284719+00:00,396.02,jev-1.13.0,287.0,20.0,1.2054e-05
+D07,data_reasoning,moderate,1,T2,Does class A form the majority when it contains 30 of 50 observations?,0.66,1.0,1.0,2026-10-06T18:22:29.688407+00:00,406.45,jev-1.13.0,284.0,20.0,1.1928e-05
+D07,data_reasoning,moderate,1,T3,"In a dataset of 50 observations, 30 are class A. Is class A the majority?",0.94,1.0,1.0,2026-10-06T18:22:30.102938+00:00,350.29,jev-1.13.0,288.0,20.0,1.2096e-05
+D08,data_reasoning,moderate,0,T1,"If 20 of 50 observations belong to class A, is class A the majority class?",0.04,0.0,1.0,2026-10-06T18:22:30.461316+00:00,349.57,jev-1.13.0,287.0,20.0,1.2054e-05
+D08,data_reasoning,moderate,0,T2,Does class A form the majority when it contains 20 of 50 observations?,0.05,0.0,1.0,2026-10-06T18:22:30.818442+00:00,600.13,jev-1.13.0,284.0,20.0,1.1928e-05
+D08,data_reasoning,moderate,0,T3,"In a dataset of 50 observations, 20 are class A. Is class A the majority?",0.03,0.0,1.0,2026-10-06T18:22:31.425791+00:00,403.63,jev-1.13.0,288.0,20.0,1.2096e-05
+D09,data_reasoning,hard,1,T1,"If precision is 80%, does that mean 80% of predicted positives are actually positive?",0.97,1.0,1.0,2026-10-06T18:22:31.838180+00:00,352.13,jev-1.13.0,287.0,20.0,1.2054e-05
+D09,data_reasoning,hard,1,T2,Does precision of 80% mean that 80% of predicted positives are correct?,0.97,1.0,1.0,2026-10-06T18:22:32.198653+00:00,552.29,jev-1.13.0,285.0,20.0,1.197e-05
+D09,data_reasoning,hard,1,T3,A classifier has precision 80 percent. Does this mean four out of five predicted positives are actually positive?,0.91,1.0,1.0,2026-10-06T18:22:32.758928+00:00,408.93,jev-1.13.0,288.0,20.0,1.2096e-05
+D10,data_reasoning,hard,0,T1,"If recall is 80%, does that mean 80% of predicted positives are actually positive?",0.03,0.0,1.0,2026-10-06T18:22:33.175781+00:00,400.58,jev-1.13.0,287.0,20.0,1.2054e-05
+D10,data_reasoning,hard,0,T2,Does recall of 80% mean that 80% of predicted positives are correct?,0.03,0.0,1.0,2026-10-06T18:22:33.584392+00:00,544.11,jev-1.13.0,285.0,20.0,1.197e-05
+D10,data_reasoning,hard,0,T3,A classifier has recall 80 percent. Does this mean four out of five predicted positives are actually positive?,0.05,0.0,1.0,2026-10-06T18:22:34.137456+00:00,1162.91,jev-1.13.0,288.0,20.0,1.2096e-05
+D11,data_reasoning,hard,1,T1,"If every value in a dataset is increased by 5, does the mean also increase by 5?",0.98,1.0,1.0,2026-10-06T18:22:35.308165+00:00,334.38,jev-1.13.0,287.0,20.0,1.2054e-05
+D11,data_reasoning,hard,1,T2,Does adding 5 to every observation increase the mean by 5?,0.98,1.0,1.0,2026-10-06T18:22:35.655763+00:00,379.25,jev-1.13.0,280.0,20.0,1.176e-05
+D11,data_reasoning,hard,1,T3,Suppose 5 is added to every value in a dataset. Does the dataset mean increase by 5?,0.98,1.0,1.0,2026-10-06T18:22:36.042597+00:00,398.7,jev-1.13.0,288.0,20.0,1.2096e-05
+D12,data_reasoning,hard,0,T1,"If every value in a dataset is multiplied by 2, does the mean remain unchanged?",0.02,0.0,1.0,2026-10-06T18:22:36.449173+00:00,502.05,jev-1.13.0,284.0,20.0,1.1928e-05
+D12,data_reasoning,hard,0,T2,Does multiplying every observation by 2 leave the mean unchanged?,0.02,0.0,1.0,2026-10-06T18:22:36.958905+00:00,398.08,jev-1.13.0,278.0,20.0,1.1676e-05
+D12,data_reasoning,hard,0,T3,Suppose every value in a dataset is doubled. Does the mean stay exactly the same?,0.02,0.0,1.0,2026-10-06T18:22:37.364869+00:00,414.27,jev-1.13.0,284.0,20.0,1.1928e-05
+M01,mathematics,easy,1,T1,Is 7 + 5 equal to 12?,0.99,1.0,1.0,2026-10-06T19:01:09.898400+00:00,523.6,jev-1.13.0,278.0,20.0,1.1676e-05
+P09,probability,hard,1,T1,"If two independent events have probabilities 0.5 and 0.4, is the probability of their intersection 0.2?",0.99,1.0,1.0,2026-10-06T19:03:19.927255+00:00,516.45,jev-1.13.0,293.0,20.0,1.2306e-05
+P09,probability,hard,1,T2,Two independent events have probabilities 0.5 and 0.4. Is their joint probability 0.2?,0.98,1.0,1.0,2026-10-06T19:03:20.455797+00:00,348.65,jev-1.13.0,290.0,20.0,1.2179999999999999e-05
+P09,probability,hard,1,T3,Suppose events A and B are independent with P(A)=0.5 and P(B)=0.4. Is P(A and B)=0.2?,0.99,1.0,1.0,2026-10-06T19:03:20.812191+00:00,451.21,jev-1.13.0,299.0,20.0,1.2558e-05
+L03,formal_logic,easy,1,T1,"If all birds are animals and all eagles are birds, must every eagle be an animal?",0.98,1.0,1.0,2026-10-06T19:03:21.271736+00:00,598.69,jev-1.13.0,285.0,20.0,1.197e-05
+L03,formal_logic,easy,1,T2,"Given that all birds are animals and all eagles are birds, does every eagle have to be an animal?",0.98,1.0,1.0,2026-10-06T19:03:21.878036+00:00,391.55,jev-1.13.0,288.0,20.0,1.2095999999999999e-05
+L03,formal_logic,easy,1,T3,All birds are animals. Every eagle is a bird. Must every eagle therefore be an animal?,0.98,1.0,1.0,2026-10-06T19:03:22.277569+00:00,450.49,jev-1.13.0,285.0,20.0,1.197e-05
+L09,formal_logic,hard,1,T1,"If A implies B and B implies C, must A imply C?",0.97,1.0,1.0,2026-10-06T19:03:22.736147+00:00,536.44,jev-1.13.0,280.0,20.0,1.1760000000000001e-05
+L09,formal_logic,hard,1,T2,Does A → B together with B → C imply A → C?,0.97,1.0,1.0,2026-10-06T19:03:23.280230+00:00,646.85,jev-1.13.0,280.0,20.0,1.1760000000000001e-05
+L09,formal_logic,hard,1,T3,Suppose A implies B and B implies C. Must A therefore imply C?,0.97,1.0,1.0,2026-10-06T19:03:23.934534+00:00,911.2,jev-1.13.0,282.0,20.0,1.1844e-05
