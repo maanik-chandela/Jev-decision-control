@@ -1,0 +1,6 @@
+domain,n_cases,direct_accuracy,decomposed_accuracy,batched_accuracy,direct_decomp_abs_change,direct_batch_abs_change,decomp_decision_change_rate,batch_decision_change_rate
+data_reasoning,12,1.0,1.0,1.0,0.02,0.0025,0.0,0.0
+formal_logic,12,1.0,1.0,1.0,0.005833333333333335,0.000833333333333334,0.0,0.0
+mathematics,12,1.0,1.0,1.0,0.002500000000000002,0.000833333333333334,0.0,0.0
+probability,12,1.0,1.0,1.0,0.019166666666666676,0.005833333333333328,0.0,0.0
+science_reasoning,12,1.0,1.0,1.0,0.006666666666666667,0.0016666666666666668,0.0,0.0

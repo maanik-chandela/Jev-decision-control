@@ -1,0 +1,11 @@
+case_id,domain,difficulty,label,direct_probability,decomp_probability,batch_probability,direct_vs_decomp_abs_probability_change,direct_vs_batch_abs_probability_change,direct_vs_decomp_prediction_change,direct_vs_batch_prediction_change
+D10,data_reasoning,hard,0,0.18,0.16,0.15,0.01999999999999999,0.03,0,0
+P10,probability,hard,1,0.94,0.82,0.92,0.12,0.019999999999999907,0,0
+P06,probability,moderate,1,0.98,0.97,0.97,0.010000000000000009,0.010000000000000009,0,0
+L03,formal_logic,easy,1,0.98,0.97,0.97,0.010000000000000009,0.010000000000000009,0,0
+P05,probability,moderate,1,0.98,0.97,0.97,0.010000000000000009,0.010000000000000009,0,0
+P01,probability,easy,1,0.98,0.97,0.99,0.010000000000000009,0.010000000000000009,0,0
+P09,probability,hard,1,0.9,0.9,0.89,0.0,0.010000000000000009,0,0
+M06,mathematics,moderate,1,0.99,0.99,1.0,0.0,0.010000000000000009,0,0
+S08,science_reasoning,moderate,0,0.05,0.04,0.04,0.010000000000000002,0.010000000000000002,0,0
+P11,probability,hard,0,0.01,0.02,0.02,0.01,0.01,0,0
