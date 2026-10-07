@@ -194,18 +194,13 @@ def no_hysteresis_states(values, threshold):
     return (values >= threshold).astype(int)
 
 
-def hysteresis_states(values, low, high):
+def hysteresis_states(values, threshold, low, high):
     states = []
 
-    # Initialize from first observation.
-    if values[0] >= high:
-        state = 1
-    elif values[0] <= low:
-        state = 0
-    else:
-        # Conservative initialization inside the band.
-        state = 0
-
+    # Fair initialization:
+    # Both controllers must start from the same T1 decision.
+    # Hysteresis is applied only to transitions after T1.
+    state = int(values[0] >= threshold)
     states.append(state)
 
     for value in values[1:]:
@@ -270,7 +265,7 @@ for threshold in thresholds:
         )
 
         # Hysteresis
-        states_h = hysteresis_states(values, low, high)
+        states_h = hysteresis_states(values, threshold, low, high)
 
         hyst_switches.append(
             np.sum(states_h[1:] != states_h[:-1])
