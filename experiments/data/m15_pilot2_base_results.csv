@@ -1,0 +1,41 @@
+case_id,domain,difficulty,question,label,expected_answer,model_answer,correct,raw_response,input_tokens,output_tokens,latency_seconds,status
+Q01,quantitative_reasoning,moderate,"A shirt is discounted by 20% from a price of 1,000. The discounted price is 800.",1,TRUE,TRUE,1,TRUE,77,139,7.2108,success
+Q02,quantitative_reasoning,moderate,A quantity increases from 80 to 100. Its percentage increase is 20%.,0,FALSE,FALSE,1,FALSE,69,217,8.6819,success
+Q03,quantitative_reasoning,moderate,The average of five numbers is 18. Their total sum is 90.,1,TRUE,TRUE,1,TRUE,66,192,7.7425,success
+Q04,quantitative_reasoning,moderate,"If 30% of a number is 45, then the number is 135.",0,FALSE,FALSE,1,FALSE,70,366,14.6311,success
+Q05,quantitative_reasoning,moderate,A car travels 120 km in 2 hours and then 60 km in 1 hour. Its average speed for the entire journey is 60 km/h.,1,TRUE,TRUE,1,TRUE,85,594,23.9751,success
+Q06,quantitative_reasoning,moderate,"If x/3 = 8, then x = 24.",1,TRUE,TRUE,1,TRUE,63,186,7.4111,success
+Q07,quantitative_reasoning,hard,A price is increased by 20% and then decreased by 20%. The final price is equal to the original price.,0,FALSE,FALSE,1,FALSE,75,308,12.1638,success
+Q08,quantitative_reasoning,hard,"If two positive numbers have an arithmetic mean of 10, their product must be 100.",0,FALSE,FALSE,1,FALSE,70,207,8.2137,success
+Q09,quantitative_reasoning,hard,"A student scores 60, 70, and 80 on three equally weighted tests. The student's average score is 70.",1,TRUE,TRUE,1,TRUE,79,138,5.5564,success
+Q10,quantitative_reasoning,hard,A value is increased by 50% and then increased by another 50%. The total increase relative to the original value is 100%.,0,FALSE,FALSE,1,FALSE,80,218,8.8122,success
+L01,formal_logic,moderate,"If every A is a B and every B is a C, then every A is a C.",1,TRUE,TRUE,1,TRUE,68,186,7.5353,success
+L02,formal_logic,moderate,"If P implies Q and P is false, then Q must be false.",0,FALSE,FALSE,1,FALSE,63,242,9.7627,success
+L03,formal_logic,moderate,"If P implies Q and Q is true, then P must be true.",0,FALSE,FALSE,1,FALSE,63,336,13.6317,success
+L04,formal_logic,moderate,"If P implies Q and Q is false, then P must be false.",1,TRUE,TRUE,1,TRUE,63,266,11.3552,success
+L05,formal_logic,moderate,"If all engineers are graduates, then anyone who is not a graduate cannot be an engineer.",1,TRUE,TRUE,1,TRUE,66,422,19.2706,success
+L06,formal_logic,moderate,"If some A are B, then every A is B.",0,FALSE,FALSE,1,FALSE,60,346,16.9803,success
+L07,formal_logic,hard,"If no A are B and some C are A, then those C cannot be B.",1,TRUE,TRUE,1,TRUE,66,543,27.7889,success
+L08,formal_logic,hard,"If every A is B and some B are C, then some A are C.",0,FALSE,FALSE,1,FALSE,65,416,21.7252,success
+L09,formal_logic,hard,"If P is necessary for Q, then whenever Q is true, P must be true.",1,TRUE,TRUE,1,TRUE,66,299,15.661,success
+L10,formal_logic,hard,"If P is sufficient for Q, then whenever Q is true, P must be true.",0,FALSE,FALSE,1,FALSE,66,392,20.4539,success
+D01,data_reasoning,moderate,A classifier makes 90 correct predictions out of 100 predictions. Its accuracy is 90%.,1,TRUE,TRUE,1,TRUE,71,152,8.0481,success
+D02,data_reasoning,moderate,A classifier has 90 true positives and 10 false positives. Its precision is 90%.,1,TRUE,TRUE,1,TRUE,70,139,7.4377,success
+D03,data_reasoning,moderate,"A dataset contains the values 2, 4, 6, 8, and 10. Its median is 6.",1,TRUE,TRUE,1,TRUE,76,201,10.6834,success
+D04,data_reasoning,moderate,"A dataset contains the values 1, 2, 100, and 101. Its mean is 51.",1,TRUE,TRUE,1,TRUE,77,248,13.2797,success
+D05,data_reasoning,moderate,"If every value in a dataset is multiplied by 2, the variance is also multiplied by 2.",0,FALSE,FALSE,1,FALSE,69,176,9.5346,success
+D06,data_reasoning,moderate,A model with precision 0.8 and recall 0.8 has an F1 score of 0.8.,1,TRUE,TRUE,1,TRUE,73,165,9.0038,success
+D07,data_reasoning,hard,"If two variables have correlation 0.9, then changing the first variable causes the second variable to change.",0,FALSE,FALSE,1,FALSE,70,230,12.548,success
+D08,data_reasoning,hard,"If a classifier has 100 true positives and 100 false negatives, its recall is 50%.",1,TRUE,TRUE,1,TRUE,73,260,14.3002,success
+D09,data_reasoning,hard,Adding the same constant to every observation changes the standard deviation of the dataset.,0,FALSE,FALSE,1,FALSE,63,325,17.8268,success
+D10,data_reasoning,hard,A model can have high accuracy while performing poorly on a minority class in an imbalanced dataset.,1,TRUE,TRUE,1,TRUE,67,223,12.3487,success
+S01,science_reasoning,moderate,"If an object has greater mass but the same acceleration as another object, the greater-mass object experiences a greater net force.",1,TRUE,TRUE,1,TRUE,73,114,6.4511,success
+S02,science_reasoning,moderate,"If a reaction is exothermic, the products necessarily contain more chemical energy than the reactants.",0,FALSE,FALSE,1,FALSE,68,155,8.7112,success
+S03,science_reasoning,moderate,"If all metals in a particular experiment conduct electricity and copper is a metal in that experiment, copper conducts electricity.",1,TRUE,TRUE,1,TRUE,70,110,6.2645,success
+S04,science_reasoning,moderate,"If a substance has a density lower than water, it must sink in water.",0,FALSE,FALSE,1,FALSE,64,241,13.5162,success
+S05,science_reasoning,moderate,"If an object moves at constant velocity, its acceleration is zero.",1,TRUE,TRUE,1,TRUE,61,292,16.4353,success
+S06,science_reasoning,moderate,"If two objects are at the same temperature, they must contain the same amount of thermal energy.",0,FALSE,FALSE,1,FALSE,67,232,13.2363,success
+S07,science_reasoning,hard,"If all organisms in a population are exposed to the same environmental change and only organisms with trait X survive, then trait X is necessarily the only trait responsible for survival.",0,FALSE,FALSE,1,FALSE,81,2890,182.0503,success
+S08,science_reasoning,hard,"If a sample contains only substance A and substance B, and 40% of the sample is A by mass, then 60% is B by mass.",1,TRUE,TRUE,1,TRUE,82,202,13.0258,success
+S09,science_reasoning,hard,"If increasing temperature increases the rate of a particular chemical reaction in one experiment, then increasing temperature must increase the rate of every chemical reaction.",0,FALSE,FALSE,1,FALSE,75,899,56.4576,success
+S10,science_reasoning,hard,"If two isolated systems are each individually at thermal equilibrium, they must have the same temperature.",0,FALSE,FALSE,1,FALSE,66,357,22.3671,success

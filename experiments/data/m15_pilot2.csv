@@ -1,0 +1,41 @@
+case_id,domain,difficulty,question,label
+Q01,quantitative_reasoning,moderate,"A shirt is discounted by 20% from a price of 1,000. The discounted price is 800.",1
+Q02,quantitative_reasoning,moderate,A quantity increases from 80 to 100. Its percentage increase is 20%.,0
+Q03,quantitative_reasoning,moderate,The average of five numbers is 18. Their total sum is 90.,1
+Q04,quantitative_reasoning,moderate,"If 30% of a number is 45, then the number is 135.",0
+Q05,quantitative_reasoning,moderate,A car travels 120 km in 2 hours and then 60 km in 1 hour. Its average speed for the entire journey is 60 km/h.,1
+Q06,quantitative_reasoning,moderate,"If x/3 = 8, then x = 24.",1
+Q07,quantitative_reasoning,hard,A price is increased by 20% and then decreased by 20%. The final price is equal to the original price.,0
+Q08,quantitative_reasoning,hard,"If two positive numbers have an arithmetic mean of 10, their product must be 100.",0
+Q09,quantitative_reasoning,hard,"A student scores 60, 70, and 80 on three equally weighted tests. The student's average score is 70.",1
+Q10,quantitative_reasoning,hard,A value is increased by 50% and then increased by another 50%. The total increase relative to the original value is 100%.,0
+L01,formal_logic,moderate,"If every A is a B and every B is a C, then every A is a C.",1
+L02,formal_logic,moderate,"If P implies Q and P is false, then Q must be false.",0
+L03,formal_logic,moderate,"If P implies Q and Q is true, then P must be true.",0
+L04,formal_logic,moderate,"If P implies Q and Q is false, then P must be false.",1
+L05,formal_logic,moderate,"If all engineers are graduates, then anyone who is not a graduate cannot be an engineer.",1
+L06,formal_logic,moderate,"If some A are B, then every A is B.",0
+L07,formal_logic,hard,"If no A are B and some C are A, then those C cannot be B.",1
+L08,formal_logic,hard,"If every A is B and some B are C, then some A are C.",0
+L09,formal_logic,hard,"If P is necessary for Q, then whenever Q is true, P must be true.",1
+L10,formal_logic,hard,"If P is sufficient for Q, then whenever Q is true, P must be true.",0
+D01,data_reasoning,moderate,A classifier makes 90 correct predictions out of 100 predictions. Its accuracy is 90%.,1
+D02,data_reasoning,moderate,A classifier has 90 true positives and 10 false positives. Its precision is 90%.,1
+D03,data_reasoning,moderate,"A dataset contains the values 2, 4, 6, 8, and 10. Its median is 6.",1
+D04,data_reasoning,moderate,"A dataset contains the values 1, 2, 100, and 101. Its mean is 51.",1
+D05,data_reasoning,moderate,"If every value in a dataset is multiplied by 2, the variance is also multiplied by 2.",0
+D06,data_reasoning,moderate,A model with precision 0.8 and recall 0.8 has an F1 score of 0.8.,1
+D07,data_reasoning,hard,"If two variables have correlation 0.9, then changing the first variable causes the second variable to change.",0
+D08,data_reasoning,hard,"If a classifier has 100 true positives and 100 false negatives, its recall is 50%.",1
+D09,data_reasoning,hard,Adding the same constant to every observation changes the standard deviation of the dataset.,0
+D10,data_reasoning,hard,A model can have high accuracy while performing poorly on a minority class in an imbalanced dataset.,1
+S01,science_reasoning,moderate,"If an object has greater mass but the same acceleration as another object, the greater-mass object experiences a greater net force.",1
+S02,science_reasoning,moderate,"If a reaction is exothermic, the products necessarily contain more chemical energy than the reactants.",0
+S03,science_reasoning,moderate,"If all metals in a particular experiment conduct electricity and copper is a metal in that experiment, copper conducts electricity.",1
+S04,science_reasoning,moderate,"If a substance has a density lower than water, it must sink in water.",0
+S05,science_reasoning,moderate,"If an object moves at constant velocity, its acceleration is zero.",1
+S06,science_reasoning,moderate,"If two objects are at the same temperature, they must contain the same amount of thermal energy.",0
+S07,science_reasoning,hard,"If all organisms in a population are exposed to the same environmental change and only organisms with trait X survive, then trait X is necessarily the only trait responsible for survival.",0
+S08,science_reasoning,hard,"If a sample contains only substance A and substance B, and 40% of the sample is A by mass, then 60% is B by mass.",1
+S09,science_reasoning,hard,"If increasing temperature increases the rate of a particular chemical reaction in one experiment, then increasing temperature must increase the rate of every chemical reaction.",0
+S10,science_reasoning,hard,"If two isolated systems are each individually at thermal equilibrium, they must have the same temperature.",0

@@ -1,0 +1,31 @@
+case_id,domain,difficulty,question,label,model_answer,correct,raw_response,input_tokens,output_tokens,latency_seconds,status
+M01,math,easy,"If x = 5, then x + 3 = 8.",1,TRUE,1,TRUE,73,254,13.1639,success
+M02,math,easy,7 is greater than 10.,0,FALSE,1,FALSE,66,210,8.6974,success
+M03,math,easy,The square of every real number is nonnegative.,1,TRUE,1,TRUE,68,451,18.4153,success
+M04,math,easy,"If a number is divisible by 4, then it is divisible by 2.",1,TRUE,1,TRUE,75,520,21.2602,success
+M05,math,easy,There exists a real number greater than 5 that is not greater than 10.,1,TRUE,1,TRUE,76,320,13.1341,success
+M06,math,easy,The average of 4 and 8 is 6.,1,TRUE,1,TRUE,70,165,6.881,success
+P01,probability,easy,A fair coin has probability 1/2 of landing heads on one toss.,1,TRUE,1,TRUE,74,195,8.1607,success
+P02,probability,easy,The probability of rolling a 7 on a standard six-sided die is 1/6.,0,FALSE,1,FALSE,77,202,8.4901,success
+P03,probability,easy,The probability of an impossible event is 0.,1,TRUE,1,TRUE,68,338,13.9202,success
+P04,probability,easy,The probability of an event can be greater than 1.,0,FALSE,1,FALSE,70,168,7.1152,success
+P05,probability,easy,"For independent events A and B, P(A and B) = P(A)P(B).",1,TRUE,1,TRUE,77,224,9.4991,success
+P06,probability,easy,A probability of 0.25 is equal to 25%.,1,TRUE,1,TRUE,73,220,9.689,success
+L01,formal_logic,easy,"If all cats are mammals and all mammals are animals, then all cats are animals.",1,TRUE,1,TRUE,75,155,7.2692,success
+L02,formal_logic,easy,"If P implies Q and Q is false, then P must be true.",0,FALSE,1,FALSE,73,447,22.3678,success
+L03,formal_logic,easy,"If P is true and P implies Q, then Q is true.",1,TRUE,1,TRUE,72,760,45.4396,success
+L04,formal_logic,easy,"If all A are B, then every B must be an A.",0,FALSE,1,FALSE,72,280,17.3496,success
+L05,formal_logic,easy,A contradiction cannot be both true and false under classical logic.,1,TRUE,1,TRUE,70,428,27.4819,success
+L06,formal_logic,easy,"If P and Q are both true, then P or Q is true.",1,TRUE,1,TRUE,73,365,23.4822,success
+S01,science_reasoning,easy,Water freezes at 0 degrees Celsius under standard atmospheric pressure.,1,TRUE,1,TRUE,70,118,7.9203,success
+S02,science_reasoning,easy,The Earth is the closest planet to the Sun.,0,FALSE,1,FALSE,68,193,12.5489,success
+S03,science_reasoning,easy,Plants use photosynthesis to convert light energy into chemical energy.,1,TRUE,1,TRUE,71,231,15.4142,success
+S04,science_reasoning,easy,Sound can travel through a perfect vacuum.,0,FALSE,1,FALSE,66,184,11.9716,success
+S05,science_reasoning,easy,Gravity attracts masses toward one another.,1,TRUE,1,TRUE,65,249,16.6642,success
+S06,science_reasoning,easy,The human heart normally has four chambers.,1,TRUE,1,TRUE,66,151,10.2607,success
+D01,data_reasoning,easy,"A dataset containing 10, 20, and 30 has a mean of 20.",1,TRUE,1,TRUE,81,209,14.2485,success
+D02,data_reasoning,easy,"If every value in a dataset increases by 5, the mean also increases by 5.",1,TRUE,1,TRUE,77,711,48.9805,success
+D03,data_reasoning,easy,A correlation coefficient of 0 means the two variables must have a causal relationship.,0,FALSE,1,FALSE,74,151,10.8149,success
+D04,data_reasoning,easy,"If 8 out of 10 observations are correct, the accuracy is 80%.",1,TRUE,1,TRUE,77,225,16.3017,success
+D05,data_reasoning,easy,A median must always be larger than the mean.,0,FALSE,1,FALSE,68,339,24.2174,success
+D06,data_reasoning,easy,"If a classifier makes 2 errors out of 100 predictions, its accuracy is 98%.",1,TRUE,1,TRUE,80,208,15.289,success
