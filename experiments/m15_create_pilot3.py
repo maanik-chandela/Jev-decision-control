@@ -1,0 +1,224 @@
+import csv
+import os
+
+OUTPUT = "experiments/data/m15_pilot3.csv"
+
+cases = [
+
+# =========================
+# QUANTITATIVE REASONING
+# =========================
+
+("Q01","quantitative_reasoning","hard",
+ "A price is increased by 25% and then decreased by 20%. Is the final price equal to the original price?",0),
+
+("Q02","quantitative_reasoning","hard",
+ "A population increases by 10% in the first year and 10% in the second year. Is the total increase exactly 20% of the original population?",0),
+
+("Q03","quantitative_reasoning","hard",
+ "A machine produces 120 units in 3 hours and then 200 units in 5 hours. Is its average production rate over the entire 8-hour period 40 units per hour?",1),
+
+("Q04","quantitative_reasoning","hard",
+ "If the arithmetic mean of three positive numbers is 12, must their product equal 1728?",0),
+
+("Q05","quantitative_reasoning","hard",
+ "A number is increased by 40% and then decreased by 40%. Is the resulting number 16% smaller than the original?",1),
+
+("Q06","quantitative_reasoning","adversarial-hard",
+ "A test has sensitivity 90% and specificity 90%. If 10% of a population has the disease, is the probability that a randomly selected person who tests positive actually has the disease greater than 80%?",0),
+
+("Q07","quantitative_reasoning","adversarial-hard",
+ "A fair six-sided die is rolled twice. Is the probability that the second roll is greater than the first roll exactly 1/2?",0),
+
+("Q08","quantitative_reasoning","adversarial-hard",
+ "A sequence has mean 50. If every observation is increased by 10%, does the new mean necessarily equal 60?",1),
+
+("Q09","quantitative_reasoning","adversarial-hard",
+ "Two investments have the same arithmetic average annual return. Must they have the same compound annual growth rate?",0),
+
+("Q10","quantitative_reasoning","adversarial-hard",
+ "A sample mean is 100 with standard deviation 20. If every observation is multiplied by 3, does the coefficient of variation remain unchanged?",1),
+
+("Q11","quantitative_reasoning","hard",
+ "If x is uniformly distributed between 0 and 10, is the probability that x is greater than 8 equal to 20%?",1),
+
+("Q12","quantitative_reasoning","hard",
+ "A 30% discount followed by a 10% discount is equivalent to a single 40% discount?",0),
+
+("Q13","quantitative_reasoning","adversarial-hard",
+ "If A is twice as large as B and B is 50% smaller than C, must A equal C?",1),
+
+("Q14","quantitative_reasoning","adversarial-hard",
+ "A correlation coefficient of zero between two variables proves that they are independent?",0),
+
+("Q15","quantitative_reasoning","hard",
+ "If the median of five numbers is 20, must their arithmetic mean also be 20?",0),
+
+# =========================
+# FORMAL LOGIC
+# =========================
+
+("L01","formal_logic","hard",
+ "Every A is B. No B is C. Therefore no A is C.",1),
+
+("L02","formal_logic","hard",
+ "Every A is B. Some B are C. Therefore some A are C.",0),
+
+("L03","formal_logic","hard",
+ "No A is B. Some C are A. Therefore some C are not B.",1),
+
+("L04","formal_logic","hard",
+ "Every A is B. Some A exist. Therefore some B exist.",1),
+
+("L05","formal_logic","hard",
+ "Some A are B. Every B is C. Therefore some A are C.",1),
+
+("L06","formal_logic","adversarial-hard",
+ "Every A is B. Every C is B. Therefore every A is C.",0),
+
+("L07","formal_logic","adversarial-hard",
+ "No A is B. Some A exist. Therefore not every A is B.",1),
+
+("L08","formal_logic","adversarial-hard",
+ "If P then Q. If Q then R. P is true. Therefore R is true.",1),
+
+("L09","formal_logic","adversarial-hard",
+ "If P then Q. Q is true. Therefore P is true.",0),
+
+("L10","formal_logic","adversarial-hard",
+ "If P then Q. P is false. Therefore Q is false.",0),
+
+("L11","formal_logic","hard",
+ "If P is sufficient for Q, then Q is necessary for P.",1),
+
+("L12","formal_logic","hard",
+ "If P is necessary for Q, then P being false implies Q is false.",1),
+
+("L13","formal_logic","adversarial-hard",
+ "Every researcher who publishes a paper is a researcher. Some researchers do not publish papers. Therefore some researchers are not researchers.",0),
+
+("L14","formal_logic","adversarial-hard",
+ "If exactly one of P and Q is true, and P is false, then Q must be true.",1),
+
+("L15","formal_logic","hard",
+ "If all members of set A belong to set B, and no member of set B belongs to set C, then no member of A belongs to C.",1),
+
+# =========================
+# DATA / STATISTICAL REASONING
+# =========================
+
+("D01","data_reasoning","hard",
+ "A classifier has 80 true positives and 20 false positives. Is its precision 80%?",1),
+
+("D02","data_reasoning","hard",
+ "A classifier has 80 true positives and 20 false negatives. Is its recall 80%?",1),
+
+("D03","data_reasoning","adversarial-hard",
+ "A classifier has 80 true positives, 20 false positives, and 20 false negatives. Is its F1 score exactly 80%?",0),
+
+("D04","data_reasoning","hard",
+ "A dataset contains 90% negative examples and 10% positive examples. A classifier predicts every example as negative and obtains 90% accuracy. Does that prove the classifier is useful for detecting positives?",0),
+
+("D05","data_reasoning","adversarial-hard",
+ "If a model has 95% accuracy on a balanced binary dataset, must its precision and recall both be at least 95%?",0),
+
+("D06","data_reasoning","hard",
+ "If every observation in a dataset is multiplied by 2, does the standard deviation also become twice as large?",1),
+
+("D07","data_reasoning","adversarial-hard",
+ "If every observation is increased by 10, does the variance change?",0),
+
+("D08","data_reasoning","hard",
+ "A correlation of 0.9 between two variables proves that one variable causes the other?",0),
+
+("D09","data_reasoning","adversarial-hard",
+ "A model's accuracy increases from 90% to 95%. Does this necessarily mean its performance improved equally on every class?",0),
+
+("D10","data_reasoning","hard",
+ "If precision is 100%, does that necessarily mean recall is also 100%?",0),
+
+("D11","data_reasoning","hard",
+ "A sample has values 2, 4, 6, 8, 10. Is its mean equal to its median?",1),
+
+("D12","data_reasoning","adversarial-hard",
+ "If two datasets have the same mean and standard deviation, must they contain the same individual observations?",0),
+
+("D13","data_reasoning","hard",
+ "If the variance of a variable is zero, are all observations necessarily identical?",1),
+
+("D14","data_reasoning","adversarial-hard",
+ "If a 95% confidence interval for a population mean is [10, 20], does this mean there is a 95% probability that the fixed population mean lies inside this particular interval?",0),
+
+("D15","data_reasoning","hard",
+ "If a test has 90% sensitivity, does that mean 90% of all people who test positive actually have the disease?",0),
+
+# =========================
+# SCIENCE / CAUSAL REASONING
+# =========================
+
+("S01","science_reasoning","hard",
+ "An object moves at constant velocity in a straight line. Is its acceleration zero?",1),
+
+("S02","science_reasoning","hard",
+ "If the net force on an object is zero, must the object be stationary?",0),
+
+("S03","science_reasoning","hard",
+ "If two objects experience the same net force, must they have the same acceleration?",0),
+
+("S04","science_reasoning","adversarial-hard",
+ "A metal expands when heated. Does that mean every material must expand when heated?",0),
+
+("S05","science_reasoning","hard",
+ "If an object has greater mass but the same acceleration as another object, does it experience greater net force?",1),
+
+("S06","science_reasoning","adversarial-hard",
+ "If increasing temperature increases the reaction rate of one chemical reaction, must increasing temperature increase the rate of every chemical reaction?",0),
+
+("S07","science_reasoning","hard",
+ "If an object is denser than water, will it necessarily sink when placed in water?",1),
+
+("S08","science_reasoning","adversarial-hard",
+ "If an organism survives an environmental change while another does not, does that observation alone prove that the surviving organism had a single specific adaptation responsible?",0),
+
+("S09","science_reasoning","hard",
+ "If two objects are at the same temperature, must they contain the same amount of thermal energy?",0),
+
+("S10","science_reasoning","hard",
+ "An exothermic reaction releases energy to its surroundings. Does this necessarily mean the products contain more chemical energy than the reactants?",0),
+
+("S11","science_reasoning","adversarial-hard",
+ "If a heavier object and a lighter object fall in a vacuum, do they have the same gravitational acceleration?",1),
+
+("S12","science_reasoning","hard",
+ "If a system is in thermal equilibrium, must every part of the system have exactly the same temperature?",1),
+
+("S13","science_reasoning","adversarial-hard",
+ "If two variables change together in an experiment, is that alone sufficient to establish a causal relationship?",0),
+
+("S14","science_reasoning","hard",
+ "If an isolated system reaches thermal equilibrium, can there still be energy transfers between its internal components?",1),
+
+("S15","science_reasoning","adversarial-hard",
+ "If a scientific hypothesis makes a correct prediction in one experiment, is the hypothesis thereby proven universally true?",0),
+]
+
+assert len(cases) == 60
+
+os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
+
+with open(OUTPUT, "w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow([
+        "case_id",
+        "domain",
+        "difficulty",
+        "question",
+        "label"
+    ])
+    writer.writerows(cases)
+
+print(f"Created: {OUTPUT}")
+print(f"Cases: {len(cases)}")
+print("True:", sum(c[4] == 1 for c in cases))
+print("False:", sum(c[4] == 0 for c in cases))
+print("Domains: 4")
